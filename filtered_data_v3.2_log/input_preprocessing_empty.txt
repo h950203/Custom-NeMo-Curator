@@ -1,0 +1,76 @@
+필터링 기준: input_preprocessing_empty
+제거된 문서 수: 2
+================================================================================
+
+
+================================================================================
+파일: test4.jsonl
+라인: 11
+제거 이유: 전처리 후 빈 텍스트
+
+[Input Scores]
+  - word_count: 0
+  - lang_ratio: 0
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0
+  - urls_ratio: 0
+  - quality_score: 0.8999999999999999
+
+[Output Scores]
+  - word_count: 0
+  - lang_ratio: 0
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0
+  - urls_ratio: 0
+  - quality_score: 0.8999999999999999
+
+[Original Input]
+
+
+[Processed Input]
+
+
+[Original Output]
+
+
+[Processed Output]
+
+
+
+================================================================================
+파일: test4.jsonl
+라인: 12
+제거 이유: 전처리 후 빈 텍스트
+
+[Input Scores]
+  - word_count: 0
+  - lang_ratio: 0
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0
+  - urls_ratio: 0
+  - quality_score: 0.8999999999999999
+
+[Output Scores]
+  - word_count: 0
+  - lang_ratio: 0
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0
+  - urls_ratio: 0
+  - quality_score: 0.8999999999999999
+
+[Original Input]
+a
+
+[Processed Input]
+
+
+[Original Output]
+a
+
+[Processed Output]
+
+

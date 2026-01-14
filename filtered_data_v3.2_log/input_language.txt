@@ -1,0 +1,1948 @@
+필터링 기준: input_language
+제거된 문서 수: 54
+================================================================================
+
+
+================================================================================
+파일: test4.jsonl
+라인: 5
+제거 이유: ko 문자 비율: 0.256
+
+[Input Scores]
+  - word_count: 4
+  - lang_ratio: 0.2564102564102564
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 7.0
+  - urls_ratio: 0.0
+  - quality_score: -0.4743589743589745
+
+[Output Scores]
+  - word_count: 4
+  - lang_ratio: 0.2564102564102564
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 7.0
+  - urls_ratio: 0.0
+  - quality_score: -0.4743589743589745
+
+[Original Input]
+특수문자!@#$%^&*()_+-=[]{}|;:',.<>?/~`가 포함된 문장
+
+[Processed Input]
+특수문자!@#$%^&*()_+-=[]{}|;:'. <>?/~`가 포함된 문장
+
+[Original Output]
+특수문자!@#$%^&*()_+-=[]{}|;:',.<>?/~`가 포함된 문장
+
+[Processed Output]
+특수문자!@#$%^&*()_+-=[]{}|;:'. <>?/~`가 포함된 문장
+
+
+================================================================================
+파일: test4.jsonl
+라인: 7
+제거 이유: ko 문자 비율: 0.297
+
+[Input Scores]
+  - word_count: 5
+  - lang_ratio: 0.2972972972972973
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 0.0
+  - urls_ratio: 0.0
+  - quality_score: 0.9297297297297298
+
+[Output Scores]
+  - word_count: 5
+  - lang_ratio: 0.2972972972972973
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 0.0
+  - urls_ratio: 0.0
+  - quality_score: 0.9297297297297298
+
+[Original Input]
+영어English와 한글Korean이 섞인 mixed sentence입니다
+
+[Processed Input]
+영어English와 한글Korean이 섞인 mixed sentence입니다
+
+[Original Output]
+영어English와 한글Korean이 섞인 mixed sentence입니다
+
+[Processed Output]
+영어English와 한글Korean이 섞인 mixed sentence입니다
+
+
+================================================================================
+파일: test4.jsonl
+라인: 8
+제거 이유: ko 문자 비율: 0.500
+
+[Input Scores]
+  - word_count: 4
+  - lang_ratio: 0.5
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.0
+  - urls_ratio: 0.0
+  - quality_score: 0.95
+
+[Output Scores]
+  - word_count: 4
+  - lang_ratio: 0.5
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.0
+  - urls_ratio: 0.0
+  - quality_score: 0.95
+
+[Original Input]
+숫자123와 한글456이 789섞인 문장0
+
+[Processed Input]
+숫자123와 한글456이 789섞인 문장0
+
+[Original Output]
+숫자123와 한글456이 789섞인 문장0
+
+[Processed Output]
+숫자123와 한글456이 789섞인 문장0
+
+
+================================================================================
+파일: test4.jsonl
+라인: 10
+제거 이유: ko 문자 비율: 0.208
+
+[Input Scores]
+  - word_count: 6
+  - lang_ratio: 0.20833333333333334
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.16666666666666666
+  - quality_score: 0.6875
+
+[Output Scores]
+  - word_count: 6
+  - lang_ratio: 0.20833333333333334
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.16666666666666666
+  - quality_score: 0.6875
+
+[Original Input]
+URL https://example.com과 이메일 test@example.com이 포함된 문장
+
+[Processed Input]
+URL https://example.com과 이메일 test@example.com이 포함된 문장
+
+[Original Output]
+URL https://example.com과 이메일 test@example.com이 포함된 문장
+
+[Processed Output]
+URL https://example.com과 이메일 test@example.com이 포함된 문장
+
+
+================================================================================
+파일: test4.jsonl
+라인: 15
+제거 이유: ko 문자 비율: 0.316
+
+[Input Scores]
+  - word_count: 4
+  - lang_ratio: 0.3157894736842105
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 2.0
+  - urls_ratio: 0.0
+  - quality_score: 0.531578947368421
+
+[Output Scores]
+  - word_count: 4
+  - lang_ratio: 0.3157894736842105
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 2.0
+  - urls_ratio: 0.0
+  - quality_score: 0.531578947368421
+
+[Original Input]
+HTML태그<div>와 <span>엔티티&nbsp;&amp;가 포함된 문장
+
+[Processed Input]
+HTML태그<div>와 <span>엔티티&nbsp;&amp;가 포함된 문장
+
+[Original Output]
+HTML태그<div>와 <span>엔티티&nbsp;&amp;가 포함된 문장
+
+[Processed Output]
+HTML태그<div>와 <span>엔티티&nbsp;&amp;가 포함된 문장
+
+
+================================================================================
+파일: test4.jsonl
+라인: 17
+제거 이유: ko 문자 비율: 0.286
+
+[Input Scores]
+  - word_count: 4
+  - lang_ratio: 0.2857142857142857
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.0
+  - urls_ratio: 0.0
+  - quality_score: 0.9285714285714286
+
+[Output Scores]
+  - word_count: 4
+  - lang_ratio: 0.2857142857142857
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.0
+  - urls_ratio: 0.0
+  - quality_score: 0.9285714285714286
+
+[Original Input]
+日本語ひらがなカタカナ와 中文汉字가 섞인 문장
+
+[Processed Input]
+日本語ひらがなカタカナ와 中文汉字가 섞인 문장
+
+[Original Output]
+日本語ひらがなカタカナ와 中文汉字가 섞인 문장
+
+[Processed Output]
+日本語ひらがなカタカナ와 中文汉字가 섞인 문장
+
+
+================================================================================
+파일: test4.jsonl
+라인: 20
+제거 이유: ko 문자 비율: 0.632
+
+[Input Scores]
+  - word_count: 12
+  - lang_ratio: 0.631578947368421
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 0.5833333333333334
+  - urls_ratio: 0.0
+  - quality_score: 0.8464912280701755
+
+[Output Scores]
+  - word_count: 12
+  - lang_ratio: 0.631578947368421
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 0.5833333333333334
+  - urls_ratio: 0.0
+  - quality_score: 0.8464912280701755
+
+[Original Input]
+유니코드 기호 ™ © ® € ¥ £ ¢ 가 포함된 문장
+
+[Processed Input]
+유니코드 기호 ™ © ® € ¥ £ ¢ 가 포함된 문장
+
+[Original Output]
+유니코드 기호 ™ © ® € ¥ £ ¢ 가 포함된 문장
+
+[Processed Output]
+유니코드 기호 ™ © ® € ¥ £ ¢ 가 포함된 문장
+
+
+================================================================================
+파일: test4.jsonl
+라인: 29
+제거 이유: ko 문자 비율: 0.333
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.3333333333333333
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.6666666666666666
+  - urls_ratio: 0.0
+  - quality_score: 0.8
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.3333333333333333
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.6666666666666666
+  - urls_ratio: 0.0
+  - quality_score: 0.8
+
+[Original Input]
+123-456-7890 전화번호 형식
+
+[Processed Input]
+123-456-7890 전화번호 형식
+
+[Original Output]
+123-456-7890 전화번호 형식
+
+[Processed Output]
+123-456-7890 전화번호 형식
+
+
+================================================================================
+파일: test4.jsonl
+라인: 30
+제거 이유: ko 문자 비율: 0.467
+
+[Input Scores]
+  - word_count: 5
+  - lang_ratio: 0.4666666666666667
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 0.0
+  - urls_ratio: 0.0
+  - quality_score: 0.9466666666666665
+
+[Output Scores]
+  - word_count: 5
+  - lang_ratio: 0.4666666666666667
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 0.0
+  - urls_ratio: 0.0
+  - quality_score: 0.9466666666666665
+
+[Original Input]
+2024년 12월 17일 날짜 형식
+
+[Processed Input]
+2024년 12월 17일 날짜 형식
+
+[Original Output]
+2024년 12월 17일 날짜 형식
+
+[Processed Output]
+2024년 12월 17일 날짜 형식
+
+
+================================================================================
+파일: test4.jsonl
+라인: 31
+제거 이유: ko 문자 비율: 0.375
+
+[Input Scores]
+  - word_count: 2
+  - lang_ratio: 0.375
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 2.0
+  - urls_ratio: 0.0
+  - quality_score: 0.5375
+
+[Output Scores]
+  - word_count: 2
+  - lang_ratio: 0.375
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 2.0
+  - urls_ratio: 0.0
+  - quality_score: 0.5375
+
+[Original Input]
+가격은 $1,234.56입니다.
+
+[Processed Input]
+가격은 $1,234.56입니다.
+
+[Original Output]
+가격은 $1,234.56입니다.
+
+[Processed Output]
+가격은 $1,234.56입니다.
+
+
+================================================================================
+파일: test4.jsonl
+라인: 33
+제거 이유: ko 문자 비율: 0.545
+
+[Input Scores]
+  - word_count: 2
+  - lang_ratio: 0.5454545454545454
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7545454545454546
+
+[Output Scores]
+  - word_count: 2
+  - lang_ratio: 0.5454545454545454
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7545454545454546
+
+[Original Input]
+온도는 25°C입니다.
+
+[Processed Input]
+온도는 25°C입니다.
+
+[Original Output]
+온도는 25°C입니다.
+
+[Processed Output]
+온도는 25°C입니다.
+
+
+================================================================================
+파일: test4.jsonl
+라인: 37
+제거 이유: ko 문자 비율: 0.647
+
+[Input Scores]
+  - word_count: 4
+  - lang_ratio: 0.6470588235294118
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.75
+  - urls_ratio: 0.0
+  - quality_score: 0.8147058823529412
+
+[Output Scores]
+  - word_count: 4
+  - lang_ratio: 0.6470588235294118
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.75
+  - urls_ratio: 0.0
+  - quality_score: 0.8147058823529412
+
+[Original Input]
+항목1, 항목2, 항목3이 있습니다.
+
+[Processed Input]
+항목1, 항목2, 항목3이 있습니다.
+
+[Original Output]
+항목1, 항목2, 항목3이 있습니다.
+
+[Processed Output]
+항목1, 항목2, 항목3이 있습니다.
+
+
+================================================================================
+파일: test4.jsonl
+라인: 42
+제거 이유: ko 문자 비율: 0.500
+
+[Input Scores]
+  - word_count: 5
+  - lang_ratio: 0.5
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.75
+
+[Output Scores]
+  - word_count: 5
+  - lang_ratio: 0.5
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.75
+
+[Original Input]
+배열 [1, 2, 3]을 사용합니다.
+
+[Processed Input]
+배열 [1, 2, 3]을 사용합니다.
+
+[Original Output]
+배열 [1, 2, 3]을 사용합니다.
+
+[Processed Output]
+배열 [1, 2, 3]을 사용합니다.
+
+
+================================================================================
+파일: test4.jsonl
+라인: 43
+제거 이유: ko 문자 비율: 0.368
+
+[Input Scores]
+  - word_count: 4
+  - lang_ratio: 0.3684210526315789
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.736842105263158
+
+[Output Scores]
+  - word_count: 4
+  - lang_ratio: 0.3684210526315789
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.736842105263158
+
+[Original Input]
+객체 {key: value} 형식입니다.
+
+[Processed Input]
+객체 {key: value} 형식입니다.
+
+[Original Output]
+객체 {key: value} 형식입니다.
+
+[Processed Output]
+객체 {key: value} 형식입니다.
+
+
+================================================================================
+파일: test4.jsonl
+라인: 44
+제거 이유: ko 문자 비율: 0.240
+
+[Input Scores]
+  - word_count: 2
+  - lang_ratio: 0.24
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 2.0
+  - urls_ratio: 0.0
+  - quality_score: 0.524
+
+[Output Scores]
+  - word_count: 2
+  - lang_ratio: 0.24
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 2.0
+  - urls_ratio: 0.0
+  - quality_score: 0.524
+
+[Original Input]
+경로는 C:\Users\Documents입니다.
+
+[Processed Input]
+경로는 C:\Users\Documents입니다.
+
+[Original Output]
+경로는 C:\Users\Documents입니다.
+
+[Processed Output]
+경로는 C:\Users\Documents입니다.
+
+
+================================================================================
+파일: test4.jsonl
+라인: 45
+제거 이유: ko 문자 비율: 0.065
+
+[Input Scores]
+  - word_count: 2
+  - lang_ratio: 0.06451612903225806
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 3.5
+  - urls_ratio: 0.5
+  - quality_score: 0.10645161290322583
+
+[Output Scores]
+  - word_count: 2
+  - lang_ratio: 0.06451612903225806
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 3.5
+  - urls_ratio: 0.5
+  - quality_score: 0.10645161290322583
+
+[Original Input]
+링크: https://www.example.com/page
+
+[Processed Input]
+링크: https://www.example.com/page
+
+[Original Output]
+링크: https://www.example.com/page
+
+[Processed Output]
+링크: https://www.example.com/page
+
+
+================================================================================
+파일: test4.jsonl
+라인: 46
+제거 이유: ko 문자 비율: 0.130
+
+[Input Scores]
+  - word_count: 2
+  - lang_ratio: 0.13043478260869565
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.5
+  - urls_ratio: 0.0
+  - quality_score: 0.6130434782608696
+
+[Output Scores]
+  - word_count: 2
+  - lang_ratio: 0.13043478260869565
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.5
+  - urls_ratio: 0.0
+  - quality_score: 0.6130434782608696
+
+[Original Input]
+연락처: contact@company.com
+
+[Processed Input]
+연락처: contact@company.com
+
+[Original Output]
+연락처: contact@company.com
+
+[Processed Output]
+연락처: contact@company.com
+
+
+================================================================================
+파일: test4.jsonl
+라인: 47
+제거 이유: ko 문자 비율: 0.000
+
+[Input Scores]
+  - word_count: 6
+  - lang_ratio: 0.0
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 0.16666666666666666
+  - urls_ratio: 0.0
+  - quality_score: 0.8666666666666667
+
+[Output Scores]
+  - word_count: 6
+  - lang_ratio: 0.0
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 0.16666666666666666
+  - urls_ratio: 0.0
+  - quality_score: 0.8666666666666667
+
+[Original Input]
+The ship is ready for launch.
+
+[Processed Input]
+The ship is ready for launch.
+
+[Original Output]
+The ship is ready for launch.
+
+[Processed Output]
+The ship is ready for launch.
+
+
+================================================================================
+파일: test4.jsonl
+라인: 48
+제거 이유: ko 문자 비율: 0.571
+
+[Input Scores]
+  - word_count: 4
+  - lang_ratio: 0.5714285714285714
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.25
+  - urls_ratio: 0.0
+  - quality_score: 0.9071428571428573
+
+[Output Scores]
+  - word_count: 4
+  - lang_ratio: 0.5714285714285714
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.25
+  - urls_ratio: 0.0
+  - quality_score: 0.9071428571428573
+
+[Original Input]
+용접 작업이 schedule대로 진행됩니다.
+
+[Processed Input]
+용접 작업이 schedule대로 진행됩니다.
+
+[Original Output]
+용접 작업이 schedule대로 진행됩니다.
+
+[Processed Output]
+용접 작업이 schedule대로 진행됩니다.
+
+
+================================================================================
+파일: test4.jsonl
+라인: 49
+제거 이유: ko 문자 비율: 0.545
+
+[Input Scores]
+  - word_count: 2
+  - lang_ratio: 0.5454545454545454
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.5
+  - urls_ratio: 0.0
+  - quality_score: 0.8545454545454545
+
+[Output Scores]
+  - word_count: 2
+  - lang_ratio: 0.5454545454545454
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.5
+  - urls_ratio: 0.0
+  - quality_score: 0.8545454545454545
+
+[Original Input]
+品質管理가 중요합니다.
+
+[Processed Input]
+品質管理가 중요합니다.
+
+[Original Output]
+品質管理가 중요합니다.
+
+[Processed Output]
+品質管理가 중요합니다.
+
+
+================================================================================
+파일: test4.jsonl
+라인: 50
+제거 이유: ko 문자 비율: 0.083
+
+[Input Scores]
+  - word_count: 2
+  - lang_ratio: 0.08333333333333333
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.5
+  - urls_ratio: 0.0
+  - quality_score: 0.8083333333333333
+
+[Output Scores]
+  - word_count: 2
+  - lang_ratio: 0.08333333333333333
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.5
+  - urls_ratio: 0.0
+  - quality_score: 0.8083333333333333
+
+[Original Input]
+測定値는 100mmです。
+
+[Processed Input]
+測定値는 100mmです。
+
+[Original Output]
+測定値는 100mmです。
+
+[Processed Output]
+測定値는 100mmです。
+
+
+================================================================================
+파일: test4.jsonl
+라인: 51
+제거 이유: ko 문자 비율: 0.667
+
+[Input Scores]
+  - word_count: 4
+  - lang_ratio: 0.6666666666666666
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.5
+  - urls_ratio: 0.0
+  - quality_score: 0.8666666666666667
+
+[Output Scores]
+  - word_count: 4
+  - lang_ratio: 0.6666666666666666
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.5
+  - urls_ratio: 0.0
+  - quality_score: 0.8666666666666667
+
+[Original Input]
+설계 도면 v2.5를 확인하세요.
+
+[Processed Input]
+설계 도면 v2.5를 확인하세요.
+
+[Original Output]
+설계 도면 v2.5를 확인하세요.
+
+[Processed Output]
+설계 도면 v2.5를 확인하세요.
+
+
+================================================================================
+파일: test4.jsonl
+라인: 52
+제거 이유: ko 문자 비율: 0.368
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.3684210526315789
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.3333333333333333
+  - urls_ratio: 0.0
+  - quality_score: 0.6701754385964913
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.3684210526315789
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.3333333333333333
+  - urls_ratio: 0.0
+  - quality_score: 0.6701754385964913
+
+[Original Input]
+총 비용은 ₩10,000,000입니다.
+
+[Processed Input]
+총 비용은 ₩10,000,000입니다.
+
+[Original Output]
+총 비용은 ₩10,000,000입니다.
+
+[Processed Output]
+총 비용은 ₩10,000,000입니다.
+
+
+================================================================================
+파일: test4.jsonl
+라인: 53
+제거 이유: ko 문자 비율: 0.500
+
+[Input Scores]
+  - word_count: 2
+  - lang_ratio: 0.5
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.5
+  - urls_ratio: 0.0
+  - quality_score: 0.8500000000000001
+
+[Output Scores]
+  - word_count: 2
+  - lang_ratio: 0.5
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.5
+  - urls_ratio: 0.0
+  - quality_score: 0.8500000000000001
+
+[Original Input]
+면적은 100m²입니다.
+
+[Processed Input]
+면적은 100m²입니다.
+
+[Original Output]
+면적은 100m²입니다.
+
+[Processed Output]
+면적은 100m²입니다.
+
+
+================================================================================
+파일: test4.jsonl
+라인: 54
+제거 이유: ko 문자 비율: 0.600
+
+[Input Scores]
+  - word_count: 2
+  - lang_ratio: 0.6
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.76
+
+[Output Scores]
+  - word_count: 2
+  - lang_ratio: 0.6
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.76
+
+[Original Input]
+각도는 90°입니다.
+
+[Processed Input]
+각도는 90°입니다.
+
+[Original Output]
+각도는 90°입니다.
+
+[Processed Output]
+각도는 90°입니다.
+
+
+================================================================================
+파일: test4.jsonl
+라인: 55
+제거 이유: ko 문자 비율: 0.263
+
+[Input Scores]
+  - word_count: 4
+  - lang_ratio: 0.2631578947368421
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7263157894736842
+
+[Output Scores]
+  - word_count: 4
+  - lang_ratio: 0.2631578947368421
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7263157894736842
+
+[Original Input]
+반지름 r=5cm, 둘레 C=31.4cm
+
+[Processed Input]
+반지름 r=5cm, 둘레 C=31.4cm
+
+[Original Output]
+반지름 r=5cm, 둘레 C=31.4cm
+
+[Processed Output]
+반지름 r=5cm, 둘레 C=31.4cm
+
+
+================================================================================
+파일: test4.jsonl
+라인: 56
+제거 이유: ko 문자 비율: 0.250
+
+[Input Scores]
+  - word_count: 5
+  - lang_ratio: 0.25
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 0.8
+  - urls_ratio: 0.0
+  - quality_score: 0.7650000000000001
+
+[Output Scores]
+  - word_count: 5
+  - lang_ratio: 0.25
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 0.8
+  - urls_ratio: 0.0
+  - quality_score: 0.7650000000000001
+
+[Original Input]
+작업 시간: 09:00 - 18:00
+
+[Processed Input]
+작업 시간: 09:00 - 18:00
+
+[Original Output]
+작업 시간: 09:00 - 18:00
+
+[Processed Output]
+작업 시간: 09:00 - 18:00
+
+
+================================================================================
+파일: test4.jsonl
+라인: 57
+제거 이유: ko 문자 비율: 0.400
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.4
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.3333333333333333
+  - urls_ratio: 0.0
+  - quality_score: 0.6733333333333333
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.4
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.3333333333333333
+  - urls_ratio: 0.0
+  - quality_score: 0.6733333333333333
+
+[Original Input]
+평가 점수: ★★★★☆ (4/5)
+
+[Processed Input]
+평가 점수: (4/5)
+
+[Original Output]
+평가 점수: ★★★★☆ (4/5)
+
+[Processed Output]
+평가 점수: (4/5)
+
+
+================================================================================
+파일: test4.jsonl
+라인: 59
+제거 이유: ko 문자 비율: 0.286
+
+[Input Scores]
+  - word_count: 5
+  - lang_ratio: 0.2857142857142857
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7285714285714286
+
+[Output Scores]
+  - word_count: 5
+  - lang_ratio: 0.2857142857142857
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7285714285714286
+
+[Original Input]
+방향: → ← ↑ ↓
+
+[Processed Input]
+방향: → ← ↑ ↓
+
+[Original Output]
+방향: → ← ↑ ↓
+
+[Processed Output]
+방향: → ← ↑ ↓
+
+
+================================================================================
+파일: test4.jsonl
+라인: 60
+제거 이유: ko 문자 비율: 0.250
+
+[Input Scores]
+  - word_count: 6
+  - lang_ratio: 0.25
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 0.5
+  - urls_ratio: 0.0
+  - quality_score: 0.825
+
+[Output Scores]
+  - word_count: 6
+  - lang_ratio: 0.25
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 0.5
+  - urls_ratio: 0.0
+  - quality_score: 0.825
+
+[Original Input]
+수식: x + y = z
+
+[Processed Input]
+수식: x + y = z
+
+[Original Output]
+수식: x + y = z
+
+[Processed Output]
+수식: x + y = z
+
+
+================================================================================
+파일: test4.jsonl
+라인: 61
+제거 이유: ko 문자 비율: 0.143
+
+[Input Scores]
+  - word_count: 10
+  - lang_ratio: 0.14285714285714285
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 0.6
+  - urls_ratio: 0.0
+  - quality_score: 0.7942857142857143
+
+[Output Scores]
+  - word_count: 10
+  - lang_ratio: 0.14285714285714285
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 0.6
+  - urls_ratio: 0.0
+  - quality_score: 0.7942857142857143
+
+[Original Input]
+비교: A > B, C < D, E = F
+
+[Processed Input]
+비교: A > B, C < D, E = F
+
+[Original Output]
+비교: A > B, C < D, E = F
+
+[Processed Output]
+비교: A > B, C < D, E = F
+
+
+================================================================================
+파일: test4.jsonl
+라인: 62
+제거 이유: ko 문자 비율: 0.333
+
+[Input Scores]
+  - word_count: 7
+  - lang_ratio: 0.3333333333333333
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 0.7142857142857143
+  - urls_ratio: 0.0
+  - quality_score: 0.7904761904761906
+
+[Output Scores]
+  - word_count: 7
+  - lang_ratio: 0.3333333333333333
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 0.7142857142857143
+  - urls_ratio: 0.0
+  - quality_score: 0.7904761904761906
+
+[Original Input]
+논리 연산: A && B || C
+
+[Processed Input]
+논리 연산: A && B || C
+
+[Original Output]
+논리 연산: A && B || C
+
+[Processed Output]
+논리 연산: A && B || C
+
+
+================================================================================
+파일: test4.jsonl
+라인: 67
+제거 이유: ko 문자 비율: 0.235
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.23529411764705882
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.723529411764706
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.23529411764705882
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.723529411764706
+
+[Original Input]
+참조 번호: REF-2024-001
+
+[Processed Input]
+참조 번호: REF-2024-001
+
+[Original Output]
+참조 번호: REF-2024-001
+
+[Processed Output]
+참조 번호: REF-2024-001
+
+
+================================================================================
+파일: test4.jsonl
+라인: 68
+제거 이유: ko 문자 비율: 0.211
+
+[Input Scores]
+  - word_count: 5
+  - lang_ratio: 0.21052631578947367
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 1.4
+  - urls_ratio: 0.0
+  - quality_score: 0.6410526315789475
+
+[Output Scores]
+  - word_count: 5
+  - lang_ratio: 0.21052631578947367
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0.0
+  - symbol_to_word_ratio: 1.4
+  - urls_ratio: 0.0
+  - quality_score: 0.6410526315789475
+
+[Original Input]
+버전 관리: v1.0.0 -> v1.0.1
+
+[Processed Input]
+버전 관리: v1.0.0 -> v1.0.1
+
+[Original Output]
+버전 관리: v1.0.0 -> v1.0.1
+
+[Processed Output]
+버전 관리: v1.0.0 -> v1.0.1
+
+
+================================================================================
+파일: test4.jsonl
+라인: 69
+제거 이유: ko 문자 비율: 0.120
+
+[Input Scores]
+  - word_count: 2
+  - lang_ratio: 0.12
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.712
+
+[Output Scores]
+  - word_count: 2
+  - lang_ratio: 0.12
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.712
+
+[Original Input]
+파일명: document_final_v2.pdf
+
+[Processed Input]
+파일명: document_final_v2.pdf
+
+[Original Output]
+파일명: document_final_v2.pdf
+
+[Processed Output]
+파일명: document_final_v2.pdf
+
+
+================================================================================
+파일: test4.jsonl
+라인: 71
+제거 이유: ko 문자 비율: 0.125
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.125
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.3333333333333333
+  - urls_ratio: 0.0
+  - quality_score: 0.6458333333333333
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.125
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.3333333333333333
+  - urls_ratio: 0.0
+  - quality_score: 0.6458333333333333
+
+[Original Input]
+IP 주소: 192.168.0.1
+
+[Processed Input]
+IP 주소: 192.168.0.1
+
+[Original Output]
+IP 주소: 192.168.0.1
+
+[Processed Output]
+IP 주소: 192.168.0.1
+
+
+================================================================================
+파일: test4.jsonl
+라인: 72
+제거 이유: ko 문자 비율: 0.087
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.08695652173913043
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 2.0
+  - urls_ratio: 0.0
+  - quality_score: 0.508695652173913
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.08695652173913043
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 2.0
+  - urls_ratio: 0.0
+  - quality_score: 0.508695652173913
+
+[Original Input]
+MAC 주소: 00:1A:2B:3C:4D:5E
+
+[Processed Input]
+MAC 주소: 00:1A:2B:3C:4D:5E
+
+[Original Output]
+MAC 주소: 00:1A:2B:3C:4D:5E
+
+[Processed Output]
+MAC 주소: 00:1A:2B:3C:4D:5E
+
+
+================================================================================
+파일: test4.jsonl
+라인: 73
+제거 이유: ko 문자 비율: 0.238
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.23809523809523808
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.6666666666666666
+  - urls_ratio: 0.0
+  - quality_score: 0.7904761904761906
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.23809523809523808
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.6666666666666666
+  - urls_ratio: 0.0
+  - quality_score: 0.7904761904761906
+
+[Original Input]
+시리얼 번호: SN-ABC123DEF456
+
+[Processed Input]
+시리얼 번호: SN-ABC123DEF456
+
+[Original Output]
+시리얼 번호: SN-ABC123DEF456
+
+[Processed Output]
+시리얼 번호: SN-ABC123DEF456
+
+
+================================================================================
+파일: test4.jsonl
+라인: 74
+제거 이유: ko 문자 비율: 0.176
+
+[Input Scores]
+  - word_count: 2
+  - lang_ratio: 0.17647058823529413
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.5
+  - urls_ratio: 0.0
+  - quality_score: 0.8176470588235294
+
+[Output Scores]
+  - word_count: 2
+  - lang_ratio: 0.17647058823529413
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.5
+  - urls_ratio: 0.0
+  - quality_score: 0.8176470588235294
+
+[Original Input]
+바코드: 1234567890128
+
+[Processed Input]
+바코드: 1234567890128
+
+[Original Output]
+바코드: 1234567890128
+
+[Processed Output]
+바코드: 1234567890128
+
+
+================================================================================
+파일: test4.jsonl
+라인: 75
+제거 이유: ko 문자 비율: 0.000
+
+[Input Scores]
+  - word_count: 2
+  - lang_ratio: 0.0
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 2.5
+  - urls_ratio: 0.0
+  - quality_score: 0.39999999999999997
+
+[Output Scores]
+  - word_count: 2
+  - lang_ratio: 0.0
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 2.5
+  - urls_ratio: 0.0
+  - quality_score: 0.39999999999999997
+
+[Original Input]
+ISBN: 978-89-123-4567-8
+
+[Processed Input]
+ISBN: 978-89-123-4567-8
+
+[Original Output]
+ISBN: 978-89-123-4567-8
+
+[Processed Output]
+ISBN: 978-89-123-4567-8
+
+
+================================================================================
+파일: test4.jsonl
+라인: 76
+제거 이유: ko 문자 비율: 0.095
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.09523809523809523
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 2.0
+  - urls_ratio: 0.0
+  - quality_score: 0.5095238095238095
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.09523809523809523
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 2.0
+  - urls_ratio: 0.0
+  - quality_score: 0.5095238095238095
+
+[Original Input]
+좌표: (37.5665, 126.9780)
+
+[Processed Input]
+좌표: (37.5665, 126.9780)
+
+[Original Output]
+좌표: (37.5665, 126.9780)
+
+[Processed Output]
+좌표: (37.5665, 126.9780)
+
+
+================================================================================
+파일: test4.jsonl
+라인: 77
+제거 이유: ko 문자 비율: 0.400
+
+[Input Scores]
+  - word_count: 2
+  - lang_ratio: 0.4
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.5
+  - urls_ratio: 0.0
+  - quality_score: 0.8400000000000001
+
+[Output Scores]
+  - word_count: 2
+  - lang_ratio: 0.4
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.5
+  - urls_ratio: 0.0
+  - quality_score: 0.8400000000000001
+
+[Original Input]
+우편번호: 12345
+
+[Processed Input]
+우편번호: 12345
+
+[Original Output]
+우편번호: 12345
+
+[Processed Output]
+우편번호: 12345
+
+
+================================================================================
+파일: test4.jsonl
+라인: 78
+제거 이유: ko 문자 비율: 0.350
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.35
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7349999999999999
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.35
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7349999999999999
+
+[Original Input]
+사업자 등록번호: 123-45-67890
+
+[Processed Input]
+사업자 등록번호: 123-45-67890
+
+[Original Output]
+사업자 등록번호: 123-45-67890
+
+[Processed Output]
+사업자 등록번호: 123-45-67890
+
+
+================================================================================
+파일: test4.jsonl
+라인: 79
+제거 이유: ko 문자 비율: 0.167
+
+[Input Scores]
+  - word_count: 2
+  - lang_ratio: 0.16666666666666666
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 2.0
+  - urls_ratio: 0.0
+  - quality_score: 0.5166666666666666
+
+[Output Scores]
+  - word_count: 2
+  - lang_ratio: 0.16666666666666666
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 2.0
+  - urls_ratio: 0.0
+  - quality_score: 0.5166666666666666
+
+[Original Input]
+계좌번호: 1234-5678-9012-3456
+
+[Processed Input]
+계좌번호: 1234-5678-9012-3456
+
+[Original Output]
+계좌번호: 1234-5678-9012-3456
+
+[Processed Output]
+계좌번호: 1234-5678-9012-3456
+
+
+================================================================================
+파일: test4.jsonl
+라인: 80
+제거 이유: ko 문자 비율: 0.188
+
+[Input Scores]
+  - word_count: 2
+  - lang_ratio: 0.1875
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.5
+  - urls_ratio: 0.0
+  - quality_score: 0.6187500000000001
+
+[Output Scores]
+  - word_count: 2
+  - lang_ratio: 0.1875
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.5
+  - urls_ratio: 0.0
+  - quality_score: 0.6187500000000001
+
+[Original Input]
+모델명: ABC-1234-XYZ
+
+[Processed Input]
+모델명: ABC-1234-XYZ
+
+[Original Output]
+모델명: ABC-1234-XYZ
+
+[Processed Output]
+모델명: ABC-1234-XYZ
+
+
+================================================================================
+파일: test4.jsonl
+라인: 81
+제거 이유: ko 문자 비율: 0.211
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.21052631578947367
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7210526315789474
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.21052631578947367
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7210526315789474
+
+[Original Input]
+제품 코드: P-20241217-001
+
+[Processed Input]
+제품 코드: P-20241217-001
+
+[Original Output]
+제품 코드: P-20241217-001
+
+[Processed Output]
+제품 코드: P-20241217-001
+
+
+================================================================================
+파일: test4.jsonl
+라인: 82
+제거 이유: ko 문자 비율: 0.167
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.16666666666666666
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.6666666666666667
+  - urls_ratio: 0.0
+  - quality_score: 0.5833333333333333
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.16666666666666666
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.6666666666666667
+  - urls_ratio: 0.0
+  - quality_score: 0.5833333333333333
+
+[Original Input]
+주문 번호: ORD-2024-12-17-0001
+
+[Processed Input]
+주문 번호: ORD-2024-12-17-0001
+
+[Original Output]
+주문 번호: ORD-2024-12-17-0001
+
+[Processed Output]
+주문 번호: ORD-2024-12-17-0001
+
+
+================================================================================
+파일: test4.jsonl
+라인: 83
+제거 이유: ko 문자 비율: 0.190
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.19047619047619047
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7190476190476189
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.19047619047619047
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7190476190476189
+
+[Original Input]
+송장 번호: INV-20241217-001
+
+[Processed Input]
+송장 번호: INV-20241217-001
+
+[Original Output]
+송장 번호: INV-20241217-001
+
+[Processed Output]
+송장 번호: INV-20241217-001
+
+
+================================================================================
+파일: test4.jsonl
+라인: 84
+제거 이유: ko 문자 비율: 0.200
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.2
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.3333333333333333
+  - urls_ratio: 0.0
+  - quality_score: 0.8533333333333333
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.2
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 0.3333333333333333
+  - urls_ratio: 0.0
+  - quality_score: 0.8533333333333333
+
+[Original Input]
+추적 번호: TRK1234567890KR
+
+[Processed Input]
+추적 번호: TRK1234567890KR
+
+[Original Output]
+추적 번호: TRK1234567890KR
+
+[Processed Output]
+추적 번호: TRK1234567890KR
+
+
+================================================================================
+파일: test4.jsonl
+라인: 85
+제거 이유: ko 문자 비율: 0.263
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.2631578947368421
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7263157894736842
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.2631578947368421
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7263157894736842
+
+[Original Input]
+견적서 번호: QUO-2024-1217
+
+[Processed Input]
+견적서 번호: QUO-2024-1217
+
+[Original Output]
+견적서 번호: QUO-2024-1217
+
+[Processed Output]
+견적서 번호: QUO-2024-1217
+
+
+================================================================================
+파일: test4.jsonl
+라인: 86
+제거 이유: ko 문자 비율: 0.278
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.2777777777777778
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7277777777777779
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.2777777777777778
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7277777777777779
+
+[Original Input]
+계약서 번호: CON-2024-001
+
+[Processed Input]
+계약서 번호: CON-2024-001
+
+[Original Output]
+계약서 번호: CON-2024-001
+
+[Processed Output]
+계약서 번호: CON-2024-001
+
+
+================================================================================
+파일: test4.jsonl
+라인: 87
+제거 이유: ko 문자 비율: 0.250
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.25
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.3333333333333333
+  - urls_ratio: 0.0
+  - quality_score: 0.6583333333333334
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.25
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.3333333333333333
+  - urls_ratio: 0.0
+  - quality_score: 0.6583333333333334
+
+[Original Input]
+프로젝트 코드: PRJ-SHIP-2024-001
+
+[Processed Input]
+프로젝트 코드: PRJ-SHIP-2024-001
+
+[Original Output]
+프로젝트 코드: PRJ-SHIP-2024-001
+
+[Processed Output]
+프로젝트 코드: PRJ-SHIP-2024-001
+
+
+================================================================================
+파일: test4.jsonl
+라인: 88
+제거 이유: ko 문자 비율: 0.238
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.23809523809523808
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7238095238095239
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.23809523809523808
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.0
+  - urls_ratio: 0.0
+  - quality_score: 0.7238095238095239
+
+[Original Input]
+작업 지시서: WO-20241217-001
+
+[Processed Input]
+작업 지시서: WO-20241217-001
+
+[Original Output]
+작업 지시서: WO-20241217-001
+
+[Processed Output]
+작업 지시서: WO-20241217-001
+
+
+================================================================================
+파일: test4.jsonl
+라인: 89
+제거 이유: ko 문자 비율: 0.222
+
+[Input Scores]
+  - word_count: 3
+  - lang_ratio: 0.2222222222222222
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.3333333333333333
+  - urls_ratio: 0.0
+  - quality_score: 0.6555555555555554
+
+[Output Scores]
+  - word_count: 3
+  - lang_ratio: 0.2222222222222222
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 1.3333333333333333
+  - urls_ratio: 0.0
+  - quality_score: 0.6555555555555554
+
+[Original Input]
+도면 번호: DWG-001-Rev.A
+
+[Processed Input]
+도면 번호: DWG-001-Rev.A
+
+[Original Output]
+도면 번호: DWG-001-Rev.A
+
+[Processed Output]
+도면 번호: DWG-001-Rev.A
+

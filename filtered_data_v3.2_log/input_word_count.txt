@@ -1,0 +1,40 @@
+필터링 기준: input_word_count
+제거된 문서 수: 1
+================================================================================
+
+
+================================================================================
+파일: test4.jsonl
+라인: 70
+제거 이유: 단어 수: 1
+
+[Input Scores]
+  - word_count: 1
+  - lang_ratio: 0.14285714285714285
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 6.0
+  - urls_ratio: 0.0
+  - quality_score: -0.28571428571428575
+
+[Output Scores]
+  - word_count: 1
+  - lang_ratio: 0.14285714285714285
+  - repeated_lines_uniqueness_ratio: 1.0
+  - repeating_duplicate_ngram_ratio: 0
+  - symbol_to_word_ratio: 6.0
+  - urls_ratio: 0.0
+  - quality_score: -0.28571428571428575
+
+[Original Input]
+확장자: .docx, .xlsx, .pptx
+
+[Processed Input]
+확장자:.docx,.xlsx,.pptx
+
+[Original Output]
+확장자: .docx, .xlsx, .pptx
+
+[Processed Output]
+확장자:.docx,.xlsx,.pptx
+
