@@ -230,16 +230,17 @@ class SentenceAnalysisStage(ProcessingStage):
             return {f"{features_field}_error": str(e)}
         return {}
 
-    def process(self, doc):
+    def process(self, batch):
         """
-        Analyzes 'input' and 'output' fields of a document if they exist.
+        Analyzes 'input' and 'output' fields of each document in a batch.
         """
-        # Analyze 'input' field
-        input_analysis = self._analyze_text(doc.get("input", ""), doc.get("src", "en"), 'input_features')
-        doc.update(input_analysis)
-        
-        # Analyze 'output' field
-        output_analysis = self._analyze_text(doc.get("output", ""), doc.get("tgt", "en"), 'output_features')
-        doc.update(output_analysis)
+        for doc in batch:
+            # Analyze 'input' field
+            input_analysis = self._analyze_text(doc.get("input", ""), doc.get("src", "en"), 'input_features')
+            doc.update(input_analysis)
+            
+            # Analyze 'output' field
+            output_analysis = self._analyze_text(doc.get("output", ""), doc.get("tgt", "en"), 'output_features')
+            doc.update(output_analysis)
 
-        return doc
+        return batch
