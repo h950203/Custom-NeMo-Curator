@@ -1,5 +1,6 @@
 import re
 import kss
+from nemo_curator.stages.text.filters.personal_filter import PersonalFilter
 from nemo_curator.stages.text.filters.base_personal_filter import BasePersonalFilter
 
 def custom_normalize_whitespace(text):
@@ -58,6 +59,10 @@ def preprocess_text(text, lang, preprocessors):
 
     # Apply personal data filter
     preprocessor = preprocessors.get(lang, BasePersonalFilter())
+        preprocessor = preprocessors.get(lang, BasePersonalFilter())
+    if lang == "ko":
+        preprocessor = PersonalFilter() # 별도 PersonalFilter 사용
+
     processed_sentences = [preprocessor.apply(s) for s in sentences]
     processed_sentences = [s for s in processed_sentences if s]
 

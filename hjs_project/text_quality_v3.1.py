@@ -3,7 +3,7 @@ from nemo_curator.backends.xenna import XennaExecutor
 from nemo_curator.pipeline import Pipeline
 from nemo_curator.stages.text.io.reader import JsonlReader
 from nemo_curator.stages.text.io.writer import JsonlWriter
-from nemo_curator.stages.text.quality.filter_stage import MultiLingualQualityFilterStage
+from nemo_curator.stages.text.filters.custom_filter import MultiLingualQualityFilterStage
 from nemo_curator.stages.text.filters.korean_personal_filter import KoreanPersonalFilter
 from nemo_curator.stages.text.filters.english_personal_filter import EnglishPersonalFilter
 from nemo_curator.stages.text.filters.base_personal_filter import BasePersonalFilter
