@@ -19,6 +19,7 @@ from nemo_curator.utils.log_utils import (
     create_summary,
 )
 
+import os
 import json
 import glob
 from collections import defaultdict
