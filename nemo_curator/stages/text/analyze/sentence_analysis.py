@@ -12,7 +12,7 @@ import numpy as np
 from scipy.stats import entropy
 from collections import Counter
 import torch
-from nemo_curator.stages.stage import Stage
+from nemo_curator.stages.base import ProcessingStage
 
 # PyTorch weights_only issue fix for Stanza compatibility
 if hasattr(torch, 'serialization'):
@@ -192,7 +192,7 @@ def calculate_all_features(sent):
 # NeMo Curator Stage Class
 # ============================================================================
 
-class SentenceAnalysisStage(Stage):
+class SentenceAnalysisStage(ProcessingStage):
     """
     A NeMo Curator stage to perform detailed linguistic analysis on documents.
     """
@@ -230,7 +230,7 @@ class SentenceAnalysisStage(Stage):
             return {f"{features_field}_error": str(e)}
         return {}
 
-    def _process_document(self, doc):
+    def process(self, doc):
         """
         Analyzes 'input' and 'output' fields of a document if they exist.
         """
