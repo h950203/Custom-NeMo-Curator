@@ -1,5 +1,5 @@
 import re
-from .personal_preprocessing import PersonalFilter
+from .base_preprocessing import PersonalFilter
 
 class EnglishPersonalFilter(PersonalFilter):
     """

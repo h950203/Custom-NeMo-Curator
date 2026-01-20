@@ -1,4 +1,5 @@
-from .personal_preprocessing import PersonalFilter
+import re
+from .base_preprocessing import PersonalFilter
 
 class ChinesePersonalFilter(PersonalFilter):
     """

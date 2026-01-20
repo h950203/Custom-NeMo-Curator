@@ -11,7 +11,7 @@ from nemo_curator.stages.text.preprocessing.english_preprocessing import English
 from nemo_curator.stages.text.preprocessing.japanese_preprocessing import JapanesePersonalFilter
 from nemo_curator.stages.text.preprocessing.chinese_preprocessing import ChinesePersonalFilter
 from nemo_curator.stages.text.preprocessing.other_preprocessing import OtherPersonalFilter
-from nemo_curator.stages.text.analyze.sentence_analysis import SentenceAnalysisStage  # 새 스테이지 import
+from nemo_curator.stages.text.analyze.sentence_analysis import SentenceAnalysisStage
 from nemo_curator.utils.log_utils import (
     print_filter_config,
     save_global_logs,
