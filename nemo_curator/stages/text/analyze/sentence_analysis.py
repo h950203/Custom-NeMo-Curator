@@ -9,8 +9,9 @@ POS-based metrics, and dependency tree analysis.
 
 import stanza
 import numpy as np
+import pandas as pd
 from scipy.stats import entropy
-from collections import Counter
+from collections import Counter, defaultdict
 import torch
 from nemo_curator.stages.base import ProcessingStage
 
@@ -234,13 +235,29 @@ class SentenceAnalysisStage(ProcessingStage):
         """
         Analyzes 'input' and 'output' fields of each document in a batch.
         """
-        for doc in batch:
-            # Analyze 'input' field
-            input_analysis = self._analyze_text(doc.get("input", ""), doc.get("src", "en"), 'input_features')
-            doc.update(input_analysis)
-            
-            # Analyze 'output' field
-            output_analysis = self._analyze_text(doc.get("output", ""), doc.get("tgt", "en"), 'output_features')
-            doc.update(output_analysis)
+        df = batch.data
+
+        # Generate analysis results for both input and output fields
+        input_analyses = df.apply(
+            lambda row: self._analyze_text(row.get("input", ""), row.get("src", "en"), 'input_features'),
+            axis=1
+        )
+        output_analyses = df.apply(
+            lambda row: self._analyze_text(row.get("output", ""), row.get("tgt", "en"), 'output_features'),
+            axis=1
+        )
+
+        # Convert the series of dicts to DataFrames and join them
+        input_df = pd.json_normalize(input_analyses)
+        input_df.index = df.index
+        output_df = pd.json_normalize(output_analyses)
+        output_df.index = df.index
+
+        # Join the new feature columns to the original DataFrame
+        df = df.join(input_df).join(output_df)
+
+        # Update the batch with the modified DataFrame
+        batch.data = df
 
         return batch
+
