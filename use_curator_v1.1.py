@@ -4,7 +4,7 @@ from nemo_curator.backends.xenna import XennaExecutor
 from nemo_curator.pipeline import Pipeline
 from nemo_curator.stages.text.io.reader import JsonlReader
 from nemo_curator.stages.text.io.writer import JsonlWriter
-from nemo_curator.stages.text.filters.custom_filter import MultiLingualQualityFilterStage
+from nemo_curator.stages.text.filters.custom_filter import PreAnalyzeFilterStage
 from nemo_curator.stages.text.utils.custom_utils import preprocess_text
 from nemo_curator.stages.text.preprocessing.korean_preprocessing import KoreanPersonalFilter
 from nemo_curator.stages.text.preprocessing.english_preprocessing import EnglishPersonalFilter
@@ -229,7 +229,7 @@ def process_file_with_tracking(input_file, output_dir, config):
         # 파이프라인 생성 및 실행
         pipeline = Pipeline(name=f"filter_{filename}")
         pipeline.add_stage(JsonlReader(file_paths=temp_input_path))
-        pipeline.add_stage(MultiLingualQualityFilterStage(
+        pipeline.add_stage(PreAnalyzeFilterStage (
             filter_config=config,
             lang_code_map=LANG_CODE_MAP,
             preprocessors=PREPROCESSORS
