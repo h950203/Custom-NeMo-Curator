@@ -325,10 +325,11 @@ def main():
         logger.info(f"Ray 초기화 중: CPU={num_cpus}, GPU={num_gpus}")
         
         # Ray 메모리 설정 추가
-                ray_client = RayClient(
-                    num_cpus=num_cpus,
-                    num_gpus=num_gpus
-                )        ray_client.start()
+        ray_client = RayClient(
+            num_cpus=num_cpus,
+            num_gpus=num_gpus
+        )
+        ray_client.start()
 
         # 현재 설정 출력
         print_filter_config(FILTER_CONFIG, PIPELINE_VERSION)
