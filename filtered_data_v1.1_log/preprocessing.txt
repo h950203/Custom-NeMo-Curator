@@ -1,0 +1,2565 @@
+전처리 중 변경된 문장 목록
+총 변경된 문장 수: 426
+================================================================================
+
+
+
+================================================================================
+파일: ship-const_checked.jsonl
+================================================================================
+
+---
+라인: 43
+필드: input
+원본: An ideal layout for a modern shipyard is based on a production ﬂow basis, as in Figure 11.2 , with the shipyard built on a greenﬁeld site and no longer, as with existing
+수정: An ideal layout for a modern shipyard is based on a production ﬂow basis, as in Figure 11.2, with the shipyard built on a greenﬁeld site and no longer, as with existing
+
+---
+라인: 43
+필드: output
+원본: An ideal layout for a modern shipyard is based on a production ﬂow basis, as in Figure 11.2 , with the shipyard built on a greenﬁeld site and no longer, as with existing
+수정: An ideal layout for a modern shipyard is based on a production ﬂow basis, as in Figure 11.2, with the shipyard built on a greenﬁeld site and no longer, as with existing
+
+---
+라인: 46
+필드: input
+원본: Before considering the actual layout of the shipyard, it is as well to consider the relationship of the work processes involved in building a ship, as illustrated in Figure 11.3 .
+수정: Before considering the actual layout of the shipyard, it is as well to consider the relationship of the work processes involved in building a ship, as illustrated in Figure 11.3.
+
+---
+라인: 46
+필드: output
+원본: Before considering the actual layout of the shipyard, it is as well to consider the relationship of the work processes involved in building a ship, as illustrated in Figure 11.3 .
+수정: Before considering the actual layout of the shipyard, it is as well to consider the relationship of the work processes involved in building a ship, as illustrated in Figure 11.3.
+
+---
+라인: 47
+필드: input
+원본: An idealized layout of a new shipyard is indicated in Figure 11.4 , which might be appropriate for a smaller yard specializing in one or two standard type ships with a fairly high throughput so that o
+수정: An idealized layout of a new shipyard is indicated in Figure 11.4, which might be appropriate for a smaller yard specializing in one or two standard type ships with a fairly high throughput so that on
+
+---
+라인: 47
+필드: output
+원본: An idealized layout of a new shipyard is indicated in Figure 11.4 , which might be appropriate for a smaller yard specializing in one or two standard type ships with a fairly high throughput so that o
+수정: An idealized layout of a new shipyard is indicated in Figure 11.4, which might be appropriate for a smaller yard specializing in one or two standard type ships with a fairly high throughput so that on
+
+---
+라인: 50
+필드: input
+원본: Chinese shipbuilders on the way to the top: The Naval Architect , September 2005.
+수정: Chinese shipbuilders on the way to the top: The Naval Architect, September 2005.
+
+---
+라인: 50
+필드: output
+원본: Chinese shipbuilders on the way to the top: The Naval Architect , September 2005.
+수정: Chinese shipbuilders on the way to the top: The Naval Architect, September 2005.
+
+---
+라인: 51
+필드: input
+원본: Covered hall beneﬁt for Bijlsma: The Naval Architect , May 2002.
+수정: Covered hall beneﬁt for Bijlsma: The Naval Architect, May 2002.
+
+---
+라인: 51
+필드: output
+원본: Covered hall beneﬁt for Bijlsma: The Naval Architect , May 2002.
+수정: Covered hall beneﬁt for Bijlsma: The Naval Architect, May 2002.
+
+---
+라인: 54
+필드: input
+원본: The principal dimensions of the ship are illustrated in Figure 2.1 .
+수정: The principal dimensions of the ship are illustrated in Figure 2.1.
+
+---
+라인: 54
+필드: output
+원본: The principal dimensions of the ship are illustrated in Figure 2.1 .
+수정: The principal dimensions of the ship are illustrated in Figure 2.1.
+
+---
+라인: 76
+필드: input
+원본: When the lines plan was completed manually the draughtsmen would compile a ‘table of offsets’, i.e. a list of half breadths, heights of decks and stringer, etc., at each of the drawn stations.
+수정: When the lines plan was completed manually the draughtsmen would compile a ‘table of offsets’, i.e. a list of half breadths, heights of decks and stringer, etc. at each of the drawn stations.
+
+---
+라인: 76
+필드: output
+원본: When the lines plan was completed manually the draughtsmen would compile a ‘table of offsets’, i.e. a list of half breadths, heights of decks and stringer, etc., at each of the drawn stations.
+수정: When the lines plan was completed manually the draughtsmen would compile a ‘table of offsets’, i.e. a list of half breadths, heights of decks and stringer, etc. at each of the drawn stations.
+
+---
+라인: 87
+필드: input
+원본: Fairing was achieved by using wooden battens that were bent to follow the offsets,
+수정: Fairing was achieved by using wooden battens that were bent to follow the offsets
+
+---
+라인: 87
+필드: output
+원본: Fairing was achieved by using wooden battens that were bent to follow the offsets,
+수정: Fairing was achieved by using wooden battens that were bent to follow the offsets
+
+---
+라인: 99
+필드: input
+원본: For a numerically controlled proﬁling machine the piece parts to be cut can be ‘nested’, i.e. ﬁtted into the most economic plate, which can be handled by the machine with minimum wastage (see Figure 1
+수정: For a numerically controlled proﬁling machine the piece parts to be cut can be ‘nested’, i.e. ﬁtted into the most economic plate, which can be handled by the machine with minimum wastage (see Figure 1
+
+---
+라인: 99
+필드: output
+원본: For a numerically controlled proﬁling machine the piece parts to be cut can be ‘nested’, i.e. ﬁtted into the most economic plate, which can be handled by the machine with minimum wastage (see Figure 1
+수정: For a numerically controlled proﬁling machine the piece parts to be cut can be ‘nested’, i.e. ﬁtted into the most economic plate, which can be handled by the machine with minimum wastage (see Figure 1
+
+---
+라인: 102
+필드: input
+원본: Instructions for cutting ﬂame planed plates and subsequently joining them into panel assemblies and pin heights of jigs for setting up curved shell plates for welding framing and other members to them
+수정: Instructions for cutting ﬂame planed plates and subsequently joining them into panel assemblies and pin heights of jigs for setting up curved shell plates for welding framing and other members to them
+
+---
+라인: 102
+필드: output
+원본: Instructions for cutting ﬂame planed plates and subsequently joining them into panel assemblies and pin heights of jigs for setting up curved shell plates for welding framing and other members to them
+수정: Instructions for cutting ﬂame planed plates and subsequently joining them into panel assemblies and pin heights of jigs for setting up curved shell plates for welding framing and other members to them
+
+---
+라인: 130
+필드: input
+원본: The overall arrangement is shown in Figure 13.1 .
+수정: The overall arrangement is shown in Figure 13.1.
+
+---
+라인: 130
+필드: output
+원본: The overall arrangement is shown in Figure 13.1 .
+수정: The overall arrangement is shown in Figure 13.1.
+
+---
+라인: 143
+필드: input
+원본: Two lower rolls are provided and are made to revolve in the same direction so that the plate is fed between them and a slightly larger diameter top roll that runs idly (see Figure 13.3 ).
+수정: Two lower rolls are provided and are made to revolve in the same direction so that the plate is fed between them and a slightly larger diameter top roll that runs idly (see Figure 13.3).
+
+---
+라인: 143
+필드: output
+원본: Two lower rolls are provided and are made to revolve in the same direction so that the plate is fed between them and a slightly larger diameter top roll that runs idly (see Figure 13.3 ).
+수정: Two lower rolls are provided and are made to revolve in the same direction so that the plate is fed between them and a slightly larger diameter top roll that runs idly (see Figure 13.3).
+
+---
+라인: 150
+필드: input
+원본: On cooling, contraction will take place in the direction of the plate surface, causing the plate to become concave on the side to which heat was applied (see Figure 13.3 ).
+수정: On cooling, contraction will take place in the direction of the plate surface, causing the plate to become concave on the side to which heat was applied (see Figure 13.3).
+
+---
+라인: 150
+필드: output
+원본: On cooling, contraction will take place in the direction of the plate surface, causing the plate to become concave on the side to which heat was applied (see Figure 13.3 ).
+수정: On cooling, contraction will take place in the direction of the plate surface, causing the plate to become concave on the side to which heat was applied (see Figure 13.3).
+
+---
+라인: 173
+필드: input
+원본: New locks will be larger for ‘New Panamax’ ships (see Table 2.1 ).
+수정: New locks will be larger for ‘New Panamax’ ships (see Table 2.1).
+
+---
+라인: 173
+필드: output
+원본: New locks will be larger for ‘New Panamax’ ships (see Table 2.1 ).
+수정: New locks will be larger for ‘New Panamax’ ships (see Table 2.1).
+
+---
+라인: 174
+필드: input
+원본: Table 2.1 Panama Canal limits Panamax ships New Panamax ships Length (m) 294.13 366 Breadth (m) 32.81 49 Draft (m) 12.04 15.2
+수정: Table 2.1 Panama Canal limits Panamax ships New Panamax ships Length 294.13 366 Breadth 32.81 49 Draft 12.04 15.2
+
+---
+라인: 174
+필드: output
+원본: Table 2.1 Panama Canal limits Panamax ships New Panamax ships Length (m) 294.13 366 Breadth (m) 32.81 49 Draft (m) 12.04 15.2
+수정: Table 2.1 Panama Canal limits Panamax ships New Panamax ships Length 294.13 366 Breadth 32.81 49 Draft 12.04 15.2
+
+---
+라인: 175
+필드: input
+원본: The frames are progressively bent by application of a horizontal ram whilst the frame is held by gripping levers ( Figure 13.4 ).
+수정: The frames are progressively bent by application of a horizontal ram whilst the frame is held by gripping levers (Figure 13.4).
+
+---
+라인: 175
+필드: output
+원본: The frames are progressively bent by application of a horizontal ram whilst the frame is held by gripping levers ( Figure 13.4 ).
+수정: The frames are progressively bent by application of a horizontal ram whilst the frame is held by gripping levers (Figure 13.4).
+
+---
+라인: 177
+필드: input
+원본: The inverse curve is marked onto the straight frame and the frame bent until the inverse curve becomes straight on the curved frame (see Figure 13.4 ).
+수정: The inverse curve is marked onto the straight frame and the frame bent until the inverse curve becomes straight on the curved frame (see Figure 13.4).
+
+---
+라인: 177
+필드: output
+원본: The inverse curve is marked onto the straight frame and the frame bent until the inverse curve becomes straight on the curved frame (see Figure 13.4 ).
+수정: The inverse curve is marked onto the straight frame and the frame bent until the inverse curve becomes straight on the curved frame (see Figure 13.4).
+
+---
+라인: 178
+필드: input
+원본: Prior to cutting, the stiffening member can be moved through a marking cell where part identiﬁcation and, where required, bending lines for inverse curve frame bending (see Figure 13.4 ) can be marked
+수정: Prior to cutting, the stiffening member can be moved through a marking cell where part identiﬁcation and, where required, bending lines for inverse curve frame bending (see Figure 13.4) can be marked.
+
+---
+라인: 178
+필드: output
+원본: Prior to cutting, the stiffening member can be moved through a marking cell where part identiﬁcation and, where required, bending lines for inverse curve frame bending (see Figure 13.4 ) can be marked
+수정: Prior to cutting, the stiffening member can be moved through a marking cell where part identiﬁcation and, where required, bending lines for inverse curve frame bending (see Figure 13.4) can be marked.
+
+---
+라인: 213
+필드: input
+원본: The block assemblies for the bulk carrier are shown in Figure 14.8 .
+수정: The block assemblies for the bulk carrier are shown in Figure 14.8.
+
+---
+라인: 213
+필드: output
+원본: The block assemblies for the bulk carrier are shown in Figure 14.8 .
+수정: The block assemblies for the bulk carrier are shown in Figure 14.8.
+
+---
+라인: 244
+필드: input
+원본: Surveyor , Fall 2005 edition.
+수정: Surveyor, Fall 2005 edition.
+
+---
+라인: 244
+필드: output
+원본: Surveyor , Fall 2005 edition.
+수정: Surveyor, Fall 2005 edition.
+
+---
+라인: 257
+필드: input
+원본: Keel blocks are arranged so that the height of keel above the ground is 1.25– 1.5 m, giving reasonable access, but not too high so that a large amount of packing is required (see Figure 15.1 ).
+수정: Keel blocks are arranged so that the height of keel above the ground is 1.25– 1.5 m, giving reasonable access, but not too high so that a large amount of packing is required (see Figure 15.1).
+
+---
+라인: 257
+필드: output
+원본: Keel blocks are arranged so that the height of keel above the ground is 1.25– 1.5 m, giving reasonable access, but not too high so that a large amount of packing is required (see Figure 15.1 ).
+수정: Keel blocks are arranged so that the height of keel above the ground is 1.25– 1.5 m, giving reasonable access, but not too high so that a large amount of packing is required (see Figure 15.1).
+
+---
+라인: 278
+필드: input
+원본: 3 Development of ship types Chapter Outline Dry cargo ships 17 Container ships 21 Barge-carrying ships 21 Ro-ro ships 21 Hull form 23 Cargo handling equipment 23 Bulk carriers 23 Car carriers 26 Oil t
+수정: 3 Development of ship types Chapter Outline Dry cargo ships 17 Container ships 21 Barge-carrying ships 21 Ro-ro ships 21 Hull form 23 Cargo handling equipment 23 Bulk carriers 23 Car carriers 26 Oil t
+
+---
+라인: 278
+필드: output
+원본: 3 Development of ship types Chapter Outline Dry cargo ships 17 Container ships 21 Barge-carrying ships 21 Ro-ro ships 21 Hull form 23 Cargo handling equipment 23 Bulk carriers 23 Car carriers 26 Oil t
+수정: 3 Development of ship types Chapter Outline Dry cargo ships 17 Container ships 21 Barge-carrying ships 21 Ro-ro ships 21 Hull form 23 Cargo handling equipment 23 Bulk carriers 23 Car carriers 26 Oil t
+
+---
+라인: 279
+필드: input
+원본: Dry cargo ships If the development of the dry cargo ship from the time of introduction of steam propulsion is considered, the pattern of change is similar to that shown in Figure 3.2 .
+수정: Dry cargo ships If the development of the dry cargo ship from the time of introduction of steam propulsion is considered, the pattern of change is similar to that shown in Figure 3.2.
+
+---
+라인: 279
+필드: output
+원본: Dry cargo ships If the development of the dry cargo ship from the time of introduction of steam propulsion is considered, the pattern of change is similar to that shown in Figure 3.2 .
+수정: Dry cargo ships If the development of the dry cargo ship from the time of introduction of steam propulsion is considered, the pattern of change is similar to that shown in Figure 3.2.
+
+---
+라인: 283
+필드: input
+원본: temporarily welded between the shell plating and heavy plate wedge rider, as illustrated in Figure 15.2 .
+수정: temporarily welded between the shell plating and heavy plate wedge rider, as illustrated in Figure 15.2.
+
+---
+라인: 283
+필드: output
+원본: temporarily welded between the shell plating and heavy plate wedge rider, as illustrated in Figure 15.2 .
+수정: temporarily welded between the shell plating and heavy plate wedge rider, as illustrated in Figure 15.2.
+
+---
+라인: 288
+필드: input
+원본: Releasing arrangements Small ships may be released by knocking away a diagonal dog-shore (see Figure 15.3 ) ﬁtted between the sliding and standing ways.
+수정: Releasing arrangements Small ships may be released by knocking away a diagonal dog-shore (see Figure 15.3) ﬁtted between the sliding and standing ways.
+
+---
+라인: 288
+필드: output
+원본: Releasing arrangements Small ships may be released by knocking away a diagonal dog-shore (see Figure 15.3 ) ﬁtted between the sliding and standing ways.
+수정: Releasing arrangements Small ships may be released by knocking away a diagonal dog-shore (see Figure 15.3) ﬁtted between the sliding and standing ways.
+
+---
+라인: 293
+필드: input
+원본: FORE POPPET FOR SHIP WITH FULL FORWARD SECTIONS Plate bracket Plate ribband Ramming up wedges Make up Ground way Sliding way BRACKET IN WAY OF FRAMING Plate ribband Packing Sliding way Ground way Make
+수정: FORE POPPET FOR SHIP WITH FULL FORWARD SECTIONS Plate bracket Plate ribband Ramming up wedges Make up Ground way Sliding way BRACKET IN WAY OF FRAMING Plate ribband Packing Sliding way Ground way Make
+
+---
+라인: 293
+필드: output
+원본: FORE POPPET FOR SHIP WITH FULL FORWARD SECTIONS Plate bracket Plate ribband Ramming up wedges Make up Ground way Sliding way BRACKET IN WAY OF FRAMING Plate ribband Packing Sliding way Ground way Make
+수정: FORE POPPET FOR SHIP WITH FULL FORWARD SECTIONS Plate bracket Plate ribband Ramming up wedges Make up Ground way Sliding way BRACKET IN WAY OF FRAMING Plate ribband Packing Sliding way Ground way Make
+
+---
+라인: 297
+필드: input
+원본: Four days before launch a start is made on ramming up the launch blocks, i.e. driving in the wedges ( Figure 15.2 ) to raise ship off the building blocks.
+수정: Four days before launch a start is made on ramming up the launch blocks, i.e. driving in the wedges (Figure 15.2) to raise ship off the building blocks.
+
+---
+라인: 297
+필드: output
+원본: Four days before launch a start is made on ramming up the launch blocks, i.e. driving in the wedges ( Figure 15.2 ) to raise ship off the building blocks.
+수정: Four days before launch a start is made on ramming up the launch blocks, i.e. driving in the wedges (Figure 15.2) to raise ship off the building blocks.
+
+---
+라인: 311
+필드: input
+원본: Each drag line is then led forward and shackled to the chain drag (see Figure 15.4 ).
+수정: Each drag line is then led forward and shackled to the chain drag (see Figure 15.4).
+
+---
+라인: 311
+필드: output
+원본: Each drag line is then led forward and shackled to the chain drag (see Figure 15.4 ).
+수정: Each drag line is then led forward and shackled to the chain drag (see Figure 15.4).
+
+---
+라인: 347
+필드: input
+원본: A form of keel found on smaller vessels is the bar keel ( Figure 16.1 b).
+수정: A form of keel found on smaller vessels is the bar keel (Figure 16.1 b).
+
+---
+라인: 347
+필드: output
+원본: A form of keel found on smaller vessels is the bar keel ( Figure 16.1 b).
+수정: A form of keel found on smaller vessels is the bar keel (Figure 16.1 b).
+
+---
+라인: 350
+필드: input
+원본: Ships Middle strake of tank top (a) FLAT PLATE KEEL Flat keel plate Continuous center girder (b) BAR KEEL Garboard strake of bottom shell Bar keel Drain hole Solid floor Flange Ships (c) DUCT KEEL Sol
+수정: Ships Middle strake of tank top FLAT PLATE KEEL Flat keel plate Continuous center girder BAR KEEL Garboard strake of bottom shell Bar keel Drain hole Solid floor Flange Ships DUCT KEEL Solid floor Shi
+
+---
+라인: 350
+필드: output
+원본: Ships Middle strake of tank top (a) FLAT PLATE KEEL Flat keel plate Continuous center girder (b) BAR KEEL Garboard strake of bottom shell Bar keel Drain hole Solid floor Flange Ships (c) DUCT KEEL Sol
+수정: Ships Middle strake of tank top FLAT PLATE KEEL Flat keel plate Continuous center girder BAR KEEL Garboard strake of bottom shell Bar keel Drain hole Solid floor Flange Ships DUCT KEEL Solid floor Shi
+
+---
+라인: 353
+필드: input
+원본: Duct keels ( Figure 16.1 c) are provided in the double bottoms of some vessels.
+수정: Duct keels (Figure 16.1 c) are provided in the double bottoms of some vessels.
+
+---
+라인: 353
+필드: output
+원본: Duct keels ( Figure 16.1 c) are provided in the double bottoms of some vessels.
+수정: Duct keels (Figure 16.1 c) are provided in the double bottoms of some vessels.
+
+---
+라인: 368
+필드: input
+원본: The bracket ﬂoor consists simply of short transverse plate brackets ﬁtted in way of the center girder and tank sides (see Figures 16.4 and 16.5 ).
+수정: The bracket ﬂoor consists simply of short transverse plate brackets ﬁtted in way of the center girder and tank sides (see Figures 16.4 and 16.5).
+
+---
+라인: 368
+필드: output
+원본: The bracket ﬂoor consists simply of short transverse plate brackets ﬁtted in way of the center girder and tank sides (see Figures 16.4 and 16.5 ).
+수정: The bracket ﬂoor consists simply of short transverse plate brackets ﬁtted in way of the center girder and tank sides (see Figures 16.4 and 16.5).
+
+---
+라인: 369
+필드: input
+원본: Transversely framed double bottom If the double bottom is transversely framed, then transverse solid plate ﬂoors, and bracket ﬂoors with transverse frames, provide the principal support for the inner 
+수정: Transversely framed double bottom If the double bottom is transversely framed, then transverse solid plate ﬂoors, and bracket ﬂoors with transverse frames, provide the principal support for the inner 
+
+---
+라인: 369
+필드: output
+원본: Transversely framed double bottom If the double bottom is transversely framed, then transverse solid plate ﬂoors, and bracket ﬂoors with transverse frames, provide the principal support for the inner 
+수정: Transversely framed double bottom If the double bottom is transversely framed, then transverse solid plate ﬂoors, and bracket ﬂoors with transverse frames, provide the principal support for the inner 
+
+---
+라인: 384
+필드: input
+원본: A closer spacing of solid plate ﬂoors is required, the maximum spacing being 2.5 m, and also additional intercostal side girders are provided, the spacing not exceeding 3.7 m (see Figure 16.6 ).
+수정: A closer spacing of solid plate ﬂoors is required, the maximum spacing being 2.5 m, and also additional intercostal side girders are provided, the spacing not exceeding 3.7 m (see Figure 16.6).
+
+---
+라인: 384
+필드: output
+원본: A closer spacing of solid plate ﬂoors is required, the maximum spacing being 2.5 m, and also additional intercostal side girders are provided, the spacing not exceeding 3.7 m (see Figure 16.6 ).
+수정: A closer spacing of solid plate ﬂoors is required, the maximum spacing being 2.5 m, and also additional intercostal side girders are provided, the spacing not exceeding 3.7 m (see Figure 16.6).
+
+---
+라인: 386
+필드: input
+원본: The air pressure may be raised to 0.21 kg/cm 2 and then lowered to a test pressure of 0.14 kg/cm 2 .
+수정: The air pressure may be raised to 0.21 kg/cm 2 and then lowered to a test pressure of 0.14 kg/cm 2.
+
+---
+라인: 386
+필드: output
+원본: The air pressure may be raised to 0.21 kg/cm 2 and then lowered to a test pressure of 0.14 kg/cm 2 .
+수정: The air pressure may be raised to 0.21 kg/cm 2 and then lowered to a test pressure of 0.14 kg/cm 2.
+
+---
+라인: 395
+필드: input
+원본: The vertical welded joints are referred to as ‘butts’ and the horizontal welded joints as ‘seams’ (see Figure 17.1 ).
+수정: The vertical welded joints are referred to as ‘butts’ and the horizontal welded joints as ‘seams’ (see Figure 17.1).
+
+---
+라인: 395
+필드: output
+원본: The vertical welded joints are referred to as ‘butts’ and the horizontal welded joints as ‘seams’ (see Figure 17.1 ).
+수정: The vertical welded joints are referred to as ‘butts’ and the horizontal welded joints as ‘seams’ (see Figure 17.1).
+
+---
+라인: 429
+필드: input
+원본: then have transverse frames at the side shell ﬁtted between the hopper and topside tank (see Figure 17.7 ).
+수정: then have transverse frames at the side shell ﬁtted between the hopper and topside tank (see Figure 17.7).
+
+---
+라인: 429
+필드: output
+원본: then have transverse frames at the side shell ﬁtted between the hopper and topside tank (see Figure 17.7 ).
+수정: then have transverse frames at the side shell ﬁtted between the hopper and topside tank (see Figure 17.7).
+
+---
+라인: 430
+필드: input
+원본: Transverse framing In a general cargo ship the transverse framing will consist of main and hold frames with brackets top and bottom, and lighter tween deck frames with brackets at the tops only (see F
+수정: Transverse framing In a general cargo ship the transverse framing will consist of main and hold frames with brackets top and bottom, and lighter tween deck frames with brackets at the tops only (see F
+
+---
+라인: 430
+필드: output
+원본: Transverse framing In a general cargo ship the transverse framing will consist of main and hold frames with brackets top and bottom, and lighter tween deck frames with brackets at the tops only (see F
+수정: Transverse framing In a general cargo ship the transverse framing will consist of main and hold frames with brackets top and bottom, and lighter tween deck frames with brackets at the tops only (see F
+
+---
+라인: 431
+필드: input
+원본: A typical midship section for a general cargo ship is shown in Figure 17.6 .
+수정: A typical midship section for a general cargo ship is shown in Figure 17.6.
+
+---
+라인: 431
+필드: output
+원본: A typical midship section for a general cargo ship is shown in Figure 17.6 .
+수정: A typical midship section for a general cargo ship is shown in Figure 17.6.
+
+---
+라인: 439
+필드: input
+원본: Horizontal perforated ﬂats are ﬁtted between the inner and outer side plating to support the transverse webs (see Figures 17.8 and 17.9 ).
+수정: Horizontal perforated ﬂats are ﬁtted between the inner and outer side plating to support the transverse webs (see Figures 17.8 and 17.9).
+
+---
+라인: 439
+필드: output
+원본: Horizontal perforated ﬂats are ﬁtted between the inner and outer side plating to support the transverse webs (see Figures 17.8 and 17.9 ).
+수정: Horizontal perforated ﬂats are ﬁtted between the inner and outer side plating to support the transverse webs (see Figures 17.8 and 17.9).
+
+---
+라인: 440
+필드: input
+원본: A roll on roll off (ro-ro) ship midship section is shown in Figure 17.10 .
+수정: A roll on roll off (ro-ro) ship midship section is shown in Figure 17.10.
+
+---
+라인: 440
+필드: output
+원본: A roll on roll off (ro-ro) ship midship section is shown in Figure 17.10 .
+수정: A roll on roll off (ro-ro) ship midship section is shown in Figure 17.10.
+
+---
+라인: 441
+필드: input
+원본: Avery different ship type is shown in Figure 17.11 , that is a catamaran fast ferry.
+수정: Avery different ship type is shown in Figure 17.11, that is a catamaran fast ferry.
+
+---
+라인: 441
+필드: output
+원본: Avery different ship type is shown in Figure 17.11 , that is a catamaran fast ferry.
+수정: Avery different ship type is shown in Figure 17.11, that is a catamaran fast ferry.
+
+---
+라인: 443
+필드: input
+원본: Stiffener Solid floor Solid floor Solid floor Tank side bracket Stiffener Lightening hole Hold frame Tank top Hold frame (b) TANK SIDE BRACKETS OR CONNECTIONS Tank top Flat stiffener 200mm flat facing
+수정: Stiffener Solid floor Solid floor Solid floor Tank side bracket Stiffener Lightening hole Hold frame Tank top Hold frame TANK SIDE BRACKETS OR CONNECTIONS Tank top Flat stiffener 200mm flat facing bar
+
+---
+라인: 443
+필드: output
+원본: Stiffener Solid floor Solid floor Solid floor Tank side bracket Stiffener Lightening hole Hold frame Tank top Hold frame (b) TANK SIDE BRACKETS OR CONNECTIONS Tank top Flat stiffener 200mm flat facing
+수정: Stiffener Solid floor Solid floor Solid floor Tank side bracket Stiffener Lightening hole Hold frame Tank top Hold frame TANK SIDE BRACKETS OR CONNECTIONS Tank top Flat stiffener 200mm flat facing bar
+
+---
+라인: 447
+필드: input
+원본: Intermediate frames are bracketed to the stringer (see Figure 17.4 ).
+수정: Intermediate frames are bracketed to the stringer (see Figure 17.4).
+
+---
+라인: 447
+필드: output
+원본: Intermediate frames are bracketed to the stringer (see Figure 17.4 ).
+수정: Intermediate frames are bracketed to the stringer (see Figure 17.4).
+
+---
+라인: 464
+필드: input
+원본: a continuous ground bar with the butt welds in the shell plating, ground bar, and bilge keel staggered (see Figure 17.5 ).
+수정: a continuous ground bar with the butt welds in the shell plating, ground bar, and bilge keel staggered (see Figure 17.5).
+
+---
+라인: 464
+필드: output
+원본: a continuous ground bar with the butt welds in the shell plating, ground bar, and bilge keel staggered (see Figure 17.5 ).
+수정: a continuous ground bar with the butt welds in the shell plating, ground bar, and bilge keel staggered (see Figure 17.5).
+
+---
+라인: 466
+필드: input
+원본: In ships over 65 m in length, holes are drilled in the bilge keel butt welds as shown in Figure 17.5 .
+수정: In ships over 65 m in length, holes are drilled in the bilge keel butt welds as shown in Figure 17.5.
+
+---
+라인: 466
+필드: output
+원본: In ships over 65 m in length, holes are drilled in the bilge keel butt welds as shown in Figure 17.5 .
+수정: In ships over 65 m in length, holes are drilled in the bilge keel butt welds as shown in Figure 17.5.
+
+---
+라인: 474
+필드: input
+원본: m Deck transverse 300 mm deep with 237.5 mm flange Tween deck plating (9.5 mm) Corrugated bulkhead Deck transverse 300 mm deep with 200 mm flange Knee Ship’s Upper deck longitudinals (150 mm ×  75 mm 
+수정: m Deck transverse 300 mm deep with 237.5 mm flange Tween deck plating (9.5 mm) Corrugated bulkhead Deck transverse 300 mm deep with 200 mm flange Knee Ship’s Upper deck longitudinals (150 mm × 75 mm ×
+
+---
+라인: 474
+필드: output
+원본: m Deck transverse 300 mm deep with 237.5 mm flange Tween deck plating (9.5 mm) Corrugated bulkhead Deck transverse 300 mm deep with 200 mm flange Knee Ship’s Upper deck longitudinals (150 mm ×  75 mm 
+수정: m Deck transverse 300 mm deep with 237.5 mm flange Tween deck plating (9.5 mm) Corrugated bulkhead Deck transverse 300 mm deep with 200 mm flange Knee Ship’s Upper deck longitudinals (150 mm × 75 mm ×
+
+---
+라인: 476
+필드: input
+원본: Figure 17.7 Bulk carrier—single-side skin midship section.
+수정: Figure 17.7 Bulk carriersingle-side skin midship section.
+
+---
+라인: 476
+필드: output
+원본: Figure 17.7 Bulk carrier—single-side skin midship section.
+수정: Figure 17.7 Bulk carriersingle-side skin midship section.
+
+---
+라인: 478
+필드: input
+원본: Deadweight 34,000 tonnes Hatch 1700 mm Figure 17.8 Bulk carrier—double-side skin midship section.
+수정: Deadweight 34,000 tonnes Hatch 1700 mm Figure 17.8 Bulk carrierdouble-side skin midship section.
+
+---
+라인: 478
+필드: output
+원본: Deadweight 34,000 tonnes Hatch 1700 mm Figure 17.8 Bulk carrier—double-side skin midship section.
+수정: Deadweight 34,000 tonnes Hatch 1700 mm Figure 17.8 Bulk carrierdouble-side skin midship section.
+
+---
+라인: 480
+필드: input
+원본: D 2 ND .
+수정: D 2 ND.
+
+---
+라인: 480
+필드: output
+원본: D 2 ND .
+수정: D 2 ND.
+
+---
+라인: 483
+필드: input
+원본: Bridging structure Length O.A. 44.0 M Beam O.A. 12.0 M Material—Aluminum Alloy Tunnel plating Bottom plating Waterline Main deck Side plating Fender extrusion Transverse Deck beam Floor Figure 17.11 H
+수정: Bridging structure Length O.A. 44.0 M Beam O.A. 12.0 M MaterialAluminum Alloy Tunnel plating Bottom plating Waterline Main deck Side plating Fender extrusion Transverse Deck beam Floor Figure 17.11 Hi
+
+---
+라인: 483
+필드: output
+원본: Bridging structure Length O.A. 44.0 M Beam O.A. 12.0 M Material—Aluminum Alloy Tunnel plating Bottom plating Waterline Main deck Side plating Fender extrusion Transverse Deck beam Floor Figure 17.11 H
+수정: Bridging structure Length O.A. 44.0 M Beam O.A. 12.0 M MaterialAluminum Alloy Tunnel plating Bottom plating Waterline Main deck Side plating Fender extrusion Transverse Deck beam Floor Figure 17.11 Hi
+
+---
+라인: 507
+필드: input
+원본: At the lower end of transverse hold bulkheads in bulk carriers a bulkhead stool is generally ﬁtted (see Figure 18.3 ) at the lower end of the bulkhead.
+수정: At the lower end of transverse hold bulkheads in bulk carriers a bulkhead stool is generally ﬁtted (see Figure 18.3) at the lower end of the bulkhead.
+
+---
+라인: 507
+필드: output
+원본: At the lower end of transverse hold bulkheads in bulk carriers a bulkhead stool is generally ﬁtted (see Figure 18.3 ) at the lower end of the bulkhead.
+수정: At the lower end of transverse hold bulkheads in bulk carriers a bulkhead stool is generally ﬁtted (see Figure 18.3) at the lower end of the bulkhead.
+
+---
+라인: 521
+필드: input
+원본: The horizontal sliding door may also be opened and closed by a hydraulic ram with a hydraulic hand pump and with control at the door and above the bulkhead deck (see Figure 18.4 ).
+수정: The horizontal sliding door may also be opened and closed by a hydraulic ram with a hydraulic hand pump and with control at the door and above the bulkhead deck (see Figure 18.4).
+
+---
+라인: 521
+필드: output
+원본: The horizontal sliding door may also be opened and closed by a hydraulic ram with a hydraulic hand pump and with control at the door and above the bulkhead deck (see Figure 18.4 ).
+수정: The horizontal sliding door may also be opened and closed by a hydraulic ram with a hydraulic hand pump and with control at the door and above the bulkhead deck (see Figure 18.4).
+
+---
+라인: 546
+필드: input
+원본: Main deck Upper deck Ramps ER Hold Lift Tween Angled stern ramp Stern door ER Vessel has adjustable internal ramp giving access to decks Weather deck Main deck Hold Figure 3.3 (a) Roll-on roll-off shi
+수정: Main deck Upper deck Ramps ER Hold Lift Tween Angled stern ramp Stern door ER Vessel has adjustable internal ramp giving access to decks Weather deck Main deck Hold Figure 3.3 Roll-on roll-off ships.
+
+---
+라인: 546
+필드: output
+원본: Main deck Upper deck Ramps ER Hold Lift Tween Angled stern ramp Stern door ER Vessel has adjustable internal ramp giving access to decks Weather deck Main deck Hold Figure 3.3 (a) Roll-on roll-off shi
+수정: Main deck Upper deck Ramps ER Hold Lift Tween Angled stern ramp Stern door ER Vessel has adjustable internal ramp giving access to decks Weather deck Main deck Hold Figure 3.3 Roll-on roll-off ships.
+
+---
+라인: 547
+필드: input
+원본: (b) 7700 TEU container ship.
+수정: 7700 TEU container ship.
+
+---
+라인: 547
+필드: output
+원본: (b) 7700 TEU container ship.
+수정: 7700 TEU container ship.
+
+---
+라인: 553
+필드: input
+원본: For economic reasons the sections are fabricated in lengths from steel plate, and for the hollow rectangular section welded channels or angles may also be used (see Figure 18.7 ).
+수정: For economic reasons the sections are fabricated in lengths from steel plate, and for the hollow rectangular section welded channels or angles may also be used (see Figure 18.7).
+
+---
+라인: 553
+필드: output
+원본: For economic reasons the sections are fabricated in lengths from steel plate, and for the hollow rectangular section welded channels or angles may also be used (see Figure 18.7 ).
+수정: For economic reasons the sections are fabricated in lengths from steel plate, and for the hollow rectangular section welded channels or angles may also be used (see Figure 18.7).
+
+---
+라인: 560
+필드: input
+원본: Machinery space pillars are fabricated from angles, channels, or rolled steel joists, and are heavily bracketed to suitably stiffened members ( Figure 18.7 ).
+수정: Machinery space pillars are fabricated from angles, channels, or rolled steel joists, and are heavily bracketed to suitably stiffened members (Figure 18.7).
+
+---
+라인: 560
+필드: output
+원본: Machinery space pillars are fabricated from angles, channels, or rolled steel joists, and are heavily bracketed to suitably stiffened members ( Figure 18.7 ).
+수정: Machinery space pillars are fabricated from angles, channels, or rolled steel joists, and are heavily bracketed to suitably stiffened members (Figure 18.7).
+
+---
+라인: 562
+필드: input
+원본: The heel is then directly welded to the deck, which is suitably stiffened below (see Figure 18.8 ).
+수정: The heel is then directly welded to the deck, which is suitably stiffened below (see Figure 18.8).
+
+---
+라인: 562
+필드: output
+원본: The heel is then directly welded to the deck, which is suitably stiffened below (see Figure 18.8 ).
+수정: The heel is then directly welded to the deck, which is suitably stiffened below (see Figure 18.8).
+
+---
+라인: 574
+필드: input
+원본: Where the steel deck temperatures fall below 0  C in refrigerated cargo ships the steel will be of Grades B, D, and E depending on thickness.
+수정: Where the steel deck temperatures fall below 0 C in refrigerated cargo ships the steel will be of Grades B, D, and E depending on thickness.
+
+---
+라인: 574
+필드: output
+원본: Where the steel deck temperatures fall below 0  C in refrigerated cargo ships the steel will be of Grades B, D, and E depending on thickness.
+수정: Where the steel deck temperatures fall below 0 C in refrigerated cargo ships the steel will be of Grades B, D, and E depending on thickness.
+
+---
+라인: 577
+필드: input
+원본: Before ﬁtting any form of sheathing the deck is treated to prevent corrosion between the deck plating and sheathing (see Figure 19.2 ).
+수정: Before ﬁtting any form of sheathing the deck is treated to prevent corrosion between the deck plating and sheathing (see Figure 19.2).
+
+---
+라인: 577
+필드: output
+원본: Before ﬁtting any form of sheathing the deck is treated to prevent corrosion between the deck plating and sheathing (see Figure 19.2 ).
+수정: Before ﬁtting any form of sheathing the deck is treated to prevent corrosion between the deck plating and sheathing (see Figure 19.2).
+
+---
+라인: 579
+필드: input
+원본: Deck transverses support the longitudinals, and these are built from a deep web plate with ﬂange or welded face ﬂat, and are bracketed to the side frame ( Figure 19.1 ).
+수정: Deck transverses support the longitudinals, and these are built from a deep web plate with ﬂange or welded face ﬂat, and are bracketed to the side frame (Figure 19.1).
+
+---
+라인: 579
+필드: output
+원본: Deck transverses support the longitudinals, and these are built from a deep web plate with ﬂange or welded face ﬂat, and are bracketed to the side frame ( Figure 19.1 ).
+수정: Deck transverses support the longitudinals, and these are built from a deep web plate with ﬂange or welded face ﬂat, and are bracketed to the side frame (Figure 19.1).
+
+---
+라인: 582
+필드: input
+원본: Each beam is connected to the frame by a ‘beam knee’ and abreast the hatches ‘half beams’ are ﬁtted with a suitable supporting connection at the hatch side girder (see Figure 19.3 ).
+수정: Each beam is connected to the frame by a ‘beam knee’ and abreast the hatches ‘half beams’ are ﬁtted with a suitable supporting connection at the hatch side girder (see Figure 19.3).
+
+---
+라인: 582
+필드: output
+원본: Each beam is connected to the frame by a ‘beam knee’ and abreast the hatches ‘half beams’ are ﬁtted with a suitable supporting connection at the hatch side girder (see Figure 19.3 ).
+수정: Each beam is connected to the frame by a ‘beam knee’ and abreast the hatches ‘half beams’ are ﬁtted with a suitable supporting connection at the hatch side girder (see Figure 19.3).
+
+---
+라인: 585
+필드: input
+원본: At the ends of the hatches heavy transverse beams are ﬁtted and these may be connected at the intersection with the hatch side girder by horizontal gusset plates ( Figure 19.4 ).
+수정: At the ends of the hatches heavy transverse beams are ﬁtted and these may be connected at the intersection with the hatch side girder by horizontal gusset plates (Figure 19.4).
+
+---
+라인: 585
+필드: output
+원본: At the ends of the hatches heavy transverse beams are ﬁtted and these may be connected at the intersection with the hatch side girder by horizontal gusset plates ( Figure 19.4 ).
+수정: At the ends of the hatches heavy transverse beams are ﬁtted and these may be connected at the intersection with the hatch side girder by horizontal gusset plates (Figure 19.4).
+
+---
+라인: 598
+필드: input
+원본: The steel coamings extend down to the lower edge of the deck beams, which are then effectively attached to the coamings ( Figure 19.4 ).
+수정: The steel coamings extend down to the lower edge of the deck beams, which are then effectively attached to the coamings (Figure 19.4).
+
+---
+라인: 598
+필드: output
+원본: The steel coamings extend down to the lower edge of the deck beams, which are then effectively attached to the coamings ( Figure 19.4 ).
+수정: The steel coamings extend down to the lower edge of the deck beams, which are then effectively attached to the coamings (Figure 19.4).
+
+---
+라인: 601
+필드: input
+원본: PULL HATCH COVERS (c) DIRECT PULL HATCH COVERS
+수정: PULL HATCH COVERS DIRECT PULL HATCH COVERS
+
+---
+라인: 601
+필드: output
+원본: PULL HATCH COVERS (c) DIRECT PULL HATCH COVERS
+수정: PULL HATCH COVERS DIRECT PULL HATCH COVERS
+
+---
+라인: 602
+필드: input
+원본: Figure 19.5 Hatch covers—1.
+수정: Figure 19.5 Hatch covers1.
+
+---
+라인: 602
+필드: output
+원본: Figure 19.5 Hatch covers—1.
+수정: Figure 19.5 Hatch covers1.
+
+---
+라인: 604
+필드: input
+원본: Figure 19.6 Hatch covers—2.
+수정: Figure 19.6 Hatch covers2.
+
+---
+라인: 604
+필드: output
+원본: Figure 19.6 Hatch covers—2.
+수정: Figure 19.6 Hatch covers2.
+
+---
+라인: 610
+필드: input
+원본: At the coaming the tarpaulins are made fast by battens and wedges ﬁtted in cleats, and the sections of the cover are held down by locked bars or other securing arrangements (see Figure 19.7 ).
+수정: At the coaming the tarpaulins are made fast by battens and wedges ﬁtted in cleats, and the sections of the cover are held down by locked bars or other securing arrangements (see Figure 19.7).
+
+---
+라인: 610
+필드: output
+원본: At the coaming the tarpaulins are made fast by battens and wedges ﬁtted in cleats, and the sections of the cover are held down by locked bars or other securing arrangements (see Figure 19.7 ).
+수정: At the coaming the tarpaulins are made fast by battens and wedges ﬁtted in cleats, and the sections of the cover are held down by locked bars or other securing arrangements (see Figure 19.7).
+
+---
+라인: 613
+필드: input
+원본: The bulwark consists of a vertical plate stiffened at its top by a strong rail section (often a bulb angle or plate) and is supported by stays from the deck ( Figure 19.7 ).
+수정: The bulwark consists of a vertical plate stiffened at its top by a strong rail section (often a bulb angle or plate) and is supported by stays from the deck (Figure 19.7).
+
+---
+라인: 613
+필드: output
+원본: The bulwark consists of a vertical plate stiffened at its top by a strong rail section (often a bulb angle or plate) and is supported by stays from the deck ( Figure 19.7 ).
+수정: The bulwark consists of a vertical plate stiffened at its top by a strong rail section (often a bulb angle or plate) and is supported by stays from the deck (Figure 19.7).
+
+---
+라인: 627
+필드: input
+원본: AT UPPER DECK DETAIL OF DOOR CLIP (b) WEATHERTIGHT DOOR
+수정: AT UPPER DECK DETAIL OF DOOR CLIP WEATHERTIGHT DOOR
+
+---
+라인: 627
+필드: output
+원본: AT UPPER DECK DETAIL OF DOOR CLIP (b) WEATHERTIGHT DOOR
+수정: AT UPPER DECK DETAIL OF DOOR CLIP WEATHERTIGHT DOOR
+
+---
+라인: 628
+필드: input
+원본: Hinge Hinge Rubber gasket Rubber gasket Bridge deck Bridge front Radiused plate with stiffened edge Handle Flat stiffener Bridge plating + 25% thickness Deck stringer + 20% thickness Sheerstrake + 20%
+수정: Hinge Hinge Rubber gasket Rubber gasket Bridge deck Bridge front Radiused plate with stiffened edge Handle Flat stiffener Bridge plating + 25% thickness Deck stringer + 20% thickness Sheerstrake + 20%
+
+---
+라인: 628
+필드: output
+원본: Hinge Hinge Rubber gasket Rubber gasket Bridge deck Bridge front Radiused plate with stiffened edge Handle Flat stiffener Bridge plating + 25% thickness Deck stringer + 20% thickness Sheerstrake + 20%
+수정: Hinge Hinge Rubber gasket Rubber gasket Bridge deck Bridge front Radiused plate with stiffened edge Handle Flat stiffener Bridge plating + 25% thickness Deck stringer + 20% thickness Sheerstrake + 20%
+
+---
+라인: 642
+필드: input
+원본: An overall view of the fore end structure is shown in Figures 20.1 and 20.2 , and it can be seen that the panting stiffening arrangements are of particular importance.
+수정: An overall view of the fore end structure is shown in Figures 20.1 and 20.2, and it can be seen that the panting stiffening arrangements are of particular importance.
+
+---
+라인: 642
+필드: output
+원본: An overall view of the fore end structure is shown in Figures 20.1 and 20.2 , and it can be seen that the panting stiffening arrangements are of particular importance.
+수정: An overall view of the fore end structure is shown in Figures 20.1 and 20.2, and it can be seen that the panting stiffening arrangements are of particular importance.
+
+---
+라인: 647
+필드: input
+원본: The solid round bar is welded inside the keel plate at its lower end, and inside the radiused stem plate at its upper end, the shell being welded each side ( Figure 20.1 ).
+수정: The solid round bar is welded inside the keel plate at its lower end, and inside the radiused stem plate at its upper end, the shell being welded each side (Figure 20.1).
+
+---
+라인: 647
+필드: output
+원본: The solid round bar is welded inside the keel plate at its lower end, and inside the radiused stem plate at its upper end, the shell being welded each side ( Figure 20.1 ).
+수정: The solid round bar is welded inside the keel plate at its lower end, and inside the radiused stem plate at its upper end, the shell being welded each side (Figure 20.1).
+
+---
+라인: 653
+필드: input
+원본: Transverses are ﬁtted at about every ﬁfth frame in long bulbs (see Figure 20.3 ).
+수정: Transverses are ﬁtted at about every ﬁfth frame in long bulbs (see Figure 20.3).
+
+---
+라인: 653
+필드: output
+원본: Transverses are ﬁtted at about every ﬁfth frame in long bulbs (see Figure 20.3 ).
+수정: Transverses are ﬁtted at about every ﬁfth frame in long bulbs (see Figure 20.3).
+
+---
+라인: 655
+필드: input
+원본: Chain locker A chain locker is often arranged in the position forward of the collision bulkhead shown in Figure 20.1 , below either the main deck or the second deck.
+수정: Chain locker A chain locker is often arranged in the position forward of the collision bulkhead shown in Figure 20.1, below either the main deck or the second deck.
+
+---
+라인: 655
+필드: output
+원본: Chain locker A chain locker is often arranged in the position forward of the collision bulkhead shown in Figure 20.1 , below either the main deck or the second deck.
+수정: Chain locker A chain locker is often arranged in the position forward of the collision bulkhead shown in Figure 20.1, below either the main deck or the second deck.
+
+---
+라인: 657
+필드: input
+원본: Port and starboard cables are stowed separately in the locker, and the inboard ends of each are secured to the bottom of the center-line bulkhead or underside of deck (see Figure 20.4 ).
+수정: Port and starboard cables are stowed separately in the locker, and the inboard ends of each are secured to the bottom of the center-line bulkhead or underside of deck (see Figure 20.4).
+
+---
+라인: 657
+필드: output
+원본: Port and starboard cables are stowed separately in the locker, and the inboard ends of each are secured to the bottom of the center-line bulkhead or underside of deck (see Figure 20.4 ).
+수정: Port and starboard cables are stowed separately in the locker, and the inboard ends of each are secured to the bottom of the center-line bulkhead or underside of deck (see Figure 20.4).
+
+---
+라인: 665
+필드: input
+원본: . 4 stringer No. 2 stringer No. 1 stringer FORE PEAK Fore peak bulkhead Non W.T. flat Transverse Transverse Breast hooks STRINGER No.3 stringer STRINGER L Figure 20.3 Bulbous bow.
+수정: 4 stringer No. 2 stringer No. 1 stringer FORE PEAK Fore peak bulkhead Non W.T. flat Transverse Transverse Breast hooks STRINGER No.3 stringer STRINGER L Figure 20.3 Bulbous bow.
+
+---
+라인: 665
+필드: output
+원본: . 4 stringer No. 2 stringer No. 1 stringer FORE PEAK Fore peak bulkhead Non W.T. flat Transverse Transverse Breast hooks STRINGER No.3 stringer STRINGER L Figure 20.3 Bulbous bow.
+수정: 4 stringer No. 2 stringer No. 1 stringer FORE PEAK Fore peak bulkhead Non W.T. flat Transverse Transverse Breast hooks STRINGER No.3 stringer STRINGER L Figure 20.3 Bulbous bow.
+
+---
+라인: 670
+필드: input
+원본: Tubular hawse pipes are generally fabricated, and castings are welded at the shell and deck to prevent chaﬁng (see Figure 20.5 ).
+수정: Tubular hawse pipes are generally fabricated, and castings are welded at the shell and deck to prevent chaﬁng (see Figure 20.5).
+
+---
+라인: 670
+필드: output
+원본: Tubular hawse pipes are generally fabricated, and castings are welded at the shell and deck to prevent chaﬁng (see Figure 20.5 ).
+수정: Tubular hawse pipes are generally fabricated, and castings are welded at the shell and deck to prevent chaﬁng (see Figure 20.5).
+
+---
+라인: 677
+필드: input
+원본: The cruiser stern (see Figure 21.1 ) was for many years the favored stern type for ocean-going ships, but today most of these vessels have a transom stern (see Figure 21.2 ).
+수정: The cruiser stern (see Figure 21.1) was for many years the favored stern type for ocean-going ships, but today most of these vessels have a transom stern (see Figure 21.2).
+
+---
+라인: 677
+필드: output
+원본: The cruiser stern (see Figure 21.1 ) was for many years the favored stern type for ocean-going ships, but today most of these vessels have a transom stern (see Figure 21.2 ).
+수정: The cruiser stern (see Figure 21.1) was for many years the favored stern type for ocean-going ships, but today most of these vessels have a transom stern (see Figure 21.2).
+
+---
+라인: 687
+필드: input
+원본: Cant frames are not required where the transom stern is adopted, as the ﬂat stern plating may be stiffened with vertical stiffeners ( Figure 21.2 ).
+수정: Cant frames are not required where the transom stern is adopted, as the ﬂat stern plating may be stiffened with vertical stiffeners (Figure 21.2).
+
+---
+라인: 687
+필드: output
+원본: Cant frames are not required where the transom stern is adopted, as the ﬂat stern plating may be stiffened with vertical stiffeners ( Figure 21.2 ).
+수정: Cant frames are not required where the transom stern is adopted, as the ﬂat stern plating may be stiffened with vertical stiffeners (Figure 21.2).
+
+---
+라인: 693
+필드: input
+원본: Fabricated stern frames are often produced by the shipyard itself, plates and bars being welded together to produce a form similar to that obtained by casting (see Figure 21.3 ).
+수정: Fabricated stern frames are often produced by the shipyard itself, plates and bars being welded together to produce a form similar to that obtained by casting (see Figure 21.3).
+
+---
+라인: 693
+필드: output
+원본: Fabricated stern frames are often produced by the shipyard itself, plates and bars being welded together to produce a form similar to that obtained by casting (see Figure 21.3 ).
+수정: Fabricated stern frames are often produced by the shipyard itself, plates and bars being welded together to produce a form similar to that obtained by casting (see Figure 21.3).
+
+---
+라인: 699
+필드: input
+원본: Side shell plates are directly welded to the stern frame ( Figure 21.3 ), a ‘rabbet’, i.e. a recess, sometimes being provided to allow the shell plate to ﬁt ﬂush with the sternpost section.
+수정: Side shell plates are directly welded to the stern frame (Figure 21.3), a ‘rabbet’, i.e. a recess, sometimes being provided to allow the shell plate to ﬁt ﬂush with the sternpost section.
+
+---
+라인: 699
+필드: output
+원본: Side shell plates are directly welded to the stern frame ( Figure 21.3 ), a ‘rabbet’, i.e. a recess, sometimes being provided to allow the shell plate to ﬁt ﬂush with the sternpost section.
+수정: Side shell plates are directly welded to the stern frame (Figure 21.3), a ‘rabbet’, i.e. a recess, sometimes being provided to allow the shell plate to ﬁt ﬂush with the sternpost section.
+
+---
+라인: 701
+필드: input
+원본: Two common forms of rudder are shown in Figure 21.4 , each being associated with one of the stern frames shown in Figure 21.3 .
+수정: Two common forms of rudder are shown in Figure 21.4, each being associated with one of the stern frames shown in Figure 21.3.
+
+---
+라인: 701
+필드: output
+원본: Two common forms of rudder are shown in Figure 21.4 , each being associated with one of the stern frames shown in Figure 21.3 .
+수정: Two common forms of rudder are shown in Figure 21.4, each being associated with one of the stern frames shown in Figure 21.3.
+
+---
+라인: 703
+필드: input
+원본: This may be achieved by welding ﬂat bars to the webs prior to ﬁtting the closing plate, and then slot welding the plate as shown in Figure 21.4 .
+수정: This may be achieved by welding ﬂat bars to the webs prior to ﬁtting the closing plate, and then slot welding the plate as shown in Figure 21.4.
+
+---
+라인: 703
+필드: output
+원본: This may be achieved by welding ﬂat bars to the webs prior to ﬁtting the closing plate, and then slot welding the plate as shown in Figure 21.4 .
+수정: This may be achieved by welding ﬂat bars to the webs prior to ﬁtting the closing plate, and then slot welding the plate as shown in Figure 21.4.
+
+---
+라인: 704
+필드: input
+원본: Other rudders may have a cast frame and webs with welded side and closing plates, which are also shown in Figure 21.4 .
+수정: Other rudders may have a cast frame and webs with welded side and closing plates, which are also shown in Figure 21.4.
+
+---
+라인: 704
+필드: output
+원본: Other rudders may have a cast frame and webs with welded side and closing plates, which are also shown in Figure 21.4 .
+수정: Other rudders may have a cast frame and webs with welded side and closing plates, which are also shown in Figure 21.4.
+
+---
+라인: 711
+필드: input
+원본: A rudder bearer may incorporate the watertight gland ﬁtted at the upper end of the rudder trunk, as shown in Figure 21.5 .
+수정: A rudder bearer may incorporate the watertight gland ﬁtted at the upper end of the rudder trunk, as shown in Figure 21.5.
+
+---
+라인: 711
+필드: output
+원본: A rudder bearer may incorporate the watertight gland ﬁtted at the upper end of the rudder trunk, as shown in Figure 21.5 .
+수정: A rudder bearer may incorporate the watertight gland ﬁtted at the upper end of the rudder trunk, as shown in Figure 21.5.
+
+---
+라인: 712
+필드: input
+원본: Rudder trunk Rudder stocks are carried in the rudder trunk, which as a rule is not made watertight at its lower end, but a watertight gland is ﬁtted at the top of the trunk where the stock enters the 
+수정: Rudder trunk Rudder stocks are carried in the rudder trunk, which as a rule is not made watertight at its lower end, but a watertight gland is ﬁtted at the top of the trunk where the stock enters the 
+
+---
+라인: 712
+필드: output
+원본: Rudder trunk Rudder stocks are carried in the rudder trunk, which as a rule is not made watertight at its lower end, but a watertight gland is ﬁtted at the top of the trunk where the stock enters the 
+수정: Rudder trunk Rudder stocks are carried in the rudder trunk, which as a rule is not made watertight at its lower end, but a watertight gland is ﬁtted at the top of the trunk where the stock enters the 
+
+---
+라인: 716
+필드: input
+원본: Both types of sterntube are illustrated in Figure 21.6 .
+수정: Both types of sterntube are illustrated in Figure 21.6.
+
+---
+라인: 716
+필드: output
+원본: Both types of sterntube are illustrated in Figure 21.6 .
+수정: Both types of sterntube are illustrated in Figure 21.6.
+
+---
+라인: 730
+필드: input
+원본: The arms carrying the shafts extend from this section, which may be split in two or more parts in some instances to aid alignment when it is erected (see Figure 21.7 ).
+수정: The arms carrying the shafts extend from this section, which may be split in two or more parts in some instances to aid alignment when it is erected (see Figure 21.7).
+
+---
+라인: 730
+필드: output
+원본: The arms carrying the shafts extend from this section, which may be split in two or more parts in some instances to aid alignment when it is erected (see Figure 21.7 ).
+수정: The arms carrying the shafts extend from this section, which may be split in two or more parts in some instances to aid alignment when it is erected (see Figure 21.7).
+
+---
+라인: 731
+필드: input
+원본: Although on smaller vessels the upper palms may simply be welded to a reinforcing pad at the shell, on larger vessels the upper ends of the struts enter the main hull and are connected to a heavy ﬂoor
+수정: Although on smaller vessels the upper palms may simply be welded to a reinforcing pad at the shell, on larger vessels the upper ends of the struts enter the main hull and are connected to a heavy ﬂoor
+
+---
+라인: 731
+필드: output
+원본: Although on smaller vessels the upper palms may simply be welded to a reinforcing pad at the shell, on larger vessels the upper ends of the struts enter the main hull and are connected to a heavy ﬂoor
+수정: Although on smaller vessels the upper palms may simply be welded to a reinforcing pad at the shell, on larger vessels the upper ends of the struts enter the main hull and are connected to a heavy ﬂoor
+
+---
+라인: 748
+필드: input
+원본: Queen Mary 2: Genesis of a Queen , The Royal Institution of Naval Architects, 2004.
+수정: Queen Mary 2: Genesis of a Queen, The Royal Institution of Naval Architects, 2004.
+
+---
+라인: 748
+필드: output
+원본: Queen Mary 2: Genesis of a Queen , The Royal Institution of Naval Architects, 2004.
+수정: Queen Mary 2: Genesis of a Queen, The Royal Institution of Naval Architects, 2004.
+
+---
+라인: 749
+필드: input
+원본: The machinery is aft, and an expansion trunk, if ﬁtted, is on the center line in way of the tank spaces (see Figure 22.1 ).
+수정: The machinery is aft, and an expansion trunk, if ﬁtted, is on the center line in way of the tank spaces (see Figure 22.1).
+
+---
+라인: 749
+필드: output
+원본: The machinery is aft, and an expansion trunk, if ﬁtted, is on the center line in way of the tank spaces (see Figure 22.1 ).
+수정: The machinery is aft, and an expansion trunk, if ﬁtted, is on the center line in way of the tank spaces (see Figure 22.1).
+
+---
+라인: 759
+필드: input
+원본: Grade E plates, which we have equated with the ‘crack arrester strake’ concept (see Chapter 8), will be seen to be required over the midship region in ships exceeding 250 meters in length and are also
+수정: Grade E plates, which we have equated with the ‘crack arrester strake’ concept (see Chapter 8), will be seen to be required over the midship region in ships exceeding 250 meters in length and are also
+
+---
+라인: 759
+필드: output
+원본: Grade E plates, which we have equated with the ‘crack arrester strake’ concept (see Chapter 8), will be seen to be required over the midship region in ships exceeding 250 meters in length and are also
+수정: Grade E plates, which we have equated with the ‘crack arrester strake’ concept (see Chapter 8), will be seen to be required over the midship region in ships exceeding 250 meters in length and are also
+
+---
+라인: 761
+필드: input
+원본: The extent of this plating and section material is indicated in Figure 22.2 .
+수정: The extent of this plating and section material is indicated in Figure 22.2.
+
+---
+라인: 761
+필드: output
+원본: The extent of this plating and section material is indicated in Figure 22.2 .
+수정: The extent of this plating and section material is indicated in Figure 22.2.
+
+---
+라인: 764
+필드: input
+원본: framed side shell, inner hull, and longitudinal bulkheads are all supported by transverse webs aligned with the transverse ﬂoors and deck transverses (see Figure 22.3 ).
+수정: framed side shell, inner hull, and longitudinal bulkheads are all supported by transverse webs aligned with the transverse ﬂoors and deck transverses (see Figure 22.3).
+
+---
+라인: 764
+필드: output
+원본: framed side shell, inner hull, and longitudinal bulkheads are all supported by transverse webs aligned with the transverse ﬂoors and deck transverses (see Figure 22.3 ).
+수정: framed side shell, inner hull, and longitudinal bulkheads are all supported by transverse webs aligned with the transverse ﬂoors and deck transverses (see Figure 22.3).
+
+---
+라인: 767
+필드: input
+원본: For products carriers the deck longitudinals may be ﬁtted above the deck to provide a ﬂush internal tank surface for cleaning (see Figure 22.4 ).
+수정: For products carriers the deck longitudinals may be ﬁtted above the deck to provide a ﬂush internal tank surface for cleaning (see Figure 22.4).
+
+---
+라인: 767
+필드: output
+원본: For products carriers the deck longitudinals may be ﬁtted above the deck to provide a ﬂush internal tank surface for cleaning (see Figure 22.4 ).
+수정: For products carriers the deck longitudinals may be ﬁtted above the deck to provide a ﬂush internal tank surface for cleaning (see Figure 22.4).
+
+---
+라인: 769
+필드: input
+원본: In way of the center tank a bracketed deck transverse supports the deck longitudinals and large plate brackets are ﬁtted between the longitudinal bulkheads and inner bottom (see Figure 22.2 ).
+수정: In way of the center tank a bracketed deck transverse supports the deck longitudinals and large plate brackets are ﬁtted between the longitudinal bulkheads and inner bottom (see Figure 22.2).
+
+---
+라인: 769
+필드: output
+원본: In way of the center tank a bracketed deck transverse supports the deck longitudinals and large plate brackets are ﬁtted between the longitudinal bulkheads and inner bottom (see Figure 22.2 ).
+수정: In way of the center tank a bracketed deck transverse supports the deck longitudinals and large plate brackets are ﬁtted between the longitudinal bulkheads and inner bottom (see Figure 22.2).
+
+---
+라인: 770
+필드: input
+원본: Within the double-hull side space they form a solid web and are supported by horizontal stringers (see Figure 22.2 ).
+수정: Within the double-hull side space they form a solid web and are supported by horizontal stringers (see Figure 22.2).
+
+---
+라인: 770
+필드: output
+원본: Within the double-hull side space they form a solid web and are supported by horizontal stringers (see Figure 22.2 ).
+수정: Within the double-hull side space they form a solid web and are supported by horizontal stringers (see Figure 22.2).
+
+---
+라인: 771
+필드: input
+원본: In the wing tank space they support the deck longitudinals and fore and aft bulkhead longitudinals, and in turn are supported by a mid-height longitudinal plate stringer (see Figure 22.2 ).
+수정: In the wing tank space they support the deck longitudinals and fore and aft bulkhead longitudinals, and in turn are supported by a mid-height longitudinal plate stringer (see Figure 22.2).
+
+---
+라인: 771
+필드: output
+원본: In the wing tank space they support the deck longitudinals and fore and aft bulkhead longitudinals, and in turn are supported by a mid-height longitudinal plate stringer (see Figure 22.2 ).
+수정: In the wing tank space they support the deck longitudinals and fore and aft bulkhead longitudinals, and in turn are supported by a mid-height longitudinal plate stringer (see Figure 22.2).
+
+---
+라인: 810
+필드: input
+원본: A gravity tank (G) is an independent or integral tank that has a design pressure of not more than 0.7 bar gage at the top of the tank.
+수정: A gravity tank is an independent or integral tank that has a design pressure of not more than 0.7 bar gage at the top of the tank.
+
+---
+라인: 810
+필드: output
+원본: A gravity tank (G) is an independent or integral tank that has a design pressure of not more than 0.7 bar gage at the top of the tank.
+수정: A gravity tank is an independent or integral tank that has a design pressure of not more than 0.7 bar gage at the top of the tank.
+
+---
+라인: 811
+필드: input
+원본: A pressure tank (P) is an independent tank that has a design pressure of more than 0.7 bar gage.
+수정: A pressure tank is an independent tank that has a design pressure of more than 0.7 bar gage.
+
+---
+라인: 811
+필드: output
+원본: A pressure tank (P) is an independent tank that has a design pressure of more than 0.7 bar gage.
+수정: A pressure tank is an independent tank that has a design pressure of more than 0.7 bar gage.
+
+---
+라인: 815
+필드: input
+원본: Common Structural Rules For Double Hull Oil Tankers .
+수정: Common Structural Rules For Double Hull Oil Tankers.
+
+---
+라인: 815
+필드: output
+원본: Common Structural Rules For Double Hull Oil Tankers .
+수정: Common Structural Rules For Double Hull Oil Tankers.
+
+---
+라인: 823
+필드: input
+원본: Methane has a critical pressure of 45.6 kg/cm 2 at a critical temperature of  82.5  C, i.e. the pressure and temperature above which liquiﬁcation cannot occur, so that methane can only be liqueﬁed by 
+수정: Methane has a critical pressure of 45.6 kg/cm 2 at a critical temperature of 82.5 C, i.e. the pressure and temperature above which liquiﬁcation cannot occur, so that methane can only be liqueﬁed by pr
+
+---
+라인: 823
+필드: output
+원본: Methane has a critical pressure of 45.6 kg/cm 2 at a critical temperature of  82.5  C, i.e. the pressure and temperature above which liquiﬁcation cannot occur, so that methane can only be liqueﬁed by 
+수정: Methane has a critical pressure of 45.6 kg/cm 2 at a critical temperature of 82.5 C, i.e. the pressure and temperature above which liquiﬁcation cannot occur, so that methane can only be liqueﬁed by pr
+
+---
+라인: 833
+필드: input
+원본: Little Length 77.6 m Beam Depth 5.8 m Deadweight 1680 tonnes Speed 10 k Expansion trunk Wing tank Center tank Wing tank Double bottom (a) Length B.P. 330 m Beam 53.3 m Depth 32 m
+수정: Little Length 77.6 m Beam Depth 5.8 m Deadweight 1680 tonnes Speed 10 k Expansion trunk Wing tank Center tank Wing tank Double bottom Length B.P. 330 m Beam 53.3 m Depth 32 m
+
+---
+라인: 833
+필드: output
+원본: Little Length 77.6 m Beam Depth 5.8 m Deadweight 1680 tonnes Speed 10 k Expansion trunk Wing tank Center tank Wing tank Double bottom (a) Length B.P. 330 m Beam 53.3 m Depth 32 m
+수정: Little Length 77.6 m Beam Depth 5.8 m Deadweight 1680 tonnes Speed 10 k Expansion trunk Wing tank Center tank Wing tank Double bottom Length B.P. 330 m Beam 53.3 m Depth 32 m
+
+---
+라인: 834
+필드: input
+원본: Deadweight 332,000 tonnes Speed 14½ k Center tank tank tank Wing Wing (b) DOUBLE-HULL TANKER SBT SBT SBT SBT SBT SBT SBT Center tank tank tank Wing Wing MID-DECK TANKER PRINCIPLE SBT SBT Oil Oil Oil O
+수정: Deadweight 332,000 tonnes Speed 14½ k Center tank tank tank Wing Wing DOUBLE-HULL TANKER SBT SBT SBT SBT SBT SBT SBT Center tank tank tank Wing Wing MID-DECK TANKER PRINCIPLE SBT SBT Oil Oil Oil Oil M
+
+---
+라인: 834
+필드: output
+원본: Deadweight 332,000 tonnes Speed 14½ k Center tank tank tank Wing Wing (b) DOUBLE-HULL TANKER SBT SBT SBT SBT SBT SBT SBT Center tank tank tank Wing Wing MID-DECK TANKER PRINCIPLE SBT SBT Oil Oil Oil O
+수정: Deadweight 332,000 tonnes Speed 14½ k Center tank tank tank Wing Wing DOUBLE-HULL TANKER SBT SBT SBT SBT SBT SBT SBT Center tank tank tank Wing Wing MID-DECK TANKER PRINCIPLE SBT SBT Oil Oil Oil Oil M
+
+---
+라인: 835
+필드: input
+원본: Membrane tanks are primarily used for LNG cargoes (see Figure 23.4 ).
+수정: Membrane tanks are primarily used for LNG cargoes (see Figure 23.4).
+
+---
+라인: 835
+필드: output
+원본: Membrane tanks are primarily used for LNG cargoes (see Figure 23.4 ).
+수정: Membrane tanks are primarily used for LNG cargoes (see Figure 23.4).
+
+---
+라인: 837
+필드: input
+원본: LPG at or near atmospheric pressure or LNG may be carried in such tanks (see Figure 23.2 ).
+수정: LPG at or near atmospheric pressure or LNG may be carried in such tanks (see Figure 23.2).
+
+---
+라인: 837
+필드: output
+원본: LPG at or near atmospheric pressure or LNG may be carried in such tanks (see Figure 23.2 ).
+수정: LPG at or near atmospheric pressure or LNG may be carried in such tanks (see Figure 23.2).
+
+---
+라인: 838
+필드: input
+원본: The overall design concept of these tanks is based on the so-called ‘crack detection before failure principle’, which permits their use with a reduced secondary barrier (see Figure 23.3 ).
+수정: The overall design concept of these tanks is based on the so-called ‘crack detection before failure principle’, which permits their use with a reduced secondary barrier (see Figure 23.3).
+
+---
+라인: 838
+필드: output
+원본: The overall design concept of these tanks is based on the so-called ‘crack detection before failure principle’, which permits their use with a reduced secondary barrier (see Figure 23.3 ).
+수정: The overall design concept of these tanks is based on the so-called ‘crack detection before failure principle’, which permits their use with a reduced secondary barrier (see Figure 23.3).
+
+---
+라인: 843
+필드: input
+원본: and are designed for a maximum pressure of about 8 kg/cm 2 .
+수정: and are designed for a maximum pressure of about 8 kg/cm 2.
+
+---
+라인: 843
+필드: output
+원본: and are designed for a maximum pressure of about 8 kg/cm 2 .
+수정: and are designed for a maximum pressure of about 8 kg/cm 2.
+
+---
+라인: 852
+필드: input
+원본: Tanks consist of either an aluminum alloy or 9% nickel steel sphere welded to a vertical cylindrical skirt of the same material, which is its only connection to the hull (see Figure 23.3 ).
+수정: Tanks consist of either an aluminum alloy or 9% nickel steel sphere welded to a vertical cylindrical skirt of the same material, which is its only connection to the hull (see Figure 23.3).
+
+---
+라인: 852
+필드: output
+원본: Tanks consist of either an aluminum alloy or 9% nickel steel sphere welded to a vertical cylindrical skirt of the same material, which is its only connection to the hull (see Figure 23.3 ).
+수정: Tanks consist of either an aluminum alloy or 9% nickel steel sphere welded to a vertical cylindrical skirt of the same material, which is its only connection to the hull (see Figure 23.3).
+
+---
+라인: 858
+필드: input
+원본: Insulation consists of plywood boxes ﬁlled with perlite (see Figure 23.4 ).
+수정: Insulation consists of plywood boxes ﬁlled with perlite (see Figure 23.4).
+
+---
+라인: 858
+필드: output
+원본: Insulation consists of plywood boxes ﬁlled with perlite (see Figure 23.4 ).
+수정: Insulation consists of plywood boxes ﬁlled with perlite (see Figure 23.4).
+
+---
+라인: 864
+필드: input
+원본: Further reading Code for the Construction and Equipment of Ships Carrying Liqueﬁed Gases in Bulk .
+수정: Further reading Code for the Construction and Equipment of Ships Carrying Liqueﬁed Gases in Bulk.
+
+---
+라인: 864
+필드: output
+원본: Further reading Code for the Construction and Equipment of Ships Carrying Liqueﬁed Gases in Bulk .
+수정: Further reading Code for the Construction and Equipment of Ships Carrying Liqueﬁed Gases in Bulk.
+
+---
+라인: 865
+필드: input
+원본: Ffooks R: Natural Gas by Sea: The Development of a New Technology , ed 2. 1993, Witherby & Co. Ltd.
+수정: Ffooks R: Natural Gas by Sea: The Development of a New Technology, ed 2. 1993, Witherby & Co. Ltd.
+
+---
+라인: 865
+필드: output
+원본: Ffooks R: Natural Gas by Sea: The Development of a New Technology , ed 2. 1993, Witherby & Co. Ltd.
+수정: Ffooks R: Natural Gas by Sea: The Development of a New Technology, ed 2. 1993, Witherby & Co. Ltd.
+
+---
+라인: 870
+필드: input
+원본: This unilateral action by the United States government made it a requirement that existing single-hull oil tankers operating in United States waters were to be phased out by an early date, after which
+수정: This unilateral action by the United States government made it a requirement that existing single-hull oil tankers operating in United States waters were to be phased out by an early date, after which
+
+---
+라인: 870
+필드: output
+원본: This unilateral action by the United States government made it a requirement that existing single-hull oil tankers operating in United States waters were to be phased out by an early date, after which
+수정: This unilateral action by the United States government made it a requirement that existing single-hull oil tankers operating in United States waters were to be phased out by an early date, after which
+
+---
+라인: 871
+필드: input
+원본: The cargo tank space (see Figure 3.6 ) had a structural deck running its full length at about 0.25–0.5 the depth from the bottom, which ensures that should the bottom be ruptured the upward pressure e
+수정: The cargo tank space (see Figure 3.6) had a structural deck running its full length at about 0.25–0.5 the depth from the bottom, which ensures that should the bottom be ruptured the upward pressure ex
+
+---
+라인: 871
+필드: output
+원본: The cargo tank space (see Figure 3.6 ) had a structural deck running its full length at about 0.25–0.5 the depth from the bottom, which ensures that should the bottom be ruptured the upward pressure e
+수정: The cargo tank space (see Figure 3.6) had a structural deck running its full length at about 0.25–0.5 the depth from the bottom, which ensures that should the bottom be ruptured the upward pressure ex
+
+---
+라인: 878
+필드: input
+원본: These cranes may also be used for handling pontoon hatch covers and are generally ﬁtted to one side of the ship (see Figure 24.2 ) with the structure below substantially reinforced to carry the loadin
+수정: These cranes may also be used for handling pontoon hatch covers and are generally ﬁtted to one side of the ship (see Figure 24.2) with the structure below substantially reinforced to carry the loading
+
+---
+라인: 878
+필드: output
+원본: These cranes may also be used for handling pontoon hatch covers and are generally ﬁtted to one side of the ship (see Figure 24.2 ) with the structure below substantially reinforced to carry the loadin
+수정: These cranes may also be used for handling pontoon hatch covers and are generally ﬁtted to one side of the ship (see Figure 24.2) with the structure below substantially reinforced to carry the loading
+
+---
+라인: 881
+필드: input
+원본: Pairs of cranes at one end of the hatch or at opposite corners of the hatch and with an ability to work through 360  can provide a full range of load/discharge options for a ship.
+수정: Pairs of cranes at one end of the hatch or at opposite corners of the hatch and with an ability to work through 360 can provide a full range of load/discharge options for a ship.
+
+---
+라인: 881
+필드: output
+원본: Pairs of cranes at one end of the hatch or at opposite corners of the hatch and with an ability to work through 360  can provide a full range of load/discharge options for a ship.
+수정: Pairs of cranes at one end of the hatch or at opposite corners of the hatch and with an ability to work through 360 can provide a full range of load/discharge options for a ship.
+
+---
+라인: 887
+필드: input
+원본: Topping block Span Span lead Cargo purchase Slewing guy Cargo lead SINGLE SWINGING DERRICK (a) Heel block Standing guy (b) UNION PURCHASE RIG Outboard boom Standing guy Carg o runner Boom plumbing hat
+수정: Topping block Span Span lead Cargo purchase Slewing guy Cargo lead SINGLE SWINGING DERRICK Heel block Standing guy UNION PURCHASE RIG Outboard boom Standing guy Carg o runner Boom plumbing hatch Hatch
+
+---
+라인: 887
+필드: output
+원본: Topping block Span Span lead Cargo purchase Slewing guy Cargo lead SINGLE SWINGING DERRICK (a) Heel block Standing guy (b) UNION PURCHASE RIG Outboard boom Standing guy Carg o runner Boom plumbing hat
+수정: Topping block Span Span lead Cargo purchase Slewing guy Cargo lead SINGLE SWINGING DERRICK Heel block Standing guy UNION PURCHASE RIG Outboard boom Standing guy Carg o runner Boom plumbing hatch Hatch
+
+---
+라인: 900
+필드: input
+원본: Stiffened plate webs at the ship’s center line in the tweens and heavier stiffeners on the transverse bulkhead in the hold then provide the additional strengthening below decks (see Figure 24.3 ).
+수정: Stiffened plate webs at the ship’s center line in the tweens and heavier stiffeners on the transverse bulkhead in the hold then provide the additional strengthening below decks (see Figure 24.3).
+
+---
+라인: 900
+필드: output
+원본: Stiffened plate webs at the ship’s center line in the tweens and heavier stiffeners on the transverse bulkhead in the hold then provide the additional strengthening below decks (see Figure 24.3 ).
+수정: Stiffened plate webs at the ship’s center line in the tweens and heavier stiffeners on the transverse bulkhead in the hold then provide the additional strengthening below decks (see Figure 24.3).
+
+---
+라인: 904
+필드: input
+원본: derrick booms may be used in ‘union purchase’ ( Figure 24.4 b), the booms being ﬁxed in the overboard and inboard positions.
+수정: derrick booms may be used in ‘union purchase’ (Figure 24.4 b), the booms being ﬁxed in the overboard and inboard positions.
+
+---
+라인: 904
+필드: output
+원본: derrick booms may be used in ‘union purchase’ ( Figure 24.4 b), the booms being ﬁxed in the overboard and inboard positions.
+수정: derrick booms may be used in ‘union purchase’ (Figure 24.4 b), the booms being ﬁxed in the overboard and inboard positions.
+
+---
+라인: 909
+필드: input
+원본: Where a weight exceeding the safe working load of the derricks is to be lifted, the ‘yo-yo’ rig is sometimes adopted ( Figure 24.4 d).
+수정: Where a weight exceeding the safe working load of the derricks is to be lifted, the ‘yo-yo’ rig is sometimes adopted (Figure 24.4 d).
+
+---
+라인: 909
+필드: output
+원본: Where a weight exceeding the safe working load of the derricks is to be lifted, the ‘yo-yo’ rig is sometimes adopted ( Figure 24.4 d).
+수정: Where a weight exceeding the safe working load of the derricks is to be lifted, the ‘yo-yo’ rig is sometimes adopted (Figure 24.4 d).
+
+---
+라인: 912
+필드: input
+원본: Of particular note in the very heavy lifting range is the patent Stu¨lken derrick ( Figure 24.5 b) marketed by Blohm and Voss AG, which may have a safe working load of between 80 and 300 tonnes.
+수정: Of particular note in the very heavy lifting range is the patent Stu¨lken derrick (Figure 24.5 b) marketed by Blohm and Voss AG, which may have a safe working load of between 80 and 300 tonnes.
+
+---
+라인: 912
+필드: output
+원본: Of particular note in the very heavy lifting range is the patent Stu¨lken derrick ( Figure 24.5 b) marketed by Blohm and Voss AG, which may have a safe working load of between 80 and 300 tonnes.
+수정: Of particular note in the very heavy lifting range is the patent Stu¨lken derrick (Figure 24.5 b) marketed by Blohm and Voss AG, which may have a safe working load of between 80 and 300 tonnes.
+
+---
+라인: 916
+필드: input
+원본: Force diagrams are shown for the rig components of the single swinging derrick illustrated in Figure 24.6 .
+수정: Force diagrams are shown for the rig components of the single swinging derrick illustrated in Figure 24.6.
+
+---
+라인: 916
+필드: output
+원본: Force diagrams are shown for the rig components of the single swinging derrick illustrated in Figure 24.6 .
+수정: Force diagrams are shown for the rig components of the single swinging derrick illustrated in Figure 24.6.
+
+---
+라인: 917
+필드: input
+원본: For a safe working load of 15 tonnes or less the forces may be calculated with the derrick at angles of 30  and 70  to the horizontal unless the owner speciﬁes that the derrick is to be used at a lowe
+수정: For a safe working load of 15 tonnes or less the forces may be calculated with the derrick at angles of 30 and 70 to the horizontal unless the owner speciﬁes that the derrick is to be used at a lower 
+
+---
+라인: 917
+필드: output
+원본: For a safe working load of 15 tonnes or less the forces may be calculated with the derrick at angles of 30  and 70  to the horizontal unless the owner speciﬁes that the derrick is to be used at a lowe
+수정: For a safe working load of 15 tonnes or less the forces may be calculated with the derrick at angles of 30 and 70 to the horizontal unless the owner speciﬁes that the derrick is to be used at a lower 
+
+---
+라인: 928
+필드: input
+원본: The ‘limiting height’ is that height below which all positions of the lifted weight will result in an included angle between the outboard and inboard runners of less than 120  .
+수정: The ‘limiting height’ is that height below which all positions of the lifted weight will result in an included angle between the outboard and inboard runners of less than 120 .
+
+---
+라인: 928
+필드: output
+원본: The ‘limiting height’ is that height below which all positions of the lifted weight will result in an included angle between the outboard and inboard runners of less than 120  .
+수정: The ‘limiting height’ is that height below which all positions of the lifted weight will result in an included angle between the outboard and inboard runners of less than 120 .
+
+---
+라인: 929
+필드: input
+원본: At 120  , if the boom heads are level the inboard and outboard runners will experience a force equivalent to the cargo weight (see Figure 24.7 ).
+수정: At 120 , if the boom heads are level the inboard and outboard runners will experience a force equivalent to the cargo weight (see Figure 24.7).
+
+---
+라인: 929
+필드: output
+원본: At 120  , if the boom heads are level the inboard and outboard runners will experience a force equivalent to the cargo weight (see Figure 24.7 ).
+수정: At 120 , if the boom heads are level the inboard and outboard runners will experience a force equivalent to the cargo weight (see Figure 24.7).
+
+---
+라인: 937
+필드: input
+원본: Heavy-lift derricks are tested at an angle of not more than 45  to the horizontal and other derricks at an angle of not more than 30  to the horizontal.
+수정: Heavy-lift derricks are tested at an angle of not more than 45 to the horizontal and other derricks at an angle of not more than 30 to the horizontal.
+
+---
+라인: 937
+필드: output
+원본: Heavy-lift derricks are tested at an angle of not more than 45  to the horizontal and other derricks at an angle of not more than 30  to the horizontal.
+수정: Heavy-lift derricks are tested at an angle of not more than 45 to the horizontal and other derricks at an angle of not more than 30 to the horizontal.
+
+---
+라인: 942
+필드: input
+원본: For example, SWL 3/5 tonnes SWL (U) 2 tonnes and a certiﬁcate of test and examination is issued in an approved form.
+수정: For example, SWL 3/5 tonnes SWL 2 tonnes and a certiﬁcate of test and examination is issued in an approved form.
+
+---
+라인: 942
+필드: output
+원본: For example, SWL 3/5 tonnes SWL (U) 2 tonnes and a certiﬁcate of test and examination is issued in an approved form.
+수정: For example, SWL 3/5 tonnes SWL 2 tonnes and a certiﬁcate of test and examination is issued in an approved form.
+
+---
+라인: 944
+필드: input
+원본: British Standards Institution, BS MA 47:1977, Code of Practice for Ships Cargo Blocks .
+수정: British Standards Institution, BS MA 47:1977, Code of Practice for Ships Cargo Blocks.
+
+---
+라인: 944
+필드: output
+원본: British Standards Institution, BS MA 47:1977, Code of Practice for Ships Cargo Blocks .
+수정: British Standards Institution, BS MA 47:1977, Code of Practice for Ships Cargo Blocks.
+
+---
+라인: 951
+필드: input
+원본: Stern doors and bow visors can be mechanically raised and lowered with wire rope and purchase arrangements, but in general they and the side-hinged bow doors are hydraulically opened and closed (see F
+수정: Stern doors and bow visors can be mechanically raised and lowered with wire rope and purchase arrangements, but in general they and the side-hinged bow doors are hydraulically opened and closed (see F
+
+---
+라인: 951
+필드: output
+원본: Stern doors and bow visors can be mechanically raised and lowered with wire rope and purchase arrangements, but in general they and the side-hinged bow doors are hydraulically opened and closed (see F
+수정: Stern doors and bow visors can be mechanically raised and lowered with wire rope and purchase arrangements, but in general they and the side-hinged bow doors are hydraulically opened and closed (see F
+
+---
+라인: 955
+필드: input
+원본: These can be hydraulically or mechanically tilted to serve more than one deck and can be ﬁxed in the horizontal position to serve as decks themselves (see Figure 25.2 ).
+수정: These can be hydraulically or mechanically tilted to serve more than one deck and can be ﬁxed in the horizontal position to serve as decks themselves (see Figure 25.2).
+
+---
+라인: 955
+필드: output
+원본: These can be hydraulically or mechanically tilted to serve more than one deck and can be ﬁxed in the horizontal position to serve as decks themselves (see Figure 25.2 ).
+수정: These can be hydraulically or mechanically tilted to serve more than one deck and can be ﬁxed in the horizontal position to serve as decks themselves (see Figure 25.2).
+
+---
+라인: 957
+필드: input
+원본: Hydraulic opening/ closing ram Hydraulic securing cleats (a) HYDRAULIC STERN DOOR (b) STERN RAMP Stern door Stern ramp up Stern ramp down Figure 25.1 Stern Ramps and Doors.
+수정: Hydraulic opening/ closing ram Hydraulic securing cleats HYDRAULIC STERN DOOR STERN RAMP Stern door Stern ramp up Stern ramp down Figure 25.1 Stern Ramps and Doors.
+
+---
+라인: 957
+필드: output
+원본: Hydraulic opening/ closing ram Hydraulic securing cleats (a) HYDRAULIC STERN DOOR (b) STERN RAMP Stern door Stern ramp up Stern ramp down Figure 25.1 Stern Ramps and Doors.
+수정: Hydraulic opening/ closing ram Hydraulic securing cleats HYDRAULIC STERN DOOR STERN RAMP Stern door Stern ramp up Stern ramp down Figure 25.1 Stern Ramps and Doors.
+
+---
+라인: 958
+필드: input
+원본: Stern ramps can be ﬁxed axial ramps, ﬁxed quarter ramps, slewing ramps, or semislewing quarter ramps (see Figure 25.3 ).
+수정: Stern ramps can be ﬁxed axial ramps, ﬁxed quarter ramps, slewing ramps, or semislewing quarter ramps (see Figure 25.3).
+
+---
+라인: 958
+필드: output
+원본: Stern ramps can be ﬁxed axial ramps, ﬁxed quarter ramps, slewing ramps, or semislewing quarter ramps (see Figure 25.3 ).
+수정: Stern ramps can be ﬁxed axial ramps, ﬁxed quarter ramps, slewing ramps, or semislewing quarter ramps (see Figure 25.3).
+
+---
+라인: 965
+필드: input
+원본: Quarter ramp (a) LARGE STERN RAMP TYPES Slewing ramp Semi-slewing ramp Plan Ramp stowed Ramp down (b) LARGE QUARTER RAMP Elevation Figure 25.3 Stern and Quarter Access Ramps.
+수정: Quarter ramp LARGE STERN RAMP TYPES Slewing ramp Semi-slewing ramp Plan Ramp stowed Ramp down LARGE QUARTER RAMP Elevation Figure 25.3 Stern and Quarter Access Ramps.
+
+---
+라인: 965
+필드: output
+원본: Quarter ramp (a) LARGE STERN RAMP TYPES Slewing ramp Semi-slewing ramp Plan Ramp stowed Ramp down (b) LARGE QUARTER RAMP Elevation Figure 25.3 Stern and Quarter Access Ramps.
+수정: Quarter ramp LARGE STERN RAMP TYPES Slewing ramp Semi-slewing ramp Plan Ramp stowed Ramp down LARGE QUARTER RAMP Elevation Figure 25.3 Stern and Quarter Access Ramps.
+
+---
+라인: 966
+필드: input
+원본: newsprint rolls being transferred from the loading platform to the elevator platform, which travels to the preselected deck or hold level for unloading (see Figure 25.4 ).
+수정: newsprint rolls being transferred from the loading platform to the elevator platform, which travels to the preselected deck or hold level for unloading (see Figure 25.4).
+
+---
+라인: 966
+필드: output
+원본: newsprint rolls being transferred from the loading platform to the elevator platform, which travels to the preselected deck or hold level for unloading (see Figure 25.4 ).
+수정: newsprint rolls being transferred from the loading platform to the elevator platform, which travels to the preselected deck or hold level for unloading (see Figure 25.4).
+
+---
+라인: 967
+필드: input
+원본: Combined side door/hatch covers are ﬁtted in designs where the ship is low in the water relative to the height of quay in order to provide sufﬁcient head room for forklift truck operation (see Figure 
+수정: Combined side door/hatch covers are ﬁtted in designs where the ship is low in the water relative to the height of quay in order to provide sufﬁcient head room for forklift truck operation (see Figure 
+
+---
+라인: 967
+필드: output
+원본: Combined side door/hatch covers are ﬁtted in designs where the ship is low in the water relative to the height of quay in order to provide sufﬁcient head room for forklift truck operation (see Figure 
+수정: Combined side door/hatch covers are ﬁtted in designs where the ship is low in the water relative to the height of quay in order to provide sufﬁcient head room for forklift truck operation (see Figure 
+
+---
+라인: 968
+필드: input
+원본: The unit load is raised from the quay to a point above the ship’s side, swung inboard through 180  on a rotating frame unit and lowered through the hatch to the hold or tween.
+수정: The unit load is raised from the quay to a point above the ship’s side, swung inboard through 180 on a rotating frame unit and lowered through the hatch to the hold or tween.
+
+---
+라인: 968
+필드: output
+원본: The unit load is raised from the quay to a point above the ship’s side, swung inboard through 180  on a rotating frame unit and lowered through the hatch to the hold or tween.
+수정: The unit load is raised from the quay to a point above the ship’s side, swung inboard through 180 on a rotating frame unit and lowered through the hatch to the hold or tween.
+
+---
+라인: 974
+필드: input
+원본: On the decks of ro-ro ships where the direction of lashing is unpredictable and vehicles must transverse the ﬁtting, a cloverleaf deck socket in conjunction with an elephant’s foot type of end lashing
+수정: On the decks of ro-ro ships where the direction of lashing is unpredictable and vehicles must transverse the ﬁtting, a cloverleaf deck socket in conjunction with an elephant’s foot type of end lashing
+
+---
+라인: 974
+필드: output
+원본: On the decks of ro-ro ships where the direction of lashing is unpredictable and vehicles must transverse the ﬁtting, a cloverleaf deck socket in conjunction with an elephant’s foot type of end lashing
+수정: On the decks of ro-ro ships where the direction of lashing is unpredictable and vehicles must transverse the ﬁtting, a cloverleaf deck socket in conjunction with an elephant’s foot type of end lashing
+
+---
+라인: 977
+필드: input
+원본: Where four container corners are adjacent the cell guides may be built into a composite pillar (see Figure 25.5 ).
+수정: Where four container corners are adjacent the cell guides may be built into a composite pillar (see Figure 25.5).
+
+---
+라인: 977
+필드: output
+원본: Where four container corners are adjacent the cell guides may be built into a composite pillar (see Figure 25.5 ).
+수정: Where four container corners are adjacent the cell guides may be built into a composite pillar (see Figure 25.5).
+
+---
+라인: 980
+필드: input
+원본: Deck sockets like the container corner ﬁtting contain the standard ISO hole into which the stackers ﬁt (see Figure 25.5 ).
+수정: Deck sockets like the container corner ﬁtting contain the standard ISO hole into which the stackers ﬁt (see Figure 25.5).
+
+---
+라인: 980
+필드: output
+원본: Deck sockets like the container corner ﬁtting contain the standard ISO hole into which the stackers ﬁt (see Figure 25.5 ).
+수정: Deck sockets like the container corner ﬁtting contain the standard ISO hole into which the stackers ﬁt (see Figure 25.5).
+
+---
+라인: 982
+필드: input
+원본: Code of Safe Practice for Cargo Stowage and Securing .
+수정: Code of Safe Practice for Cargo Stowage and Securing.
+
+---
+라인: 982
+필드: output
+원본: Code of Safe Practice for Cargo Stowage and Securing .
+수정: Code of Safe Practice for Cargo Stowage and Securing.
+
+---
+라인: 983
+필드: input
+원본: House DJ: Cargo Work for Maritime Operations , ed 7.
+수정: House DJ: Cargo Work for Maritime Operations, ed 7.
+
+---
+라인: 983
+필드: output
+원본: House DJ: Cargo Work for Maritime Operations , ed 7.
+수정: House DJ: Cargo Work for Maritime Operations, ed 7.
+
+---
+라인: 984
+필드: input
+원본: Knot JR: Lashing and Securing of Deck Cargoes , ed 3, London, 2002, The Nautical Institute.
+수정: Knot JR: Lashing and Securing of Deck Cargoes, ed 3, London, 2002, The Nautical Institute.
+
+---
+라인: 984
+필드: output
+원본: Knot JR: Lashing and Securing of Deck Cargoes , ed 3, London, 2002, The Nautical Institute.
+수정: Knot JR: Lashing and Securing of Deck Cargoes, ed 3, London, 2002, The Nautical Institute.
+
+---
+라인: 986
+필드: input
+원본: It is easy to see the reason for this if the Aquitania , built in 1914 and having direct drive turbines with 21 double-ended scotch boilers, is compared with the Queen Elizabeth 2 .
+수정: It is easy to see the reason for this if the Aquitania, built in 1914 and having direct drive turbines with 21 double-ended scotch boilers, is compared with the Queen Elizabeth 2.
+
+---
+라인: 986
+필드: output
+원본: It is easy to see the reason for this if the Aquitania , built in 1914 and having direct drive turbines with 21 double-ended scotch boilers, is compared with the Queen Elizabeth 2 .
+수정: It is easy to see the reason for this if the Aquitania, built in 1914 and having direct drive turbines with 21 double-ended scotch boilers, is compared with the Queen Elizabeth 2.
+
+---
+라인: 989
+필드: input
+원본: The latter have a high proportion of their twin-hull buoyancy below the waterline (see Figure 3.7 ).
+수정: The latter have a high proportion of their twin-hull buoyancy below the waterline (see Figure 3.7).
+
+---
+라인: 989
+필드: output
+원본: The latter have a high proportion of their twin-hull buoyancy below the waterline (see Figure 3.7 ).
+수정: The latter have a high proportion of their twin-hull buoyancy below the waterline (see Figure 3.7).
+
+---
+라인: 997
+필드: input
+원본: The shaft tunnel of the ship is drained bymeans of awell located at the after end, and the bilge suction is taken from the main bilge line (see Figure 26.1 ).
+수정: The shaft tunnel of the ship is drained bymeans of awell located at the after end, and the bilge suction is taken from the main bilge line (see Figure 26.1).
+
+---
+라인: 997
+필드: output
+원본: The shaft tunnel of the ship is drained bymeans of awell located at the after end, and the bilge suction is taken from the main bilge line (see Figure 26.1 ).
+수정: The shaft tunnel of the ship is drained bymeans of awell located at the after end, and the bilge suction is taken from the main bilge line (see Figure 26.1).
+
+---
+라인: 998
+필드: input
+원본: The strum box is a perforated plate box welded to the mouth of the bilge line ( Figure 26.1 ), which prevents debris being taken up by the bilge pump suction.
+수정: The strum box is a perforated plate box welded to the mouth of the bilge line (Figure 26.1), which prevents debris being taken up by the bilge pump suction.
+
+---
+라인: 998
+필드: output
+원본: The strum box is a perforated plate box welded to the mouth of the bilge line ( Figure 26.1 ), which prevents debris being taken up by the bilge pump suction.
+수정: The strum box is a perforated plate box welded to the mouth of the bilge line (Figure 26.1), which prevents debris being taken up by the bilge pump suction.
+
+---
+라인: 1021
+필드: input
+원본: a substantial box within the line of the shell plate containing the sea inlet opening (see Figure 26.2 ).
+수정: a substantial box within the line of the shell plate containing the sea inlet opening (see Figure 26.2).
+
+---
+라인: 1021
+필드: output
+원본: a substantial box within the line of the shell plate containing the sea inlet opening (see Figure 26.2 ).
+수정: a substantial box within the line of the shell plate containing the sea inlet opening (see Figure 26.2).
+
+---
+라인: 1026
+필드: input
+원본: suctions from a group of tanks (see Figure 26.3 ).
+수정: suctions from a group of tanks (see Figure 26.3).
+
+---
+라인: 1026
+필드: output
+원본: suctions from a group of tanks (see Figure 26.3 ).
+수정: suctions from a group of tanks (see Figure 26.3).
+
+---
+라인: 1030
+필드: input
+원본: Such an arrangement is shown in Figure 26.3 , which also indicates the separate stripping system, and clean ballast lines.
+수정: Such an arrangement is shown in Figure 26.3, which also indicates the separate stripping system, and clean ballast lines.
+
+---
+라인: 1030
+필드: output
+원본: Such an arrangement is shown in Figure 26.3 , which also indicates the separate stripping system, and clean ballast lines.
+수정: Such an arrangement is shown in Figure 26.3, which also indicates the separate stripping system, and clean ballast lines.
+
+---
+라인: 1032
+필드: input
+원본: On many older tankers the piping was often arranged on the ‘ring main’ system to provide ﬂexibility of pumping conditions (see Figure 26.4 ).
+수정: On many older tankers the piping was often arranged on the ‘ring main’ system to provide ﬂexibility of pumping conditions (see Figure 26.4).
+
+---
+라인: 1032
+필드: output
+원본: On many older tankers the piping was often arranged on the ‘ring main’ system to provide ﬂexibility of pumping conditions (see Figure 26.4 ).
+수정: On many older tankers the piping was often arranged on the ‘ring main’ system to provide ﬂexibility of pumping conditions (see Figure 26.4).
+
+---
+라인: 1047
+필드: input
+원본: A simple corrosion cell is formed by two different metals in an electrolyte solution (a galvanic cell), as illustrated in Figure 27.1 .
+수정: A simple corrosion cell is formed by two different metals in an electrolyte solution (a galvanic cell), as illustrated in Figure 27.1.
+
+---
+라인: 1047
+필드: output
+원본: A simple corrosion cell is formed by two different metals in an electrolyte solution (a galvanic cell), as illustrated in Figure 27.1 .
+수정: A simple corrosion cell is formed by two different metals in an electrolyte solution (a galvanic cell), as illustrated in Figure 27.1.
+
+---
+라인: 1049
+필드: input
+원본: The latter is typiﬁed by steel plate carrying broken millscale in sea water ( Figure 27.1 ) or corrosion currents ﬂowing between areas of well-painted plate and areas of defective paintwork.
+수정: The latter is typiﬁed by steel plate carrying broken millscale in sea water (Figure 27.1) or corrosion currents ﬂowing between areas of well-painted plate and areas of defective paintwork.
+
+---
+라인: 1049
+필드: output
+원본: The latter is typiﬁed by steel plate carrying broken millscale in sea water ( Figure 27.1 ) or corrosion currents ﬂowing between areas of well-painted plate and areas of defective paintwork.
+수정: The latter is typiﬁed by steel plate carrying broken millscale in sea water (Figure 27.1) or corrosion currents ﬂowing between areas of well-painted plate and areas of defective paintwork.
+
+---
+라인: 1050
+필드: input
+원본: A typical galvanic series in sea water is shown in Table 27.1 .
+수정: A typical galvanic series in sea water is shown in Table 27.1.
+
+---
+라인: 1050
+필드: output
+원본: A typical galvanic series in sea water is shown in Table 27.1 .
+수정: A typical galvanic series in sea water is shown in Table 27.1.
+
+---
+라인: 1052
+필드: input
+원본: This latter problem is overcome by insulating the two metals and preventing the ingress of water, as illustrated in Figure 27.2 .
+수정: This latter problem is overcome by insulating the two metals and preventing the ingress of water, as illustrated in Figure 27.2.
+
+---
+라인: 1052
+필드: output
+원본: This latter problem is overcome by insulating the two metals and preventing the ingress of water, as illustrated in Figure 27.2 .
+수정: This latter problem is overcome by insulating the two metals and preventing the ingress of water, as illustrated in Figure 27.2.
+
+---
+라인: 1070
+필드: input
+원본: Bhave, Roy G: Special trade passenger ships, The Naval Architect , January 1975.
+수정: Bhave, Roy G: Special trade passenger ships, The Naval Architect, January 1975.
+
+---
+라인: 1070
+필드: output
+원본: Bhave, Roy G: Special trade passenger ships, The Naval Architect , January 1975.
+수정: Bhave, Roy G: Special trade passenger ships, The Naval Architect, January 1975.
+
+---
+라인: 1071
+필드: input
+원본: Code of Safety for Special Purpose Ships .
+수정: Code of Safety for Special Purpose Ships.
+
+---
+라인: 1071
+필드: output
+원본: Code of Safety for Special Purpose Ships .
+수정: Code of Safety for Special Purpose Ships.
+
+---
+라인: 1073
+필드: input
+원본: IMO: International Code of Safety for High Speed Craft (HSC Code) , 1994.
+수정: IMO: International Code of Safety for High Speed Craft (HSC Code), 1994.
+
+---
+라인: 1073
+필드: output
+원본: IMO: International Code of Safety for High Speed Craft (HSC Code) , 1994.
+수정: IMO: International Code of Safety for High Speed Craft (HSC Code), 1994.
+
+---
+라인: 1075
+필드: input
+원본: Payne: The evolution of the modern cruise liner, The Naval Architect , 1990.
+수정: Payne: The evolution of the modern cruise liner, The Naval Architect, 1990.
+
+---
+라인: 1075
+필드: output
+원본: Payne: The evolution of the modern cruise liner, The Naval Architect , 1990.
+수정: Payne: The evolution of the modern cruise liner, The Naval Architect, 1990.
+
+---
+라인: 1079
+필드: input
+원본: ( Note: Vehicle types 2 and 4 are not suitable for underwater service, and only certain kinds of type 3 are suitable for such service.)
+수정: Note: Vehicle types 2 and 4 are not suitable for underwater service, and only certain kinds of type 3 are suitable for such service.
+
+---
+라인: 1079
+필드: output
+원본: ( Note: Vehicle types 2 and 4 are not suitable for underwater service, and only certain kinds of type 3 are suitable for such service.)
+수정: Note: Vehicle types 2 and 4 are not suitable for underwater service, and only certain kinds of type 3 are suitable for such service.
+
+---
+라인: 1116
+필드: input
+원본: In older ships they may have been positioned in derrick posts where these posts are used to ventilate the tweens and holds (see Figure 28.1 ).
+수정: In older ships they may have been positioned in derrick posts where these posts are used to ventilate the tweens and holds (see Figure 28.1).
+
+---
+라인: 1116
+필드: output
+원본: In older ships they may have been positioned in derrick posts where these posts are used to ventilate the tweens and holds (see Figure 28.1 ).
+수정: In older ships they may have been positioned in derrick posts where these posts are used to ventilate the tweens and holds (see Figure 28.1).
+
+---
+라인: 1118
+필드: input
+원본: The midship section of a ship speciﬁcally designed for carrying only refrigerated cargo and its line of insulation is shown in Figure 28.2 .
+수정: The midship section of a ship speciﬁcally designed for carrying only refrigerated cargo and its line of insulation is shown in Figure 28.2.
+
+---
+라인: 1118
+필드: output
+원본: The midship section of a ship speciﬁcally designed for carrying only refrigerated cargo and its line of insulation is shown in Figure 28.2 .
+수정: The midship section of a ship speciﬁcally designed for carrying only refrigerated cargo and its line of insulation is shown in Figure 28.2.
+
+---
+라인: 1129
+필드: input
+원본: Insulating material is retained at the sides by galvanized sheet steel or aluminum alloy sheet screwed to wood grounds on the frames or other stiffening members (see Figure 28.3 ).
+수정: Insulating material is retained at the sides by galvanized sheet steel or aluminum alloy sheet screwed to wood grounds on the frames or other stiffening members (see Figure 28.3).
+
+---
+라인: 1129
+필드: output
+원본: Insulating material is retained at the sides by galvanized sheet steel or aluminum alloy sheet screwed to wood grounds on the frames or other stiffening members (see Figure 28.3 ).
+수정: Insulating material is retained at the sides by galvanized sheet steel or aluminum alloy sheet screwed to wood grounds on the frames or other stiffening members (see Figure 28.3).
+
+---
+라인: 1132
+필드: input
+원본: The brine in the trap forms an effective seal against ingress of warm air, and it will not freeze, preventing the drain from removing water from the compartment ( Figure 28.3 ).
+수정: The brine in the trap forms an effective seal against ingress of warm air, and it will not freeze, preventing the drain from removing water from the compartment (Figure 28.3).
+
+---
+라인: 1132
+필드: output
+원본: The brine in the trap forms an effective seal against ingress of warm air, and it will not freeze, preventing the drain from removing water from the compartment ( Figure 28.3 ).
+수정: The brine in the trap forms an effective seal against ingress of warm air, and it will not freeze, preventing the drain from removing water from the compartment (Figure 28.3).
+
+---
+라인: 1151
+필드: input
+원본: It will be noted that vessels with high freeboards, i.e. low draft to depth ( d / D ) ratios will have low net tonnages.
+수정: It will be noted that vessels with high freeboards, i.e. low draft to depth (d / D) ratios will have low net tonnages.
+
+---
+라인: 1151
+필드: output
+원본: It will be noted that vessels with high freeboards, i.e. low draft to depth ( d / D ) ratios will have low net tonnages.
+수정: It will be noted that vessels with high freeboards, i.e. low draft to depth (d / D) ratios will have low net tonnages.
+
+---
+라인: 1155
+필드: input
+원본: In November 2008 the IACS launched the IACS CSR Tracking Database ( www.iacscsrtrack.org.uk ) to provide users easy and quick access to full revision history of CSR rules on a paragraph by paragraph b
+수정: In November 2008 the IACS launched the IACS CSR Tracking Database (www.iacscsrtrack.org.uk) to provide users easy and quick access to full revision history of CSR rules on a paragraph by paragraph bas
+
+---
+라인: 1155
+필드: output
+원본: In November 2008 the IACS launched the IACS CSR Tracking Database ( www.iacscsrtrack.org.uk ) to provide users easy and quick access to full revision history of CSR rules on a paragraph by paragraph b
+수정: In November 2008 the IACS launched the IACS CSR Tracking Database (www.iacscsrtrack.org.uk) to provide users easy and quick access to full revision history of CSR rules on a paragraph by paragraph bas
+
+---
+라인: 1163
+필드: input
+원본: The full subdivision requirements are given in Table 31.1 .
+수정: The full subdivision requirements are given in Table 31.1.
+
+---
+라인: 1163
+필드: output
+원본: The full subdivision requirements are given in Table 31.1 .
+수정: The full subdivision requirements are given in Table 31.1.
+
+---
+라인: 1171
+필드: input
+원본: The correction for deﬁciency or excess of sheer is the difference between the actual sheer and the standard sheer multiplied by (0.75  S /2 L ), where S is the total mean enclosed length of superstruc
+수정: The correction for deﬁciency or excess of sheer is the difference between the actual sheer and the standard sheer multiplied by (0.75 S /2 L), where S is the total mean enclosed length of superstructu
+
+---
+라인: 1171
+필드: output
+원본: The correction for deﬁciency or excess of sheer is the difference between the actual sheer and the standard sheer multiplied by (0.75  S /2 L ), where S is the total mean enclosed length of superstruc
+수정: The correction for deﬁciency or excess of sheer is the difference between the actual sheer and the standard sheer multiplied by (0.75 S /2 L), where S is the total mean enclosed length of superstructu
+
+---
+라인: 1230
+필드: input
+원본: At end of ﬁrst 60 minutes 927  C Some typical examples of ﬁre divisions are given in Table 32.1 for a passenger ship carrying more than 36 passengers.
+수정: At end of ﬁrst 60 minutes 927 C Some typical examples of ﬁre divisions are given in Table 32.1 for a passenger ship carrying more than 36 passengers.
+
+---
+라인: 1230
+필드: output
+원본: At end of ﬁrst 60 minutes 927  C Some typical examples of ﬁre divisions are given in Table 32.1 for a passenger ship carrying more than 36 passengers.
+수정: At end of ﬁrst 60 minutes 927 C Some typical examples of ﬁre divisions are given in Table 32.1 for a passenger ship carrying more than 36 passengers.
+
+---
+라인: 1235
+필드: input
+원본: The ﬂap must also be capable of being released manually and there is some form of indication as to whether the ﬂap is open or closed (see Figure 32.1 ).
+수정: The ﬂap must also be capable of being released manually and there is some form of indication as to whether the ﬂap is open or closed (see Figure 32.1).
+
+---
+라인: 1235
+필드: output
+원본: The ﬂap must also be capable of being released manually and there is some form of indication as to whether the ﬂap is open or closed (see Figure 32.1 ).
+수정: The ﬂap must also be capable of being released manually and there is some form of indication as to whether the ﬂap is open or closed (see Figure 32.1).
+
+---
+라인: 1247
+필드: input
+원본: Ship Construction Seventh edition D. J. Eyres M.Sc., F.R.I.N.A. Formerly Lecturer in Naval Architecture, Department of Maritime Studies, Plymouth Polytechnic, (now University of Plymouth) G. J. Bruce 
+수정: Ship Construction Seventh edition D. J. Eyres M.Sc. F.R.I.N.A. Formerly Lecturer in Naval Architecture, Department of Maritime Studies, Plymouth Polytechnic, (now University of Plymouth) G. J. Bruce M
+
+---
+라인: 1247
+필드: output
+원본: Ship Construction Seventh edition D. J. Eyres M.Sc., F.R.I.N.A. Formerly Lecturer in Naval Architecture, Department of Maritime Studies, Plymouth Polytechnic, (now University of Plymouth) G. J. Bruce 
+수정: Ship Construction Seventh edition D. J. Eyres M.Sc. F.R.I.N.A. Formerly Lecturer in Naval Architecture, Department of Maritime Studies, Plymouth Polytechnic, (now University of Plymouth) G. J. Bruce M
+
+---
+라인: 1256
+필드: input
+원본: Special survey hull requirements are divided into four ship age groups as follows: 1. Special survey of ships—ﬁve years old 2.
+수정: Special survey hull requirements are divided into four ship age groups as follows: 1. Special survey of shipsﬁve years old 2.
+
+---
+라인: 1256
+필드: output
+원본: Special survey hull requirements are divided into four ship age groups as follows: 1. Special survey of ships—ﬁve years old 2.
+수정: Special survey hull requirements are divided into four ship age groups as follows: 1. Special survey of shipsﬁve years old 2.
+
+---
+라인: 1257
+필드: input
+원본: Special survey of ships—10 years old 3.
+수정: Special survey of ships10 years old 3.
+
+---
+라인: 1257
+필드: output
+원본: Special survey of ships—10 years old 3.
+수정: Special survey of ships10 years old 3.
+
+---
+라인: 1258
+필드: input
+원본: Special survey of ships—15 years old 4.
+수정: Special survey of ships15 years old 4.
+
+---
+라인: 1258
+필드: output
+원본: Special survey of ships—15 years old 4.
+수정: Special survey of ships15 years old 4.
+
+---
+라인: 1259
+필드: input
+원본: Special survey of ships—20 years old and at every special survey thereafter.
+수정: Special survey of ships20 years old and at every special survey thereafter.
+
+---
+라인: 1259
+필드: output
+원본: Special survey of ships—20 years old and at every special survey thereafter.
+수정: Special survey of ships20 years old and at every special survey thereafter.
+
+---
+라인: 1297
+필드: input
+원본: Annealing This consists of heating the steel at a slow rate to a temperature of say 850–950  C, and then cooling it in the furnace at a very slow rate.
+수정: Annealing This consists of heating the steel at a slow rate to a temperature of say 850–950 C, and then cooling it in the furnace at a very slow rate.
+
+---
+라인: 1297
+필드: output
+원본: Annealing This consists of heating the steel at a slow rate to a temperature of say 850–950  C, and then cooling it in the furnace at a very slow rate.
+수정: Annealing This consists of heating the steel at a slow rate to a temperature of say 850–950 C, and then cooling it in the furnace at a very slow rate.
+
+---
+라인: 1300
+필드: input
+원본: The more common types associated with shipbuilding are shown in Figure 5.1 .
+수정: The more common types associated with shipbuilding are shown in Figure 5.1.
+
+---
+라인: 1300
+필드: output
+원본: The more common types associated with shipbuilding are shown in Figure 5.1 .
+수정: The more common types associated with shipbuilding are shown in Figure 5.1.
+
+---
+라인: 1323
+필드: input
+원본: Typical sections are shown in Figure 6.1 .
+수정: Typical sections are shown in Figure 6.1.
+
+---
+라인: 1323
+필드: output
+원본: Typical sections are shown in Figure 6.1 .
+수정: Typical sections are shown in Figure 6.1.
+
+---
+라인: 1350
+필드: input
+원본: The strain is the deformation per unit length or unit volume, e.g. if the tensile load P applied to the rod of original length l produces an elongation, or extension, of the rod of amount d l , then t
+수정: The strain is the deformation per unit length or unit volume, e.g. if the tensile load P applied to the rod of original length l produces an elongation, or extension, of the rod of amount d l, then th
+
+---
+라인: 1350
+필드: output
+원본: The strain is the deformation per unit length or unit volume, e.g. if the tensile load P applied to the rod of original length l produces an elongation, or extension, of the rod of amount d l , then t
+수정: The strain is the deformation per unit length or unit volume, e.g. if the tensile load P applied to the rod of original length l produces an elongation, or extension, of the rod of amount d l, then th
+
+---
+라인: 1353
+필드: input
+원본: If a mild steel bar is placed in a testing machine and the extensions are recorded for uniformly increasing loads, a graph of load against extension, or stress against strain, may be plotted as in Fig
+수정: If a mild steel bar is placed in a testing machine and the extensions are recorded for uniformly increasing loads, a graph of load against extension, or stress against strain, may be plotted as in Fig
+
+---
+라인: 1353
+필드: output
+원본: If a mild steel bar is placed in a testing machine and the extensions are recorded for uniformly increasing loads, a graph of load against extension, or stress against strain, may be plotted as in Fig
+수정: If a mild steel bar is placed in a testing machine and the extensions are recorded for uniformly increasing loads, a graph of load against extension, or stress against strain, may be plotted as in Fig
+
+---
+라인: 1354
+필드: input
+원본: Since stress is directly proportional to strain, the stress is equal to a constant, which is in fact the slope of the straight-line part of the graph, and is given by: A constant ¼ stress O strain Thi
+수정: Since stress is directly proportional to strain, the stress is equal to a constant, which is in fact the slope of the straight-line part of the graph, and is given by: A constant ¼ stress O strain Thi
+
+---
+라인: 1354
+필드: output
+원본: Since stress is directly proportional to strain, the stress is equal to a constant, which is in fact the slope of the straight-line part of the graph, and is given by: A constant ¼ stress O strain Thi
+수정: Since stress is directly proportional to strain, the stress is equal to a constant, which is in fact the slope of the straight-line part of the graph, and is given by: A constant ¼ stress O strain Thi
+
+---
+라인: 1358
+필드: input
+원본: Many metals do not have a clearly deﬁned yield point, for example aluminum, having a stress–strain curve over its lower range that is a straight line becoming gradually curved without any sharp transf
+수정: Many metals do not have a clearly deﬁned yield point, for example aluminum, having a stress–strain curve over its lower range that is a straight line becoming gradually curved without any sharp transf
+
+---
+라인: 1358
+필드: output
+원본: Many metals do not have a clearly deﬁned yield point, for example aluminum, having a stress–strain curve over its lower range that is a straight line becoming gradually curved without any sharp transf
+수정: Many metals do not have a clearly deﬁned yield point, for example aluminum, having a stress–strain curve over its lower range that is a straight line becoming gradually curved without any sharp transf
+
+---
+라인: 1372
+필드: input
+원본: (see Figure 8.1 ), which are referred to as vertical shearing forces, since they tend to shear the vertical material in the hull.
+수정: (see Figure 8.1), which are referred to as vertical shearing forces, since they tend to shear the vertical material in the hull.
+
+---
+라인: 1372
+필드: output
+원본: (see Figure 8.1 ), which are referred to as vertical shearing forces, since they tend to shear the vertical material in the hull.
+수정: (see Figure 8.1), which are referred to as vertical shearing forces, since they tend to shear the vertical material in the hull.
+
+---
+라인: 1376
+필드: input
+원본: If the crest of the wave is amidships the buoyancy forces will tend to ‘hog’ the vessel; if the trough is amidships the buoyancy forces will tend to ‘sag’ the ship (see Figure 8.2 ).
+수정: If the crest of the wave is amidships the buoyancy forces will tend to ‘hog’ the vessel; if the trough is amidships the buoyancy forces will tend to ‘sag’ the ship (see Figure 8.2).
+
+---
+라인: 1376
+필드: output
+원본: If the crest of the wave is amidships the buoyancy forces will tend to ‘hog’ the vessel; if the trough is amidships the buoyancy forces will tend to ‘sag’ the ship (see Figure 8.2 ).
+수정: If the crest of the wave is amidships the buoyancy forces will tend to ‘hog’ the vessel; if the trough is amidships the buoyancy forces will tend to ‘sag’ the ship (see Figure 8.2).
+
+---
+라인: 1377
+필드: input
+원본: Longitudinal shear forces When the vessel hogs and sags in still water and at sea, shear forces similar to the vertical shear forces will be present in the longitudinal plane (see Figure 8.2 ).
+수정: Longitudinal shear forces When the vessel hogs and sags in still water and at sea, shear forces similar to the vertical shear forces will be present in the longitudinal plane (see Figure 8.2).
+
+---
+라인: 1377
+필드: output
+원본: Longitudinal shear forces When the vessel hogs and sags in still water and at sea, shear forces similar to the vertical shear forces will be present in the longitudinal plane (see Figure 8.2 ).
+수정: Longitudinal shear forces When the vessel hogs and sags in still water and at sea, shear forces similar to the vertical shear forces will be present in the longitudinal plane (see Figure 8.2).
+
+---
+라인: 1380
+필드: input
+원본: This position is called the neutral axis , and at the furthest ﬁbers from the neutral axis the greatest stress occurs for plane bending.
+수정: This position is called the neutral axis, and at the furthest ﬁbers from the neutral axis the greatest stress occurs for plane bending.
+
+---
+라인: 1380
+필드: output
+원본: This position is called the neutral axis , and at the furthest ﬁbers from the neutral axis the greatest stress occurs for plane bending.
+수정: This position is called the neutral axis, and at the furthest ﬁbers from the neutral axis the greatest stress occurs for plane bending.
+
+---
+라인: 1382
+필드: input
+원본: Occasionally reference is made to the sectional modulus ( Z ) of a beam; this is simply the ratio between the second moment of area and the distance of the point considered from the neutral axis, i.e.
+수정: Occasionally reference is made to the sectional modulus of a beam; this is simply the ratio between the second moment of area and the distance of the point considered from the neutral axis, i.e. I / y
+
+---
+라인: 1382
+필드: output
+원본: Occasionally reference is made to the sectional modulus ( Z ) of a beam; this is simply the ratio between the second moment of area and the distance of the point considered from the neutral axis, i.e.
+수정: Occasionally reference is made to the sectional modulus of a beam; this is simply the ratio between the second moment of area and the distance of the point considered from the neutral axis, i.e. I / y
+
+---
+라인: 1384
+필드: input
+원본: The box-shaped hull girder and a conventional I girder are compared in Figure 8.3 .
+수정: The box-shaped hull girder and a conventional I girder are compared in Figure 8.3.
+
+---
+라인: 1384
+필드: output
+원본: The box-shaped hull girder and a conventional I girder are compared in Figure 8.3 .
+수정: The box-shaped hull girder and a conventional I girder are compared in Figure 8.3.
+
+---
+라인: 1403
+필드: input
+원본: The greatest danger with fatigue fractures is that they occur at low stresses that are applied to a structure repeatedly over a period of time ( Figure 8.5 ).
+수정: The greatest danger with fatigue fractures is that they occur at low stresses that are applied to a structure repeatedly over a period of time (Figure 8.5).
+
+---
+라인: 1403
+필드: output
+원본: The greatest danger with fatigue fractures is that they occur at low stresses that are applied to a structure repeatedly over a period of time ( Figure 8.5 ).
+수정: The greatest danger with fatigue fractures is that they occur at low stresses that are applied to a structure repeatedly over a period of time (Figure 8.5).
+
+---
+라인: 1407
+필드: input
+원본: DUCTILE/BRITTLE TRANSITION BEHAVIOR OF STEELS Fine grain carbon manganese steel Medium carbon (2%) structural steel Temperature ( C) o –100 –50 0 50 100 150 2.75 5.5 8.25 11.0 13.25 Charpy V notch imp
+수정: DUCTILE/BRITTLE TRANSITION BEHAVIOR OF STEELS Fine grain carbon manganese steel Medium carbon (2%) structural steel Temperature o –100 –50 0 50 100 150 2.75 5.5 8.25 11.0 13.25 Charpy V notch impact e
+
+---
+라인: 1407
+필드: output
+원본: DUCTILE/BRITTLE TRANSITION BEHAVIOR OF STEELS Fine grain carbon manganese steel Medium carbon (2%) structural steel Temperature ( C) o –100 –50 0 50 100 150 2.75 5.5 8.25 11.0 13.25 Charpy V notch imp
+수정: DUCTILE/BRITTLE TRANSITION BEHAVIOR OF STEELS Fine grain carbon manganese steel Medium carbon (2%) structural steel Temperature o –100 –50 0 50 100 150 2.75 5.5 8.25 11.0 13.25 Charpy V notch impact e
+
+---
+라인: 1411
+필드: input
+원본: Reﬁned ABS rules for very large container ships, The Naval Architect , October 2005.
+수정: Reﬁned ABS rules for very large container ships, The Naval Architect, October 2005.
+
+---
+라인: 1411
+필드: output
+원본: Reﬁned ABS rules for very large container ships, The Naval Architect , October 2005.
+수정: Reﬁned ABS rules for very large container ships, The Naval Architect, October 2005.
+
+---
+라인: 1418
+필드: input
+원본: By varying the ratio of oxygen to acetylene in the gas mixture supplied by the torch, it is possible to vary the efﬁciency of the combustion and alter the nature of the ﬂame ( Figure 9.1 ).
+수정: By varying the ratio of oxygen to acetylene in the gas mixture supplied by the torch, it is possible to vary the efﬁciency of the combustion and alter the nature of the ﬂame (Figure 9.1).
+
+---
+라인: 1418
+필드: output
+원본: By varying the ratio of oxygen to acetylene in the gas mixture supplied by the torch, it is possible to vary the efﬁciency of the combustion and alter the nature of the ﬂame ( Figure 9.1 ).
+수정: By varying the ratio of oxygen to acetylene in the gas mixture supplied by the torch, it is possible to vary the efﬁciency of the combustion and alter the nature of the ﬂame (Figure 9.1).
+
+---
+라인: 1423
+필드: input
+원본: Gas welding techniques are shown in Figure 9.1 .
+수정: Gas welding techniques are shown in Figure 9.1.
+
+---
+라인: 1423
+필드: output
+원본: Gas welding techniques are shown in Figure 9.1 .
+수정: Gas welding techniques are shown in Figure 9.1.
+
+---
+라인: 1433
+필드: input
+원본: Submerged arc welding This is an arc welding process in which the arc is maintained within a blanket of granulated ﬂux (see Figure 9.4 ).
+수정: Submerged arc welding This is an arc welding process in which the arc is maintained within a blanket of granulated ﬂux (see Figure 9.4).
+
+---
+라인: 1433
+필드: output
+원본: Submerged arc welding This is an arc welding process in which the arc is maintained within a blanket of granulated ﬂux (see Figure 9.4 ).
+수정: Submerged arc welding This is an arc welding process in which the arc is maintained within a blanket of granulated ﬂux (see Figure 9.4).
+
+---
+라인: 1439
+필드: input
+원본: The ceramic ferrule that surrounds the weld area restricts the access of air to the weld zone; it also concentrates the heat of the arc and conﬁnes the molten metal to the weld area (see Figure 9.5 ).
+수정: The ceramic ferrule that surrounds the weld area restricts the access of air to the weld zone; it also concentrates the heat of the arc and conﬁnes the molten metal to the weld area (see Figure 9.5).
+
+---
+라인: 1439
+필드: output
+원본: The ceramic ferrule that surrounds the weld area restricts the access of air to the weld zone; it also concentrates the heat of the arc and conﬁnes the molten metal to the weld area (see Figure 9.5 ).
+수정: The ceramic ferrule that surrounds the weld area restricts the access of air to the weld zone; it also concentrates the heat of the arc and conﬁnes the molten metal to the weld area (see Figure 9.5).
+
+---
+라인: 1441
+필드: input
+원본: Tungsten inert gas (TIG) welding In the TIG welding process the arc is drawn between a water-cooled nonconsumable tungsten electrode and the plate ( Figure 9.6 ).
+수정: Tungsten inert gas (TIG) welding In the TIG welding process the arc is drawn between a water-cooled nonconsumable tungsten electrode and the plate (Figure 9.6).
+
+---
+라인: 1441
+필드: output
+원본: Tungsten inert gas (TIG) welding In the TIG welding process the arc is drawn between a water-cooled nonconsumable tungsten electrode and the plate ( Figure 9.6 ).
+수정: Tungsten inert gas (TIG) welding In the TIG welding process the arc is drawn between a water-cooled nonconsumable tungsten electrode and the plate (Figure 9.6).
+
+---
+라인: 1444
+필드: input
+원본: Basically the process is as illustrated in Figure 9.6 , a wire feed motor supplying wire via guide rollers through a contact tube in the torch to the arc.
+수정: Basically the process is as illustrated in Figure 9.6, a wire feed motor supplying wire via guide rollers through a contact tube in the torch to the arc.
+
+---
+라인: 1444
+필드: output
+원본: Basically the process is as illustrated in Figure 9.6 , a wire feed motor supplying wire via guide rollers through a contact tube in the torch to the arc.
+수정: Basically the process is as illustrated in Figure 9.6, a wire feed motor supplying wire via guide rollers through a contact tube in the torch to the arc.
+
+---
+라인: 1454
+필드: input
+원본: The sequence of metal transfer is (see Figure 9.6 ): 1.
+수정: The sequence of metal transfer is (see Figure 9.6): 1.
+
+---
+라인: 1454
+필드: output
+원본: The sequence of metal transfer is (see Figure 9.6 ): 1.
+수정: The sequence of metal transfer is (see Figure 9.6): 1.
+
+---
+라인: 1464
+필드: input
+원본: But, with the tungsten electrode positioned within the body of the torch, the plasma arc is separated from the shielding gas envelope (see Figure 9.7 ).
+수정: But, with the tungsten electrode positioned within the body of the torch, the plasma arc is separated from the shielding gas envelope (see Figure 9.7).
+
+---
+라인: 1464
+필드: output
+원본: But, with the tungsten electrode positioned within the body of the torch, the plasma arc is separated from the shielding gas envelope (see Figure 9.7 ).
+수정: But, with the tungsten electrode positioned within the body of the torch, the plasma arc is separated from the shielding gas envelope (see Figure 9.7).
+
+---
+라인: 1466
+필드: input
+원본: Microplasma—the arc is operated at very low welding currents (0.1–15 amps) and used for welding thin sheets (down to 0.1 mm thickness).
+수정: Microplasmathe arc is operated at very low welding currents (0.1–15 amps) and used for welding thin sheets (down to 0.1 mm thickness).
+
+---
+라인: 1466
+필드: output
+원본: Microplasma—the arc is operated at very low welding currents (0.1–15 amps) and used for welding thin sheets (down to 0.1 mm thickness).
+수정: Microplasmathe arc is operated at very low welding currents (0.1–15 amps) and used for welding thin sheets (down to 0.1 mm thickness).
+
+---
+라인: 1467
+필드: input
+원본: Medium current—the arc is operated at currents from 15 to 200 amps.
+수정: Medium currentthe arc is operated at currents from 15 to 200 amps.
+
+---
+라인: 1467
+필드: output
+원본: Medium current—the arc is operated at currents from 15 to 200 amps.
+수정: Medium currentthe arc is operated at currents from 15 to 200 amps.
+
+---
+라인: 1485
+필드: input
+원본: In producing butt joints it uses a nonconsumable rotating tool, the proﬁled pin of which is plunged into the butted joint of two plates 1 Friction stir welding was invented and patented by TWI Ltd., C
+수정: In producing butt joints it uses a nonconsumable rotating tool, the proﬁled pin of which is plunged into the butted joint of two plates 1 Friction stir welding was invented and patented by TWI Ltd. Ca
+
+---
+라인: 1485
+필드: output
+원본: In producing butt joints it uses a nonconsumable rotating tool, the proﬁled pin of which is plunged into the butted joint of two plates 1 Friction stir welding was invented and patented by TWI Ltd., C
+수정: In producing butt joints it uses a nonconsumable rotating tool, the proﬁled pin of which is plunged into the butted joint of two plates 1 Friction stir welding was invented and patented by TWI Ltd. Ca
+
+---
+라인: 1487
+필드: input
+원본: The plate material is softened in both plates and forced around the rotating proﬁled pin, resulting in a solid-state bond between the two plates (see Figure 9.9 ).
+수정: The plate material is softened in both plates and forced around the rotating proﬁled pin, resulting in a solid-state bond between the two plates (see Figure 9.9).
+
+---
+라인: 1487
+필드: output
+원본: The plate material is softened in both plates and forced around the rotating proﬁled pin, resulting in a solid-state bond between the two plates (see Figure 9.9 ).
+수정: The plate material is softened in both plates and forced around the rotating proﬁled pin, resulting in a solid-state bond between the two plates (see Figure 9.9).
+
+---
+라인: 1489
+필드: input
+원본: Plates of different thickness may be butt welded by inclining the rotating tool ( Figure 9.9 ).
+수정: Plates of different thickness may be butt welded by inclining the rotating tool (Figure 9.9).
+
+---
+라인: 1489
+필드: output
+원본: Plates of different thickness may be butt welded by inclining the rotating tool ( Figure 9.9 ).
+수정: Plates of different thickness may be butt welded by inclining the rotating tool (Figure 9.9).
+
+---
+라인: 1496
+필드: input
+원본: The torch has valves for controlling the volume of acetylene and oxygen provided for the preheat ﬂame, and it has a separate valve for controlling the oxygen jet (see Figure 9.10 ).
+수정: The torch has valves for controlling the volume of acetylene and oxygen provided for the preheat ﬂame, and it has a separate valve for controlling the oxygen jet (see Figure 9.10).
+
+---
+라인: 1496
+필드: output
+원본: The torch has valves for controlling the volume of acetylene and oxygen provided for the preheat ﬂame, and it has a separate valve for controlling the oxygen jet (see Figure 9.10 ).
+수정: The torch has valves for controlling the volume of acetylene and oxygen provided for the preheat ﬂame, and it has a separate valve for controlling the oxygen jet (see Figure 9.10).
+
+---
+라인: 1511
+필드: input
+원본: Water jet cutting can be used on a range of materials such as timber, plastics, rubber, etc., as well as steels and aluminum alloys.
+수정: Water jet cutting can be used on a range of materials such as timber, plastics, rubber, etc. as well as steels and aluminum alloys.
+
+---
+라인: 1511
+필드: output
+원본: Water jet cutting can be used on a range of materials such as timber, plastics, rubber, etc., as well as steels and aluminum alloys.
+수정: Water jet cutting can be used on a range of materials such as timber, plastics, rubber, etc. as well as steels and aluminum alloys.
+
+---
+라인: 1516
+필드: input
+원본: In mild steel the weld metal tends to have a higher yield strength than the plate material (see Figure 10.1 ).
+수정: In mild steel the weld metal tends to have a higher yield strength than the plate material (see Figure 10.1).
+
+---
+라인: 1516
+필드: output
+원본: In mild steel the weld metal tends to have a higher yield strength than the plate material (see Figure 10.1 ).
+수정: In mild steel the weld metal tends to have a higher yield strength than the plate material (see Figure 10.1).
+
+---
+라인: 1526
+필드: input
+원본: Where ﬁllets are intermittent they may be either staggered or chain welded (see Figure 10.2 ), the member may also be scalloped to give the same result when continuously welded.
+수정: Where ﬁllets are intermittent they may be either staggered or chain welded (see Figure 10.2), the member may also be scalloped to give the same result when continuously welded.
+
+---
+라인: 1526
+필드: output
+원본: Where ﬁllets are intermittent they may be either staggered or chain welded (see Figure 10.2 ), the member may also be scalloped to give the same result when continuously welded.
+수정: Where ﬁllets are intermittent they may be either staggered or chain welded (see Figure 10.2), the member may also be scalloped to give the same result when continuously welded.
+
+---
+라인: 1527
+필드: input
+원본: On thicker plates it becomes necessary to bevel the edges of plates that are to be butted together in order to achieve complete penetration of the weld metal ( Figure 10.2 ).
+수정: On thicker plates it becomes necessary to bevel the edges of plates that are to be butted together in order to achieve complete penetration of the weld metal (Figure 10.2).
+
+---
+라인: 1527
+필드: output
+원본: On thicker plates it becomes necessary to bevel the edges of plates that are to be butted together in order to achieve complete penetration of the weld metal ( Figure 10.2 ).
+수정: On thicker plates it becomes necessary to bevel the edges of plates that are to be butted together in order to achieve complete penetration of the weld metal (Figure 10.2).
+
+---
+라인: 1547
+필드: input
+원본: metal laid down by an electrode to suit the required cross-section of weld (see Figure 10.3 ).
+수정: metal laid down by an electrode to suit the required cross-section of weld (see Figure 10.3).
+
+---
+라인: 1547
+필드: output
+원본: metal laid down by an electrode to suit the required cross-section of weld (see Figure 10.3 ).
+수정: metal laid down by an electrode to suit the required cross-section of weld (see Figure 10.3).
+
+---
+라인: 1548
+필드: input
+원본: Of the more important welds in the construction of the ship the sequences involving welding of butts and seams in plating panels may be considered (see Figure 10.4 ).
+수정: Of the more important welds in the construction of the ship the sequences involving welding of butts and seams in plating panels may be considered (see Figure 10.4).
+
+---
+라인: 1548
+필드: output
+원본: Of the more important welds in the construction of the ship the sequences involving welding of butts and seams in plating panels may be considered (see Figure 10.4 ).
+수정: Of the more important welds in the construction of the ship the sequences involving welding of butts and seams in plating panels may be considered (see Figure 10.4).
+
+---
+라인: 1554
+필드: input
+원본: Finally, the vertical framing is welded in way of the seams ( Figure 10.4 ).
+수정: Finally, the vertical framing is welded in way of the seams (Figure 10.4).
+
+---
+라인: 1554
+필드: output
+원본: Finally, the vertical framing is welded in way of the seams ( Figure 10.4 ).
+수정: Finally, the vertical framing is welded in way of the seams (Figure 10.4).
+
+---
+라인: 1556
+필드: input
+원본: Different faults are illustrated in Figure 10.5 .
+수정: Different faults are illustrated in Figure 10.5.
+
+---
+라인: 1556
+필드: output
+원본: Different faults are illustrated in Figure 10.5 .
+수정: Different faults are illustrated in Figure 10.5.
