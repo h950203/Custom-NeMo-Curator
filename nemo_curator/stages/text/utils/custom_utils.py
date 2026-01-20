@@ -59,7 +59,6 @@ def preprocess_text(text, lang, preprocessors):
 
     # Apply personal data filter
     preprocessor = preprocessors.get(lang, BasePersonalFilter())
-        preprocessor = preprocessors.get(lang, BasePersonalFilter())
     if lang == "ko":
         preprocessor = PersonalFilter() # 별도 PersonalFilter 사용
 
