@@ -1,17 +1,12 @@
 import re
 import html
 import unicodedata
-from .base_preprocessing import PersonalFilter
+from .base_preprocessing import BasePreprocessing
 
-class KoreanPersonalFilter(PersonalFilter):
-    """
-    A filter that applies a series of personal text preprocessing steps
-    to a given text string. This is designed to be used as a modifier
-    on a per-sentence basis.
-    """
+class KoreanPreprocessing(BasePreprocessing):
     def __init__(self):
         super().__init__()
-        self._name = "korean_personal_preproc_filter"
+        self._name = "korean_preproc"
 
     def apply(self, text: str) -> str:
         if not isinstance(text, str):

@@ -1,14 +1,10 @@
 import re
-from .base_preprocessing import PersonalFilter
+from .base_preprocessing import BasePreprocessing
 
-class EnglishPersonalFilter(PersonalFilter):
-    """
-    A filter that applies a series of English-specific text preprocessing steps,
-    building upon the base PersonalFilter.
-    """
+class EnglishPreprocessing(BasePreprocessing):
     def __init__(self):
         super().__init__()
-        self._name = "english_personal_preproc_filter"
+        self._name = "english_preproc"
 
     def apply(self, text: str) -> str:
         if not isinstance(text, str):

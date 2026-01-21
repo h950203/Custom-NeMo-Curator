@@ -1,15 +1,10 @@
 import re
-from .base_preprocessing import PersonalFilter
+from .base_preprocessing import BasePreprocessing
 
-class ChinesePersonalFilter(PersonalFilter):
-    """
-    A filter that applies a series of Chinese-specific text preprocessing steps,
-    building upon the base PersonalFilter.
-    Currently a placeholder that inherits from PersonalFilter.
-    """
+class ChinesePreprocessing(BasePreprocessing):
     def __init__(self):
         super().__init__()
-        self._name = "chinese_personal_preproc_filter"
+        self._name = "chinese_preproc"
 
     def apply(self, text: str) -> str:
         # TODO: Add Chinese-specific preprocessing logic here.

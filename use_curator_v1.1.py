@@ -6,11 +6,11 @@ from nemo_curator.stages.text.io.reader import JsonlReader
 from nemo_curator.stages.text.io.writer import JsonlWriter
 from nemo_curator.stages.text.filters.custom_filter import PreAnalyzeFilterStage
 from nemo_curator.stages.text.utils.custom_utils import preprocess_text
-from nemo_curator.stages.text.preprocessing.korean_preprocessing import KoreanPersonalFilter
-from nemo_curator.stages.text.preprocessing.english_preprocessing import EnglishPersonalFilter
-from nemo_curator.stages.text.preprocessing.japanese_preprocessing import JapanesePersonalFilter
-from nemo_curator.stages.text.preprocessing.chinese_preprocessing import ChinesePersonalFilter
-from nemo_curator.stages.text.preprocessing.other_preprocessing import OtherPersonalFilter
+from nemo_curator.stages.text.preprocessing.korean_preprocessing import KoreanPreprocessing
+from nemo_curator.stages.text.preprocessing.english_preprocessing import EnglishPreprocessing
+from nemo_curator.stages.text.preprocessing.japanese_preprocessing import JapanesePreprocessing
+from nemo_curator.stages.text.preprocessing.chinese_preprocessing import ChinesePreprocessing
+from nemo_curator.stages.text.preprocessing.other_preprocessing import OtherPreprocessing
 from nemo_curator.stages.text.analyze.sentence_analysis import SentenceAnalysisStage
 from nemo_curator.utils.log_utils import (
     print_filter_config,
@@ -93,12 +93,12 @@ LANG_CODE_MAP = {
 
 # 언어별 전처리기
 PREPROCESSORS = {
-    "ko": KoreanPersonalFilter(),
-    "en": EnglishPersonalFilter(),
-    "ja": JapanesePersonalFilter(),
-    "zh": ChinesePersonalFilter(),
+    "ko": KoreanPreprocessing(),
+    "en": EnglishPreprocessing(),
+    "ja": JapanesePreprocessing(),
+    "zh": ChinesePreprocessing(),
 }
-DEFAULT_PREPROCESSOR = OtherPersonalFilter()
+DEFAULT_PREPROCESSOR = OtherPreprocessing()
 
 INPUT_PATH = "data/"
 OUTPUT_PATH = "filtered_data_v1.1/"

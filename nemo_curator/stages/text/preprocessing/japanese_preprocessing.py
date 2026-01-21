@@ -1,15 +1,10 @@
 import re
-from .base_preprocessing import PersonalFilter
+from .base_preprocessing import BasePreprocessing
 
-class JapanesePersonalFilter(PersonalFilter):
-    """
-    A filter that applies a series of Japanese-specific text preprocessing steps,
-    building upon the base PersonalFilter.
-    Currently a placeholder that inherits from PersonalFilter.
-    """
+class JapanesePreprocessing(BasePreprocessing):
     def __init__(self):
         super().__init__()
-        self._name = "japanese_personal_preproc_filter"
+        self._name = "japanese_preproc"
 
     def apply(self, text: str) -> str:
         # TODO: Add Japanese-specific preprocessing logic here.

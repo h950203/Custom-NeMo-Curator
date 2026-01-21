@@ -1,16 +1,10 @@
 import re
-from .base_preprocessing import PersonalFilter
+from .base_preprocessing import BasePreprocessing
 
-class OtherPersonalFilter(PersonalFilter):
-    """
-    A base filter that applies a series of basic text preprocessing steps.
-    Used for languages without a specific filter or as a default.
-    Now inherits from PersonalFilter to provide more comprehensive default processing.
-    """
-
+class OtherPreprocessing(BasePreprocessing):
     def __init__(self):
         super().__init__()
-        self._name = "other_personal_preproc_filter"
+        self._name = "other_preproc"
 
     def apply(self, text: str) -> str:
         # The full logic now comes from the parent PersonalFilter
