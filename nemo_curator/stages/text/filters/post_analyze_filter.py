@@ -14,22 +14,24 @@ class PostAnalyzeFilterStage(CompositeStage):
         self.stages = [
             Modify(
                 modifier_fn=self._filter_sentences,
+                input_fields="processing_results",
+                output_fields="processing_results",
             ),
         ]
 
     def decompose(self):
         return self.stages
 
-    def _filter_sentences(self, doc):
-        if 'processing_results' not in doc or not isinstance(doc.get('processing_results'), dict):
-            return doc
+    def _filter_sentences(self, proc_results):
+        if not isinstance(proc_results, dict):
+            return proc_results
 
-        proc_results = doc['processing_results']
+        new_proc_results = proc_results.copy()
         
         # Filter input sentences
-        if 'input_analysis' in proc_results and proc_results['input_analysis']:
+        if 'input_analysis' in new_proc_results and new_proc_results['input_analysis']:
             kept_input_sentences = []
-            for sent_analysis in proc_results['input_analysis']:
+            for sent_analysis in new_proc_results['input_analysis']:
                 text = sent_analysis.get('text', '')
                 try:
                     main_clauses = sent_analysis.get('main_clauses')
@@ -48,12 +50,12 @@ class PostAnalyzeFilterStage(CompositeStage):
                     # Keep sentence if a comparison fails
                     kept_input_sentences.append(text)
             
-            proc_results['processed_input'] = ' '.join(kept_input_sentences)
+            new_proc_results['processed_input'] = ' '.join(kept_input_sentences)
 
         # Filter output sentences
-        if 'output_analysis' in proc_results and proc_results['output_analysis']:
+        if 'output_analysis' in new_proc_results and new_proc_results['output_analysis']:
             kept_output_sentences = []
-            for sent_analysis in proc_results['output_analysis']:
+            for sent_analysis in new_proc_results['output_analysis']:
                 text = sent_analysis.get('text', '')
                 try:
                     main_clauses = sent_analysis.get('main_clauses')
@@ -72,8 +74,6 @@ class PostAnalyzeFilterStage(CompositeStage):
                     # Keep sentence if a comparison fails
                     kept_output_sentences.append(text)
 
-            proc_results['processed_output'] = ' '.join(kept_output_sentences)
-
-        doc['processing_results'] = proc_results
+            new_proc_results['processed_output'] = ' '.join(kept_output_sentences)
         
-        return doc
+        return new_proc_results
