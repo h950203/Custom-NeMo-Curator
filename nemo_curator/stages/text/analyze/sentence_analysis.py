@@ -1,12 +1,3 @@
-"""
-A NeMo Curator stage to perform detailed linguistic analysis on each document
-and add the features to the document.
-
-This stage uses Stanza to perform dependency parsing and calculates various features
-based on the parsed sentence structure, including lexical diversity, clause structure,
-POS-based metrics, and dependency tree analysis.
-"""
-
 import stanza
 import numpy as np
 import pandas as pd
