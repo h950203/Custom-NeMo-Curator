@@ -235,7 +235,6 @@ def process_file_with_tracking(input_file, output_dir, config):
             preprocessors=PREPROCESSORS
         ))
         pipeline.add_stage(SentenceAnalysisStage())
-        pipeline.add_stage(PostAnalyzeFilterStage())
         pipeline.add_stage(JsonlWriter(path=temp_output_path))
         
         executor = XennaExecutor()

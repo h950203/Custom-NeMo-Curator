@@ -52,7 +52,6 @@ from .heuristic_filter import (
     WordsWithoutAlphabetsFilter,
 )
 from .personal_filter import PersonalFilter
-from .post_analyze_filter import PostAnalyzeFilterStage
 
 __all__ = [
     "AlphaFilter",
@@ -74,7 +73,6 @@ __all__ = [
     "ParenthesesFilter",
     "PerExtensionFilter",
     "PersonalFilter",
-    "PostAnalyzeFilterStage",
     "PornographicUrlsFilter",
     "PunctuationFilter",
     "PythonCommentToCodeFilter",
