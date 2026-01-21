@@ -210,17 +210,47 @@ class SentenceAnalysisStage(ProcessingStage):
 
     def _analyze_text(self, text, lang_name, features_field):
         if not text:
-            return {}
-        
+            return "", {features_field: {}}
+
         lang_code = self.lang_code_map.get(lang_name.lower(), "en")
         try:
             nlp = self._get_pipeline(lang_code)
             st_doc = nlp(text)
-            if st_doc.sentences:
-                return {features_field: calculate_all_features(st_doc.sentences[0])}
+
+            kept_sentences_text = []
+            kept_sentences_features = []
+
+            if not st_doc.sentences:
+                return text, {features_field: {}}
+
+            for sent in st_doc.sentences:
+                features = calculate_all_features(sent)
+
+                main_clauses = features.get('main_clauses')
+                avg_token_length = features.get('avg_token_length')
+                content_word_ratio = features.get('content_word_ratio')
+
+                remove = False
+                if main_clauses is not None and avg_token_length is not None and content_word_ratio is not None:
+                    if main_clauses == 0 or not (1.5 <= avg_token_length <= 15) or content_word_ratio < 20:
+                        remove = True
+                
+                if not remove:
+                    kept_sentences_text.append(sent.text)
+                    kept_sentences_features.append(features)
+
+            if not kept_sentences_features:
+                return "", {features_field: {}}
+
+            final_text = ' '.join(kept_sentences_text)
+
+            avg_features = pd.DataFrame(kept_sentences_features).mean().to_dict()
+            avg_features = {k: round(v, 4) for k, v in avg_features.items()}
+
+            return final_text, {features_field: avg_features}
+
         except Exception as e:
-            return {f"{features_field}_error": str(e)}
-        return {}
+            return text, {f"{features_field}_error": str(e)}
 
     def process(self, batch):
         """
@@ -229,14 +259,19 @@ class SentenceAnalysisStage(ProcessingStage):
         df = batch.data
 
         # Generate analysis results for both input and output fields
-        input_analyses = df.apply(
+        input_results = df.apply(
             lambda row: self._analyze_text(row.get("input", ""), row.get("src", "en"), 'input_features'),
             axis=1
         )
-        output_analyses = df.apply(
+        df['input'] = input_results.apply(lambda x: x[0])
+        input_analyses = input_results.apply(lambda x: x[1])
+
+        output_results = df.apply(
             lambda row: self._analyze_text(row.get("output", ""), row.get("tgt", "en"), 'output_features'),
             axis=1
         )
+        df['output'] = output_results.apply(lambda x: x[0])
+        output_analyses = output_results.apply(lambda x: x[1])
 
         # Convert the series of dicts to DataFrames and join them
         input_df = pd.json_normalize(input_analyses)
