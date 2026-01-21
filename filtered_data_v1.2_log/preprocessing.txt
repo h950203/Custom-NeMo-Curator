@@ -1,0 +1,903 @@
+전처리 중 변경된 문장 목록
+총 변경된 문장 수: 149
+================================================================================
+
+
+
+================================================================================
+파일: val.jsonl
+================================================================================
+
+---
+라인: 2
+필드: input
+원본: I’ve temporarily fixed it with gas soldering, but I’m worried.
+수정: I've temporarily fixed it with gas soldering, but I'm worried.
+
+---
+라인: 5
+필드: input
+원본: We can’t proceed to the next stage until the pressure thermite welding is finished
+수정: We can't proceed to the next stage until the pressure thermite welding is finished
+
+---
+라인: 12
+필드: input
+원본: If the open circuit voltage is weak, the ignition is slow and it doesn’t absorb heat
+수정: If the open circuit voltage is weak, the ignition is slow and it doesn't absorb heat
+
+---
+라인: 19
+필드: input
+원본: I’ve set up the machine
+수정: I've set up the machine
+
+---
+라인: 20
+필드: input
+원본: I’m planning to conduct today’s training with this method
+수정: I'm planning to conduct today's training with this method
+
+---
+라인: 21
+필드: input
+원본: Thanks to the hardfacing treatment, there’s a wear-resistant effect, and the inspection intervals have been extended
+수정: Thanks to the hardfacing treatment, there's a wear-resistant effect, and the inspection intervals have been extended
+
+---
+라인: 26
+필드: input
+원본: If there’s a way to make it easier, let me know
+수정: If there's a way to make it easier, let me know
+
+---
+라인: 31
+필드: input
+원본: We’ve planned repair work for the areas where cracks have been reported.
+수정: We've planned repair work for the areas where cracks have been reported.
+
+---
+라인: 43
+필드: input
+원본: Isn’t it past the replacement cycle for the nozzle tip
+수정: Isn't it past the replacement cycle for the nozzle tip
+
+---
+라인: 58
+필드: input
+원본: I got so distracted by the sintered flux that I forgot to bring the welding rods. I need to go get them again
+수정: I got so distracted by the sintered flux that I forgot to bring the welding rods I need to go get them again
+
+---
+라인: 59
+필드: input
+원본: It seems like there’s something wrong with the welding area, possibly due to hydrogen embrittlement, so double-check it carefully
+수정: It seems like there's something wrong with the welding area, possibly due to hydrogen embrittlement, so double-check it carefully
+
+---
+라인: 64
+필드: input
+원본: Mr. Choi, can I borrow a cigarette
+수정: Mr Choi, can I borrow a cigarette
+
+---
+라인: 67
+필드: input
+원본: There’s nothing else besides using the solid wire for today’s work, right
+수정: There's nothing else besides using the solid wire for today's work, right
+
+---
+라인: 69
+필드: input
+원본: I think it’s probably used the most in automobile manufacturing factories
+수정: I think it's probably used the most in automobile manufacturing factories
+
+---
+라인: 71
+필드: input
+원본: Got it. It’s a narrow area, so pay extra attention to safety.
+수정: Got it It's a narrow area, so pay extra attention to safety.
+
+---
+라인: 74
+필드: input
+원본: I won’t hide anything. I’ll report everything as it is.
+수정: I won't hide anything I'll report everything as it is.
+
+---
+라인: 75
+필드: input
+원본: Good, good. Always be careful
+수정: Good, good Always be careful
+
+---
+라인: 83
+필드: input
+원본: Let’s see, the valve is closed.
+수정: Let's see, the valve is closed.
+
+---
+라인: 84
+필드: input
+원본: The shielding wasn’t done properly, so the weld looks bad.
+수정: The shielding wasn't done properly, so the weld looks bad.
+
+---
+라인: 85
+필드: input
+원본: About that accident yesterday. The problem is that the strength of the seam-welded area was lower than expected. We need to review the welding methods overall during this opportunity
+수정: About that accident yesterday The problem is that the strength of the seam-welded area was lower than expected We need to review the welding methods overall during this opportunity
+
+---
+라인: 90
+필드: input
+원본: You are the new Mr. Park, right
+수정: You are the new Mr Park, right
+
+---
+라인: 98
+필드: input
+원본: Get some good rest, you’ll be fine tomorrow
+수정: Get some good rest, you'll be fine tomorrow
+
+---
+라인: 99
+필드: input
+원본: I’ll go right now
+수정: I'll go right now
+
+---
+라인: 110
+필드: input
+원본: Choi, electro-slag welding is done in the slag, so cleanup should only be done at the end of the work. Did you handle the post-processing properly
+수정: Choi, electro-slag welding is done in the slag, so cleanup should only be done at the end of the work Did you handle the post-processing properly
+
+---
+라인: 114
+필드: input
+원본: Ductile fractures are occurring a lot at the welding points today, so we’re definitely staying late
+수정: Ductile fractures are occurring a lot at the welding points today, so we're definitely staying late
+
+---
+라인: 119
+필드: input
+원본: Of course, I’ll be thorough.
+수정: Of course, I'll be thorough.
+
+---
+라인: 122
+필드: input
+원본: Even if the process is urgent, the heat-affected zone must go through heat treatment and inspection procedures. Otherwise, micro-cracks or deformation can occur
+수정: Even if the process is urgent, the heat-affected zone must go through heat treatment and inspection procedures Otherwise, micro-cracks or deformation can occur
+
+---
+라인: 125
+필드: input
+원본: I’ll grind it down and redo it, what a waste of time.
+수정: I'll grind it down and redo it, what a waste of time.
+
+---
+라인: 130
+필드: input
+원본: Okay, then I’ll brew it for you
+수정: Okay, then I'll brew it for you
+
+---
+라인: 134
+필드: input
+원본: Last time we got called out for the shape of the bead during the visual inspection; let’s make it perfect this time without any surface defects
+수정: Last time we got called out for the shape of the bead during the visual inspection; let's make it perfect this time without any surface defects
+
+---
+라인: 135
+필드: input
+원본: Yeah, let’s all work hard to meet the deadline
+수정: Yeah, let's all work hard to meet the deadline
+
+---
+라인: 137
+필드: input
+원본: Mr. Choi, can I borrow your spray gun? Mine’s broken.
+수정: Mr Choi, can I borrow your spray gun? Mine's broken.
+
+---
+라인: 141
+필드: input
+원본: I’m too focused because of the fusible flux
+수정: I'm too focused because of the fusible flux
+
+---
+라인: 143
+필드: input
+원본: Let’s take a short break
+수정: Let's take a short break
+
+---
+라인: 145
+필드: input
+원본: They say if you misuse the thermite welding method there’s even a risk of explosion—that’s scary.
+수정: They say if you misuse the thermite welding method there's even a risk of explosionthat's scary.
+
+---
+라인: 146
+필드: input
+원본: Before the thermite welding method, make sure there are no flammables around—important.
+수정: Before the thermite welding method, make sure there are no flammables aroundimportant.
+
+---
+라인: 151
+필드: input
+원본: Mr. Choi, can I borrow a welding screen? It’s urgent
+수정: Mr Choi, can I borrow a welding screen? It's urgent
+
+---
+라인: 163
+필드: input
+원본: Maybe I didn’t sleep well yesterday, it’s hard to focus on welding heat input.
+수정: Maybe I didn't sleep well yesterday, it's hard to focus on welding heat input.
+
+---
+라인: 168
+필드: input
+원본: It’s fine if my stomach isn’t great, but if I make a mistake while welding and cause high residual stresses, that would be a big problem
+수정: It's fine if my stomach isn't great, but if I make a mistake while welding and cause high residual stresses, that would be a big problem
+
+---
+라인: 170
+필드: input
+원본: I’m still not used to setting the weld pitch.
+수정: I'm still not used to setting the weld pitch.
+
+---
+라인: 172
+필드: input
+원본: Is it because the weld pitch doesn’t line up properly?
+수정: Is it because the weld pitch doesn't line up properly?
+
+---
+라인: 173
+필드: input
+원본: That spanner doesn’t fit!
+수정: That spanner doesn't fit!
+
+---
+라인: 174
+필드: input
+원본: I’m sorry, I should have been more careful
+수정: I'm sorry, I should have been more careful
+
+---
+라인: 179
+필드: input
+원본: If you keep practicing, you’ll improve soon.
+수정: If you keep practicing, you'll improve soon.
+
+---
+라인: 183
+필드: input
+원본: I’ll need to be careful while welding
+수정: I'll need to be careful while welding
+
+---
+라인: 184
+필드: input
+원본: It’s hard to weave because of the smoke
+수정: It's hard to weave because of the smoke
+
+---
+라인: 189
+필드: input
+원본: Understood, I’ll make sure it meets the standard.
+수정: Understood, I'll make sure it meets the standard.
+
+---
+라인: 196
+필드: input
+원본: There’s a company dinner tonight, who’s going
+수정: There's a company dinner tonight, who's going
+
+---
+라인: 207
+필드: input
+원본: Bring me a hammer; I’m going to take this apart again
+수정: Bring me a hammer; I'm going to take this apart again
+
+---
+라인: 210
+필드: input
+원본: They’ll probably say the obvious again about how we need to be thorough with safety checks due to low-temperature brittleness
+수정: They'll probably say the obvious again about how we need to be thorough with safety checks due to low-temperature brittleness
+
+---
+라인: 211
+필드: input
+원본: Yeah, if you're not feeling well, don’t push yourself
+수정: Yeah, if you're not feeling well, don't push yourself
+
+---
+라인: 212
+필드: input
+원본: The resistance butt welding area didn’t bond properly
+수정: The resistance butt welding area didn't bond properly
+
+---
+라인: 214
+필드: input
+원본: You need to properly adjust the electrode extension length before welding so you don’t struggle later
+수정: You need to properly adjust the electrode extension length before welding so you don't struggle later
+
+---
+라인: 215
+필드: input
+원본: Time is dragging, but don’t forget to check the electrode extension length
+수정: Time is dragging, but don't forget to check the electrode extension length
+
+---
+라인: 232
+필드: input
+원본: I’ll have to hear more nagging again
+수정: I'll have to hear more nagging again
+
+---
+라인: 237
+필드: input
+원본: Right, let’s quickly clean up and go smoke
+수정: Right, let's quickly clean up and go smoke
+
+---
+라인: 242
+필드: input
+원본: Thoroughly check the CO₂ shielding gas welding equipment, and report any issues
+수정: Thoroughly check the CO2 shielding gas welding equipment, and report any issues
+
+---
+라인: 243
+필드: input
+원본: Let’s lubricate a bit to celebrate finishing the crater treatment successfully
+수정: Let's lubricate a bit to celebrate finishing the crater treatment successfully
+
+---
+라인: 248
+필드: input
+원본: It’s funny that I'm dreaming about welding, too
+수정: It's funny that I'm dreaming about welding, too
+
+---
+라인: 257
+필드: input
+원본: Okay, let’s take good care of the tempilstik and see you tomorrow
+수정: Okay, let's take good care of the tempilstik and see you tomorrow
+
+---
+라인: 258
+필드: input
+원본: It’s hard to breathe when working with thoriated tungsten electrode rods.
+수정: It's hard to breathe when working with thoriated tungsten electrode rods.
+
+---
+라인: 260
+필드: input
+원본: Great, let’s all relieve our stress together
+수정: Great, let's all relieve our stress together
+
+---
+라인: 269
+필드: input
+원본: Okay, then let’s go eat some kalguksu (noodle soup
+수정: Okay, then let's go eat some kalguksu noodle soup
+
+---
+라인: 276
+필드: input
+원본: Then I’ll just do it
+수정: Then I'll just do it
+
+---
+라인: 286
+필드: input
+원본: Once I tighten that last plug, I’ll head straight to the gym
+수정: Once I tighten that last plug, I'll head straight to the gym
+
+---
+라인: 288
+필드: input
+원본: Mr. Kim, please organize the flux-cored wire
+수정: Mr Kim, please organize the flux-cored wire
+
+---
+라인: 290
+필드: input
+원본: Mr. Park, should we take a smoke break
+수정: Mr Park, should we take a smoke break
+
+---
+라인: 293
+필드: input
+원본: I’ll adjust the angle again.
+수정: I'll adjust the angle again.
+
+---
+라인: 300
+필드: input
+원본: Doesn't it seem like there’s an unusually high amount of spatter during the welding work today
+수정: Doesn't it seem like there's an unusually high amount of spatter during the welding work today
+
+---
+라인: 308
+필드: input
+원본: It seems like the sparks from the deck welding are flying more than usual today, and I’m feeling oddly sentimental
+수정: It seems like the sparks from the deck welding are flying more than usual today, and I'm feeling oddly sentimental
+
+---
+라인: 309
+필드: input
+원본: It’s almost lunchtime; what should we eat
+수정: It's almost lunchtime; what should we eat
+
+---
+라인: 313
+필드: input
+원본: I’ve been so busy with the crack repair work since this morning that I didn’t even notice the traffic
+수정: I've been so busy with the crack repair work since this morning that I didn't even notice the traffic
+
+---
+라인: 314
+필드: input
+원본: Can we achieve this month’s production target
+수정: Can we achieve this month's production target
+
+---
+라인: 315
+필드: input
+원본: Since being thorough is important, don’t rush
+수정: Since being thorough is important, don't rush
+
+---
+라인: 318
+필드: input
+원본: Let’s sit down and take a break
+수정: Let's sit down and take a break
+
+---
+라인: 323
+필드: input
+원본: That hook crystal is bent — looks like it might fall off.
+수정: That hook crystal is bent looks like it might fall off.
+
+---
+라인: 323
+필드: output
+원본: 후크 결정 휘어져서 빠질 것 같은데,
+수정: 후크 결정 휘어져서 빠질 것 같은데
+
+---
+라인: 343
+필드: input
+원본: Even if it’s tough, we need to stay alert to avoid slipping
+수정: Even if it's tough, we need to stay alert to avoid slipping
+
+---
+라인: 351
+필드: input
+원본: Mr. Kim, I heard you got promoted this time
+수정: Mr Kim, I heard you got promoted this time
+
+---
+라인: 357
+필드: input
+원본: It’s fine, I cut it down with the torch to make it lighter
+수정: It's fine, I cut it down with the torch to make it lighter
+
+---
+라인: 369
+필드: input
+원본: Got it, I’ll adjust the flame.
+수정: Got it, I'll adjust the flame.
+
+---
+라인: 371
+필드: input
+원본: It’s because the lead of my scriber keeps breaking, and it’s frustrating
+수정: It's because the lead of my scriber keeps breaking, and it's frustrating
+
+---
+라인: 375
+필드: input
+원본: That humming sound has been going on for a while, it’s definitely the sound of a short circuit current, you might get electrocuted
+수정: That humming sound has been going on for a while, it's definitely the sound of a short circuit current, you might get electrocuted
+
+---
+라인: 378
+필드: input
+원본: I think there’s a smell coming from that machine, could you please check if it’s a burning smell due to a short circuit
+수정: I think there's a smell coming from that machine, could you please check if it's a burning smell due to a short circuit
+
+---
+라인: 380
+필드: input
+원본: It’s so boring to just keep repeating the same securing tasks
+수정: It's so boring to just keep repeating the same securing tasks
+
+---
+라인: 385
+필드: input
+원본: If you don’t do it right, you won’t get to go home
+수정: If you don't do it right, you won't get to go home
+
+---
+라인: 388
+필드: input
+원본: Let’s lower the intensity and take it slow
+수정: Let's lower the intensity and take it slow
+
+---
+라인: 390
+필드: input
+원본: I’ve been really stressed because of localized porosity
+수정: I've been really stressed because of localized porosity
+
+---
+라인: 401
+필드: input
+원본: I know. I’m being careful.
+수정: I know I'm being careful.
+
+---
+라인: 402
+필드: input
+원본: I’m not sure; with the current situation, it looks likely we’ll be on hold before we get to leave
+수정: I'm not sure; with the current situation, it looks likely we'll be on hold before we get to leave
+
+---
+라인: 412
+필드: input
+원본: It’s difficult to align it here
+수정: It's difficult to align it here
+
+---
+라인: 416
+필드: input
+원본: I’ve told you several times that you’ll be in big trouble when you release the clamp if you weld without checking the root gap
+수정: I've told you several times that you'll be in big trouble when you release the clamp if you weld without checking the root gap
+
+---
+라인: 419
+필드: input
+원본: I wonder if we’ll get a bonus after this project is finished
+수정: I wonder if we'll get a bonus after this project is finished
+
+---
+라인: 420
+필드: input
+원본: If the condition of the root face is poor, the weld bead won’t come out nicely
+수정: If the condition of the root face is poor, the weld bead won't come out nicely
+
+---
+라인: 423
+필드: input
+원본: If you place that wrong, you’ll stub your foot
+수정: If you place that wrong, you'll stub your foot
+
+---
+라인: 425
+필드: input
+원본: Try replacing the rod—if it doesn’t help, we’ll look for another cause.
+수정: Try replacing the rodif it doesn't help, we'll look for another cause.
+
+---
+라인: 427
+필드: input
+원본: Looks like we’ll have to pull an all-nighter, everyone.
+수정: Looks like we'll have to pull an all-nighter, everyone.
+
+---
+라인: 444
+필드: input
+원본: I need to teach them how to weld beads, but we’re having communication difficulties
+수정: I need to teach them how to weld beads, but we're having communication difficulties
+
+---
+라인: 449
+필드: input
+원본: This is why cutting misalignment keeps happening, isn’t it?
+수정: This is why cutting misalignment keeps happening, isn't it?
+
+---
+라인: 451
+필드: input
+원본: That must be the new worker—the metallic noise is intense.
+수정: That must be the new workerthe metallic noise is intense.
+
+---
+라인: 453
+필드: input
+원본: I know—I’ll be thorough with the safety gear.
+수정: I knowI'll be thorough with the safety gear.
+
+---
+라인: 458
+필드: input
+원본: I’ll have to go get new work clothes because mine are ruined from spatter
+수정: I'll have to go get new work clothes because mine are ruined from spatter
+
+---
+라인: 463
+필드: input
+원본: Mr. Choi, you look particularly tired today
+수정: Mr Choi, you look particularly tired today
+
+---
+라인: 465
+필드: input
+원본: This pipe's schedule number is too low, it's hard to weld. Please replace it.
+수정: This pipe's schedule number is too low, it's hard to weld Please replace it.
+
+---
+라인: 473
+필드: input
+원본: Don’t worry too much
+수정: Don't worry too much
+
+---
+라인: 474
+필드: input
+원본: If you don’t keep the area around the pressure regulator organized, it will break down quickly
+수정: If you don't keep the area around the pressure regulator organized, it will break down quickly
+
+---
+라인: 486
+필드: input
+원본: I’ve checked the condition of the wire reel, and I'm ready to work safely
+수정: I've checked the condition of the wire reel, and I'm ready to work safely
+
+---
+라인: 498
+필드: input
+원본: Hang in there, it’s almost quitting time.
+수정: Hang in there, it's almost quitting time.
+
+---
+라인: 499
+필드: input
+원본: Let's do our best, and if it doesn’t work, we need to report it
+수정: Let's do our best, and if it doesn't work, we need to report it
+
+---
+라인: 503
+필드: input
+원본: I'll clean up the support stand and then go home and collapse. I'm so tired
+수정: I'll clean up the support stand and then go home and collapse I'm so tired
+
+---
+라인: 516
+필드: input
+원본: It seems the same to me. Should we just order jajangmyeon
+수정: It seems the same to me Should we just order jajangmyeon
+
+---
+라인: 521
+필드: input
+원본: If the rated current doesn’t match, it’ll damage the battery
+수정: If the rated current doesn't match, it'll damage the battery
+
+---
+라인: 526
+필드: input
+원본: You’re right, it’s much easier to remove the slag; thank you for the tip
+수정: You're right, it's much easier to remove the slag; thank you for the tip
+
+---
+라인: 529
+필드: input
+원본: No matter how hard I try, I can't create a neutral flame, and that’s why the weld bead looks like this
+수정: No matter how hard I try, I can't create a neutral flame, and that's why the weld bead looks like this
+
+---
+라인: 532
+필드: input
+원본: I’ve finished smoothing it with the grinder and secured it with clamps
+수정: I've finished smoothing it with the grinder and secured it with clamps
+
+---
+라인: 540
+필드: input
+원본: Hey, didn’t you blow up the grinder yesterday
+수정: Hey, didn't you blow up the grinder yesterday
+
+---
+라인: 544
+필드: input
+원본: Don’t you think the smell of welding is stronger today
+수정: Don't you think the smell of welding is stronger today
+
+---
+라인: 547
+필드: input
+원본: Seeing the welding sparks at the pre-assembly yard makes me think I’ll have to stay up all night
+수정: Seeing the welding sparks at the pre-assembly yard makes me think I'll have to stay up all night
+
+---
+라인: 562
+필드: input
+원본: I’ll pay close attention.
+수정: I'll pay close attention.
+
+---
+라인: 564
+필드: input
+원본: I don’t think I’ve seen it like this before either.
+수정: I don't think I've seen it like this before either.
+
+---
+라인: 569
+필드: input
+원본: Let’s finish before going home.
+수정: Let's finish before going home.
+
+---
+라인: 570
+필드: input
+원본: We need to fit-up this beam to get it level, but it won’t be easy.
+수정: We need to fit-up this beam to get it level, but it won't be easy.
+
+---
+라인: 575
+필드: input
+원본: It’s that new guy; I’ll give him a warning
+수정: It's that new guy; I'll give him a warning
+
+---
+라인: 585
+필드: input
+원본: I’ve been completely out of it today with block handling.
+수정: I've been completely out of it today with block handling.
+
+---
+라인: 589
+필드: input
+원본: I haven’t heard of anyone.
+수정: I haven't heard of anyone.
+
+---
+라인: 591
+필드: input
+원본: I’ll mix the anti-slip paint ratio correctly and work carefully.
+수정: I'll mix the anti-slip paint ratio correctly and work carefully.
+
+---
+라인: 593
+필드: input
+원본: I’m happy the outfitting work is going smoothly today.
+수정: I'm happy the outfitting work is going smoothly today.
+
+---
+라인: 594
+필드: input
+원본: I’ll proceed after consulting the design team.
+수정: I'll proceed after consulting the design team.
+
+---
+라인: 595
+필드: input
+원본: I’ll store them in a dry area.
+수정: I'll store them in a dry area.
+
+---
+라인: 597
+필드: input
+원본: Mr. Kim, please check that butt fit-up part again before welding.
+수정: Mr Kim, please check that butt fit-up part again before welding.
+
+---
+라인: 598
+필드: input
+원본: It’s already lunchtime, what should we eat?
+수정: It's already lunchtime, what should we eat?
+
+---
+라인: 601
+필드: input
+원본: I’m curious about how much has been completed so far.
+수정: I'm curious about how much has been completed so far.
+
+---
+라인: 609
+필드: input
+원본: I've been so out of it because of the back bead that I haven't done it yet; I'll do it right now
+수정: I've been so out of it because of the back bead that I haven't done it yet; Ill do it right now
+
+---
+라인: 621
+필드: input
+원본: There’s too much residue from ultrasonic welding stuck on
+수정: There's too much residue from ultrasonic welding stuck on
+
+---
+라인: 624
+필드: input
+원본: If we’re done organizing the materials, shall we slowly start working
+수정: If we're done organizing the materials, shall we slowly start working
+
+---
+라인: 627
+필드: input
+원본: There’s absolutely no smoking in the flash welding area; it could be catastrophic if sparks fly
+수정: There's absolutely no smoking in the flash welding area; it could be catastrophic if sparks fly
+
+---
+라인: 636
+필드: input
+원본: I’ll put on new gloves.
+수정: I'll put on new gloves.
+
+---
+라인: 637
+필드: input
+원본: Don’t get frustrated, just take it slow and try again
+수정: Don't get frustrated, just take it slow and try again
+
+---
+라인: 684
+필드: input
+원본: Seongbuk Seonjam Museum, the first public museum in Seongbuk-gu, was built to promote the historical value of the historic site No. 83 Seonjam Complex and Seonjamje.
+수정: Seongbuk Seonjam Museum, the first public museum in Seongbuk-gu, was built to promote the historical value of the historic site No 83 Seonjam Complex and Seonjamje.
+
+---
+라인: 747
+필드: input
+원본: In this case, there may be a restriction to taking computer classes provided by Daekyo Edu Camp Co. Ltd. Computer School.
+수정: In this case, there may be a restriction to taking computer classes provided by Daekyo Edu Camp Co Ltd Computer School.
+
+---
+라인: 769
+필드: input
+원본: Dishcloths, cutting boards, utensils, etc. shall be sterilized with boiling water or household disinfectants every time.
+수정: Dishcloths, cutting boards, utensils, etc shall be sterilized with boiling water or household disinfectants every time.
+
+---
+라인: 1015
+필드: input
+원본: After 1~2 days of fever, headache, muscle pain, etc. after the incubation period, it invades the salivary gland and causes pain and pressure.
+수정: After 1~2 days of fever, headache, muscle pain, etc after the incubation period, it invades the salivary gland and causes pain and pressure.
+
+---
+라인: 1053
+필드: input
+원본: Meatballs, wontons, etc. are steamed once to remove oil and cooked by grilling or simmering.
+수정: Meatballs, wontons, etc are steamed once to remove oil and cooked by grilling or simmering.
+
+---
+라인: 1076
+필드: input
+원본: If a member falls under the reason for dismissal pursuant to paragraph ①, he/she must avoid the evaluation of the committee by himself/herself.
+수정: If a member falls under the reason for dismissal pursuant to paragraph 1, he/she must avoid the evaluation of the committee by himself/herself.
+
+---
+라인: 1076
+필드: output
+원본: 위원이 ①항에 따른 제척 사유에 해당하는 경우에는 스스로 위원회의 평가에서 회피하여야 한다.
+수정: 위원이 1항에 따른 제척 사유에 해당하는 경우에는 스스로 위원회의 평가에서 회피하여야 한다.
+
+---
+라인: 1090
+필드: output
+원본: 최소①의 조건이 충족되어야 자원봉사실적 등록의 의미가 있습니다.
+수정: 최소1의 조건이 충족되어야 자원봉사실적 등록의 의미가 있습니다.
+
+---
+라인: 1173
+필드: input
+원본: If there is anyone who says bad things or shows bad photos, magazines, videos, etc. avoid their seats immediately and let their parents or teachers know.
+수정: If there is anyone who says bad things or shows bad photos, magazines, videos, etc avoid their seats immediately and let their parents or teachers know.
+
+---
+라인: 1262
+필드: input
+원본: It is a tea that is boiled with red wine, fruits, cinnamon, etc. and is a representative in-between seasons drink in cold Northern Europe.
+수정: It is a tea that is boiled with red wine, fruits, cinnamon, etc and is a representative in-between seasons drink in cold Northern Europe.
+
+---
+라인: 1326
+필드: input
+원본: Please refrain from calling, texting, or doing Kakao Talk before 9 a.m. and after 7 p.m.
+수정: Please refrain from calling, texting, or doing Kakao Talk before 9 a.m and after 7 p.m.
