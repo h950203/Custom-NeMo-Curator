@@ -21,7 +21,7 @@ class PostAnalyzeFilterStage(CompositeStage):
         return self.stages
 
     def _filter_sentences(self, doc):
-        if 'processing_results' not in doc or not doc['processing_results']:
+        if 'processing_results' not in doc or not isinstance(doc.get('processing_results'), dict):
             return doc
 
         proc_results = doc['processing_results']
@@ -31,11 +31,21 @@ class PostAnalyzeFilterStage(CompositeStage):
             kept_input_sentences = []
             for sent_analysis in proc_results['input_analysis']:
                 text = sent_analysis.get('text', '')
-                main_clauses = sent_analysis.get('main_clauses', 0)
-                avg_token_length = sent_analysis.get('avg_token_length', 0)
-                content_word_ratio = sent_analysis.get('content_word_ratio', 0)
+                try:
+                    main_clauses = sent_analysis.get('main_clauses')
+                    avg_token_length = sent_analysis.get('avg_token_length')
+                    content_word_ratio = sent_analysis.get('content_word_ratio')
 
-                if not (main_clauses == 0 or not (1.5 <= avg_token_length <= 15) or content_word_ratio < 20):
+                    # Keep sentence if any score is missing
+                    if main_clauses is None or avg_token_length is None or content_word_ratio is None:
+                        kept_input_sentences.append(text)
+                        continue
+
+                    # Keep sentence if it does NOT meet any of the removal criteria
+                    if not (main_clauses == 0 or not (1.5 <= avg_token_length <= 15) or content_word_ratio < 20):
+                        kept_input_sentences.append(text)
+                except TypeError:
+                    # Keep sentence if a comparison fails
                     kept_input_sentences.append(text)
             
             proc_results['processed_input'] = ' '.join(kept_input_sentences)
@@ -45,11 +55,21 @@ class PostAnalyzeFilterStage(CompositeStage):
             kept_output_sentences = []
             for sent_analysis in proc_results['output_analysis']:
                 text = sent_analysis.get('text', '')
-                main_clauses = sent_analysis.get('main_clauses', 0)
-                avg_token_length = sent_analysis.get('avg_token_length', 0)
-                content_word_ratio = sent_analysis.get('content_word_ratio', 0)
+                try:
+                    main_clauses = sent_analysis.get('main_clauses')
+                    avg_token_length = sent_analysis.get('avg_token_length')
+                    content_word_ratio = sent_analysis.get('content_word_ratio')
 
-                if not (main_clauses == 0 or not (1.5 <= avg_token_length <= 15) or content_word_ratio < 20):
+                    # Keep sentence if any score is missing
+                    if main_clauses is None or avg_token_length is None or content_word_ratio is None:
+                        kept_output_sentences.append(text)
+                        continue
+
+                    # Keep sentence if it does NOT meet any of the removal criteria
+                    if not (main_clauses == 0 or not (1.5 <= avg_token_length <= 15) or content_word_ratio < 20):
+                        kept_output_sentences.append(text)
+                except TypeError:
+                    # Keep sentence if a comparison fails
                     kept_output_sentences.append(text)
 
             proc_results['processed_output'] = ' '.join(kept_output_sentences)

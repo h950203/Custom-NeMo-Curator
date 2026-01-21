@@ -436,7 +436,10 @@ def main():
         print(f"총 입력 문서: {total_input_docs}개")
         print(f"총 출력 문서: {total_output_docs}개")
         print(f"총 제거 문서: {total_input_docs - total_output_docs}개")
-        print(f"보존율: {total_output_docs/total_input_docs*100:.2f}%")
+        if total_input_docs > 0:
+            print(f"보존율: {total_output_docs/total_input_docs*100:.2f}%")
+        else:
+            print("보존율: N/A")
         
         # 전역 로그 저장
         logger.info("로그 저장 중...")
