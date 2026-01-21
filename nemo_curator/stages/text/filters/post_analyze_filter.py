@@ -17,6 +17,8 @@ class PostAnalyzeFilterStage(CompositeStage):
                 input_fields="processing_results",
                 output_fields="processing_results",
             ),
+            # Add a no-op stage as a workaround for the decomposition issue
+            Modify(modifier_fn=lambda x: x),
         ]
 
     def decompose(self):

@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 from nemo_curator.stages.base import CompositeStage
 from nemo_curator.stages.text.modules import Modify, Filter
 from nemo_curator.stages.text.utils.custom_utils import preprocess_text, calculate_scores, run_filters_on_text
- 
+
 @dataclass 
 class PreAnalyzeFilterStage(CompositeStage):
     """
