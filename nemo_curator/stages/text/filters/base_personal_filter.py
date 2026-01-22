@@ -1,12 +1,12 @@
 import re
 
-class BasePersonalFilter:
+class BaseFilter:
     """
     A base filter that applies a series of basic text preprocessing steps.
     Used for languages without a specific filter or as a default.
     """
     def __init__(self):
-        self._name = "base_personal_preproc_filter"
+        self._name = "base_preproc"
 
     def apply(self, text: str) -> str:
         if not isinstance(text, str):

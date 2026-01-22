@@ -184,7 +184,7 @@ def calculate_all_features(sent):
 # NeMo Curator Stage Class
 # ============================================================================
 
-class SentenceAnalysisStage(ProcessingStage):
+class SyntaxAnalysisStage(ProcessingStage):
     """
     A NeMo Curator stage to perform detailed linguistic analysis on documents.
     """

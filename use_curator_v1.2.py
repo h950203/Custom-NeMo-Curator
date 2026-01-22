@@ -11,7 +11,7 @@ from nemo_curator.stages.text.preprocessing.english_preprocessing import English
 from nemo_curator.stages.text.preprocessing.japanese_preprocessing import JapanesePreprocessing
 from nemo_curator.stages.text.preprocessing.chinese_preprocessing import ChinesePreprocessing
 from nemo_curator.stages.text.preprocessing.other_preprocessing import OtherPreprocessing
-from nemo_curator.stages.text.analyze.sentence_analysis import SentenceAnalysisStage
+from nemo_curator.stages.text.analyze.syntax_analysis import SyntaxAnalysisStage
 from nemo_curator.utils.log_utils import (
     print_filter_config,
     save_global_logs,
@@ -234,7 +234,7 @@ def process_file_with_tracking(input_file, output_dir, config):
             lang_code_map=LANG_CODE_MAP,
             preprocessors=PREPROCESSORS
         ))
-        pipeline.add_stage(SentenceAnalysisStage())
+        pipeline.add_stage(SyntaxAnalysisStage())
         pipeline.add_stage(JsonlWriter(path=temp_output_path))
         
         executor = XennaExecutor()
