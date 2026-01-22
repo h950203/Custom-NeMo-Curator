@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-from nemo_curator.stages.text.utils.custom_utils2 import preprocess_text, run_filters_on_text, calculate_scores
+from nemo_curator.stages.text.preprocessing.first_preprocess import preprocess_text, run_filters_on_text, calculate_scores
 
 def analyze_removed_documents(all_docs, all_input_ids, tracked_output_ids, lang_code_map, preprocessors, config):
     """
