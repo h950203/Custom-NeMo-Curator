@@ -51,7 +51,6 @@ from .heuristic_filter import (
     WordCountFilter,
     WordsWithoutAlphabetsFilter,
 )
-from .personal_filter import PersonalFilter
 
 __all__ = [
     "AlphaFilter",
@@ -72,7 +71,6 @@ __all__ = [
     "NumbersFilter",
     "ParenthesesFilter",
     "PerExtensionFilter",
-    "PersonalFilter",
     "PornographicUrlsFilter",
     "PunctuationFilter",
     "PythonCommentToCodeFilter",
