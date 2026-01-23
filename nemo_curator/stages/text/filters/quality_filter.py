@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from nemo_curator.stages.base import CompositeStage
 from nemo_curator.stages.text.modules import Modify, Filter
-from nemo_curator.stages.text.preprocessing.first_preprocess import preprocess_text, calculate_scores, run_filters_on_text
+from nemo_curator.stages.text.preprocessing.base_preprocess import preprocess_text, calculate_scores, run_filters_on_text
 
 @dataclass 
-class PreAnalyzeFilterStage(CompositeStage):
+class QualityFilterStage(CompositeStage):
     """
     Filters documents based on multi-lingual quality scores.
     This is a composite stage that combines scoring and filtering.
@@ -12,7 +12,7 @@ class PreAnalyzeFilterStage(CompositeStage):
     filter_config: dict
     lang_code_map: dict
     preprocessors: dict
-    name: str = "pre_analyze_filter"
+    name: str = "quality_filter"
 
     def __post_init__(self):
         super().__init__()

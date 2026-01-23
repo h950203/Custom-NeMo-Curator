@@ -236,8 +236,6 @@ def preprocess_text(text, lang, preprocessors):
     if not text or not text.strip():
         return ""
     
-    # Get the appropriate preprocessor from the dictionary based on the language.
-    # If the language is not found, fall back to the BasePersonalFilter.
     preprocessor = preprocessors.get(lang, BasePersonalFilter())
     
     # For Korean, use kss for sentence splitting.
