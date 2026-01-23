@@ -1,12 +1,17 @@
 import re
-from .base_preprocessing import BasePreprocessing
 
-class JapanesePreprocessing(BasePreprocessing):
+class JapanesePreprocessing:
     def __init__(self):
-        super().__init__()
         self._name = "japanese_preproc"
 
     def apply(self, text: str) -> str:
+        if not isinstance(text, str) or not text.strip():
+            return ""
+        
         # TODO: Add Japanese-specific preprocessing logic here.
-        # For now, it just uses the parent's apply method.
-        return super().apply(text)
+        # For now, just return the text as is after basic checks.
+        return text
+
+    @property
+    def name(self) -> str:
+        return self._name

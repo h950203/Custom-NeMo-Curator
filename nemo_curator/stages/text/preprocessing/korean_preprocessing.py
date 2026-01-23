@@ -1,11 +1,8 @@
 import re
 import html
 import unicodedata
-from .base_preprocessing import BasePreprocessing
-
-class KoreanPreprocessing(BasePreprocessing):
+class KoreanPreprocessing:
     def __init__(self):
-        super().__init__()
         self._name = "korean_preproc"
 
     def apply(self, text: str) -> str:

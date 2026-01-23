@@ -187,9 +187,6 @@ class PersonalFilter:
     def name(self) -> str:
         return self._name
 
-# ============================================================================
-# Main Utility Functions
-# ============================================================================
 def custom_normalize_whitespace(text):
     """공백 정규화"""
     return re.sub(r'\s+', ' ', text).strip()
