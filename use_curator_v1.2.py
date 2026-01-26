@@ -31,6 +31,7 @@ from multiprocessing import cpu_count
 from tqdm import tqdm
 import logging
 
+### 123
 # 로깅 설정
 logging.basicConfig(
     level=logging.INFO,
