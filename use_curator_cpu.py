@@ -238,7 +238,7 @@ def process_file_with_tracking(input_file, output_dir, config):
         pipeline.add_stage(SyntaxAnalysisStage())
         pipeline.add_stage(JsonlWriter(path=temp_output_path))
         
-        executor = XennaExecutor()
+        executor = XennaExecutor(use_gpu=False)
         pipeline.run(executor)
         
         # 출력 파일 읽기
