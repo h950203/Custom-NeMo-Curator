@@ -355,13 +355,11 @@ def main():
         
         logger.info(f"발견된 파일: {len(input_files)}개")
 
-        # Ray 원격 함수 정의 (메모리 제한 및 GPU 숨김)
-        @ray.remote(
-            max_retries=2,
-            memory=4 * 1024 * 1024 * 1024,  # 4GB per task
-            runtime_env={"env_vars": {"CUDA_VISIBLE_DEVICES": ""}}
-        )
+        # Ray 원격 함수 정의 (메모리 제한 추가)
+        @ray.remote(max_retries=2, memory=4*1024*1024*1024)  # 4GB per task
         def process_file_remote(input_file):
+            import os
+            os.environ["CUDA_VISIBLE_DEVICES"] = ""
             try:
                 return process_file_with_tracking(
                     input_file, OUTPUT_PATH, FILTER_CONFIG
