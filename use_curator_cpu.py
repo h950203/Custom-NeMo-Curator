@@ -1,6 +1,3 @@
-import os
-os.environ["CUDA_VISIBLE_DEVICES"] = ""
-
 from nemo_curator.core.client import RayClient
 from nemo_curator.core.pipeline_helpers import analyze_removed_documents
 from nemo_curator.backends.xenna import XennaExecutor
@@ -22,6 +19,7 @@ from nemo_curator.utils.log_utils import (
     create_summary,
 )
 
+import os
 import json
 import glob
 from collections import defaultdict
@@ -322,20 +320,20 @@ def process_file_with_tracking(input_file, output_dir, config):
 def main():
     ray_client = None
     try:
-        # Ray 클러스터 초기화
-        num_gpus = 0 # Force CPU usage
+        # Ray 클러스터 초기화 (CPU only)
+        num_gpus = 0  # GPU 사용 안 함
         
         # 사용할 CPU 코어 수를 전체의 75%로 제한 (서버 안정성 확보)
         # 원하는 숫자로 직접 지정할 수도 있습니다. 예: num_cpus = 8
         total_cpus = cpu_count()
         num_cpus = max(1, int(total_cpus * 0.6))
         
-        logger.info(f"Ray 초기화 중: 전체 CPU={total_cpus}, 사용할 CPU={num_cpus}, GPU={num_gpus}")
+        logger.info(f"Ray 초기화 중 (CPU only): 전체 CPU={total_cpus}, 사용할 CPU={num_cpus}")
         
         # Ray 메모리 설정 추가 및 워커 수 제한
         ray_client = RayClient(
             num_cpus=num_cpus,
-            num_gpus=num_gpus
+            num_gpus=0  # GPU 사용 안 함
         )
         ray_client.start()
 
@@ -470,5 +468,5 @@ def main():
                 logger.warning(f"Ray 종료 중 오류: {e}")
 
 
-if __name__ == "__main":
+if __name__ == "__main__":
     main()
