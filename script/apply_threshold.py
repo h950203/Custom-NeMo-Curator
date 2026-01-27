@@ -1,18 +1,23 @@
 import json
 import os
 
-def get_nested_value(data, field_path):
+def get_value(data, field_name):
     """
-    중첩된 필드 경로에서 값을 가져옴
+    필드 값을 가져옴 (중첩 및 플랫 구조 모두 지원)
     
     Args:
         data: JSON 객체
-        field_path: 필드 경로 (예: "input_features.structure_score")
+        field_name: 필드 이름
     
     Returns:
         필드 값 또는 None
     """
-    keys = field_path.split('.')
+    # 1. 먼저 필드명을 그대로 키로 사용 (플랫 구조)
+    if field_name in data:
+        return data[field_name]
+    
+    # 2. 점(.)으로 분리해서 중첩 구조로 접근 시도
+    keys = field_name.split('.')
     value = data
     
     for key in keys:
@@ -29,7 +34,7 @@ def filter_jsonl(input_file, field_name, threshold_value, output_suffix=None):
     
     Args:
         input_file: 입력 JSONL 파일 경로
-        field_name: 필터링할 필드 이름 (중첩 가능, 예: "input_features.structure_score")
+        field_name: 필터링할 필드 이름
         threshold_value: 임계값 (이 값 이상인 행만 유지)
         output_suffix: 출력 파일 접미사 (None이면 자동 생성)
     """
@@ -38,32 +43,35 @@ def filter_jsonl(input_file, field_name, threshold_value, output_suffix=None):
     if output_suffix is None:
         # 필드명에서 점(.)을 언더스코어로 변경
         safe_field_name = field_name.replace('.', '_')
-        output_suffix = f"_{safe_field_name}_{threshold_value}"
+        output_suffix = f"_{safe_field_name}_gte_{threshold_value}"
     output_file = f"{base_name}{output_suffix}.jsonl"
     
     filtered_data = []
     total_count = 0
     none_count = 0  # 필드가 없거나 None인 경우 카운트
+    below_threshold = 0  # threshold 미만인 경우 카운트
     
     # JSONL 파일 읽기 및 필터링
     try:
         with open(input_file, 'r', encoding='utf-8') as f:
-            for line in f:
+            for line_num, line in enumerate(f, 1):
                 total_count += 1
                 try:
                     data = json.loads(line.strip())
                     
-                    # 중첩된 필드 값 가져오기
-                    value = get_nested_value(data, field_name)
+                    # 필드 값 가져오기
+                    value = get_value(data, field_name)
                     
                     # 값이 존재하고, threshold 이상인 경우만 유지
-                    if value is not None and value >= threshold_value:
-                        filtered_data.append(data)
-                    elif value is None:
+                    if value is None:
                         none_count += 1
+                    elif value >= threshold_value:
+                        filtered_data.append(data)
+                    else:
+                        below_threshold += 1
                         
                 except json.JSONDecodeError as e:
-                    print(f"JSON 파싱 오류 (라인 {total_count}): {e}")
+                    print(f"JSON 파싱 오류 (라인 {line_num}): {e}")
                     continue
         
         # 필터링된 데이터를 새 JSONL 파일로 저장
@@ -74,9 +82,14 @@ def filter_jsonl(input_file, field_name, threshold_value, output_suffix=None):
         print(f"\n처리 완료!")
         print(f"전체 행 수: {total_count}")
         print(f"필드가 없거나 None인 행 수: {none_count}")
+        print(f"threshold 미만인 행 수: {below_threshold}")
         print(f"필터링 후 행 수: {len(filtered_data)}")
         print(f"제거된 행 수: {total_count - len(filtered_data)}")
         print(f"출력 파일: {output_file}")
+        
+        # 샘플 데이터 표시 (처음 1개)
+        if filtered_data:
+            print(f"\n샘플 데이터 (첫 번째 행의 '{field_name}' 값): {get_value(filtered_data[0], field_name)}")
         
         return output_file
         
@@ -103,7 +116,7 @@ if __name__ == "__main__":
         exit(1)
     
     # 필드명 입력
-    print("\n필드명은 중첩된 경로도 지원합니다 (예: input_features.structure_score)")
+    print("\n필드명 예시: input_features.structure_score")
     field_name = input("필터링할 필드명을 입력하세요: ").strip()
     
     # 임계값 입력
