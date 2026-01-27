@@ -238,7 +238,7 @@ def process_file_with_tracking(input_file, output_dir, config):
         pipeline.add_stage(SyntaxAnalysisStage())
         pipeline.add_stage(JsonlWriter(path=temp_output_path))
         
-        executor = XennaExecutor(use_gpu=False)
+        executor = XennaExecutor()
         pipeline.run(executor)
         
         # 출력 파일 읽기
@@ -355,8 +355,12 @@ def main():
         
         logger.info(f"발견된 파일: {len(input_files)}개")
 
-        # Ray 원격 함수 정의 (메모리 제한 추가)
-        @ray.remote(max_retries=2, memory=4*1024*1024*1024)  # 4GB per task
+        # Ray 원격 함수 정의 (메모리 제한 및 GPU 숨김)
+        @ray.remote(
+            max_retries=2,
+            memory=4 * 1024 * 1024 * 1024,  # 4GB per task
+            runtime_env={"env_vars": {"CUDA_VISIBLE_DEVICES": ""}}
+        )
         def process_file_remote(input_file):
             try:
                 return process_file_with_tracking(
