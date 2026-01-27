@@ -322,11 +322,15 @@ def main():
     try:
         # Ray 클러스터 초기화
         num_gpus = torch.cuda.device_count() if torch.cuda.is_available() else 0
-        num_cpus = cpu_count()
         
-        logger.info(f"Ray 초기화 중: CPU={num_cpus}, GPU={num_gpus}")
+        # 사용할 CPU 코어 수를 전체의 75%로 제한 (서버 안정성 확보)
+        # 원하는 숫자로 직접 지정할 수도 있습니다. 예: num_cpus = 8
+        total_cpus = cpu_count()
+        num_cpus = max(1, int(total_cpus * 0.6))
         
-        # Ray 메모리 설정 추가
+        logger.info(f"Ray 초기화 중: 전체 CPU={total_cpus}, 사용할 CPU={num_cpus}, GPU={num_gpus}")
+        
+        # Ray 메모리 설정 추가 및 워커 수 제한
         ray_client = RayClient(
             num_cpus=num_cpus,
             num_gpus=num_gpus
