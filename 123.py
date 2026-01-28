@@ -320,20 +320,20 @@ def process_file_with_tracking(input_file, output_dir, config):
 def main():
     ray_client = None
     try:
-        # Ray 클러스터 초기화 (CPU only)
-        num_gpus = 0  # GPU 사용 안 함
+        # Ray 클러스터 초기화
+        num_gpus = torch.cuda.device_count() if torch.cuda.is_available() else 0
         
         # 사용할 CPU 코어 수를 전체의 75%로 제한 (서버 안정성 확보)
         # 원하는 숫자로 직접 지정할 수도 있습니다. 예: num_cpus = 8
         total_cpus = cpu_count()
         num_cpus = max(1, int(total_cpus * 0.6))
         
-        logger.info(f"Ray 초기화 중 (CPU only): 전체 CPU={total_cpus}, 사용할 CPU={num_cpus}")
+        logger.info(f"Ray 초기화 중: 전체 CPU={total_cpus}, 사용할 CPU={num_cpus}, GPU={num_gpus}")
         
         # Ray 메모리 설정 추가 및 워커 수 제한
         ray_client = RayClient(
             num_cpus=num_cpus,
-            num_gpus=0  # GPU 사용 안 함
+            num_gpus=num_gpus
         )
         ray_client.start()
 
@@ -358,8 +358,6 @@ def main():
         # Ray 원격 함수 정의 (메모리 제한 추가)
         @ray.remote(max_retries=2, memory=4*1024*1024*1024)  # 4GB per task
         def process_file_remote(input_file):
-            import os
-            os.environ["CUDA_VISIBLE_DEVICES"] = ""
             try:
                 return process_file_with_tracking(
                     input_file, OUTPUT_PATH, FILTER_CONFIG
