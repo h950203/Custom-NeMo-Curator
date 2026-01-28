@@ -7,11 +7,31 @@ from .remove_kaomoji import _remove_kaomoji
 
 class BasePreprocessing:
     """
-    A base filter that applies a series of comprehensive text preprocessing steps.
-    Used for all languages as a default preprocessor.
+    A base filter that applies a series of basic text preprocessing steps.
+    Used for languages without a specific filter or as a default.
     """
     def __init__(self):
         self._name = "base_preproc"
+    
+    def apply(self, text: str) -> str:
+        if not isinstance(text, str):
+            return ""
+        # Basic whitespace normalization
+        text = re.sub(r'\s+', ' ', text).strip()
+        return text
+    
+    @property
+    def name(self) -> str:
+        return self._name
+
+class PersonalFilter:
+    """
+    A filter that applies a series of personal text preprocessing steps
+    to a given text string. This is designed to be used as a modifier
+    on a per-sentence basis.
+    """
+    def __init__(self):
+        self._name = "personal_preproc_filter"
     
     def apply(self, text: str) -> str:
         if not isinstance(text, str):
@@ -167,7 +187,6 @@ class BasePreprocessing:
     def name(self) -> str:
         return self._name
 
-
 def custom_normalize_whitespace(text):
     """공백 정규화"""
     return re.sub(r'\s+', ' ', text).strip()
@@ -210,19 +229,14 @@ def calculate_scores(text, lang, config):
     )
     return scores
 
-def preprocess_text(text, lang, preprocessors=None):
+def preprocess_text(text, lang, preprocessors):
     """
     Helper to preprocess a single text string using a dictionary of preprocessors.
-    If preprocessors is not provided, uses BasePreprocessing as default.
     """
     if not text or not text.strip():
         return ""
     
-    # If no preprocessors dictionary is provided, use BasePreprocessing
-    if preprocessors is None:
-        preprocessor = BasePreprocessing()
-    else:
-        preprocessor = preprocessors.get(lang, BasePreprocessing())
+    preprocessor = preprocessors.get(lang, BasePreprocessing())
     
     # For Korean, use kss for sentence splitting.
     # For other languages, use a simple split as a fallback.
