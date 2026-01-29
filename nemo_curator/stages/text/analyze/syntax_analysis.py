@@ -196,7 +196,7 @@ class SyntaxAnalysisStage(ProcessingStage):
         self.pipelines = {}
         self.lang_code_map = {"korean": "ko", "english": "en", "japanese": "ja", "chinese": "zh"}
         self.en_scorer = EnglishCompletenessScorer()
-        self.kiwi = Kiwi()
+        self.kiwi_analyzer = None
 
     def _get_pipeline(self, lang_code):
         if lang_code not in self.pipelines:
@@ -245,7 +245,9 @@ class SyntaxAnalysisStage(ProcessingStage):
                     if lang_name.lower() == 'english':
                         score = self.en_scorer.calculate_score(sent.text)
                     elif lang_name.lower() == 'korean':
-                        score = sentence_completeness_score_v3(sent.text, self.kiwi)
+                        if self.kiwi_analyzer is None:
+                            self.kiwi_analyzer = Kiwi()
+                        score = sentence_completeness_score_v3(sent.text, self.kiwi_analyzer)
                     
                     if score < 60:
                         remove = True
