@@ -5,9 +5,6 @@ from scipy.stats import entropy
 from collections import Counter, defaultdict
 import torch
 from nemo_curator.stages.base import ProcessingStage
-from nemo_curator.stages.text.filters.sentence_completeness_en import EnglishCompletenessScorer
-from nemo_curator.stages.text.filters.sentence_completeness_ko import sentence_completeness_score_v3
-from kiwipiepy import Kiwi
 
 # PyTorch weights_only issue fix for Stanza compatibility
 if hasattr(torch, 'serialization'):
@@ -195,8 +192,6 @@ class SyntaxAnalysisStage(ProcessingStage):
         super().__init__()
         self.pipelines = {}
         self.lang_code_map = {"korean": "ko", "english": "en", "japanese": "ja", "chinese": "zh"}
-        self.en_scorer = EnglishCompletenessScorer()
-        self.kiwi = Kiwi()
 
     def _get_pipeline(self, lang_code):
         if lang_code not in self.pipelines:
@@ -240,16 +235,6 @@ class SyntaxAnalysisStage(ProcessingStage):
                     if main_clauses == 0 or not (1.5 <= avg_token_length <= 15) or content_word_ratio < 20:
                         remove = True
                 
-                if not remove:
-                    score = 100 # Default score
-                    if lang_name.lower() == 'english':
-                        score = self.en_scorer.calculate_score(sent.text)
-                    elif lang_name.lower() == 'korean':
-                        score = sentence_completeness_score_v3(sent.text, self.kiwi)
-                    
-                    if score < 60:
-                        remove = True
-
                 if not remove:
                     kept_sentences_text.append(sent.text)
                     kept_sentences_features.append(features)

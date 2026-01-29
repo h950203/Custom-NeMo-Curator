@@ -1,0 +1,183 @@
+======================================================================
+완결성 점수 60점 이상 문장 목록 (v3)
+======================================================================
+
+총 59개 문장
+
+1. [점수: 100점]
+   Deck sockets like the container corner fitting contain the standard ISO hole into which the stackers fit (see Figure 25.5 ).
+
+2. [점수: 98점]
+   RINA Conference on RO RO Safety, June 1996.
+
+3. [점수: 98점]
+   House DJ: Cargo Work for Maritime Operations , ed 7.
+
+4. [점수: 98점]
+   Knot JR: Lashing and Securing of Deck Cargoes , ed 3, London, 2002, The Nautical Institute.
+
+5. [점수: 95점]
+   Some useful websites [www.tts-se.com](http://www.tts-se.com) For details of ramps, doors, lifts, car decks, side loading systems, etc.
+
+6. [점수: 100점]
+   It is easy to see the reason for this if the Aquitania , built in 1914 and having direct drive turbines with 21 double-ended scotch boilers, is compared with the Queen Elizabeth 2 .
+
+7. [점수: 100점]
+   Tween deck clearances are greater and public rooms extend through two or more decks, whilst enclosed promenade and atrium spaces are now common in these vessels.
+
+8. [점수: 100점]
+   Initially relatively small, these craft may now be more than 100 meters in length and carry upwards of 500 persons plus 100 cars/30 trucks or more.
+
+9. [점수: 100점]
+   The latter have a high proportion of their twin-hull buoyancy below the waterline (see Figure 3.7 ).
+
+10. [점수: 100점]
+   An updated version of this Code of Safety was adopted in December 2000.
+
+11. [점수: 95점]
+   All rights reserved.
+
+12. [점수: 98점]
+   One suction is from the main bilge line and the other from an independent power-driven pump.
+
+13. [점수: 100점]
+   Bilge suctions As the vessel is to be pumped out when listed it is necessary to fit port and starboard suctions in other than very narrow spaces.
+
+14. [점수: 100점]
+   However, where a ship has a single hold that exceeds 33.5m in length suctions are also arranged in the forward half length of the hold.
+
+15. [점수: 100점]
+   Adequate drainage to the bilge is provided where a ceiling covers this space.
+
+16. [점수: 88점]
+   If, however, the tank top extends to the ship sides, bilge wells having a capacity of at least 0.17 m 3 may be arranged in the wings of the compartment.
+
+17. [점수: 98점]
+   The shaft tunnel of the ship is drained by means of a well located at the after end, and the bilge suction is taken from the main bilge line (see Figure 26.1 ).
+
+18. [점수: 100점]
+   The strum box is a perforated plate box welded to the mouth of the bilge line ( Figure 26.1 ), which prevents debris being taken up by the bilge pump suction.
+
+19. [점수: 100점]
+   Perforations in the strum box do not exceed 10 mm in diameter, and their total cross-sectional area is at least twice that required for the bore of the bilge pipe.
+
+20. [점수: 98점]
+   Strums are arranged at a reasonable height above the bottom of the bilge or drain well to allow a clear flow of water and to permit easy cleaning.
+
+21. [점수: 88점]
+   In the machinery space and shaft tunnel the pipe from the bilges is led to the mud box, which is accessible for regular cleaning.
+
+22. [점수: 98점]
+   Each mud box contains a mesh to collect sludge and foreign objects entering the end of the pipe.
+
+23. [점수: 100점]
+   Where the passenger ship has a length in excess of 91.5 m it is a requirement that at least one of these pumps will always be serviceable in reasonable damage situations.
+
+24. [점수: 100점]
+   A submersible pump may be supplied with its source of power above the bulkhead deck.
+
+25. [점수: 98점]
+   Suction connections are led to each hold or compartment from the main bilge line.
+
+26. [점수: 100점]
+   Bilge mains in passenger ships are kept within 20% of the ship’s beam of the side shell, and any piping outside this region or in a duct keel is fitted with a nonreturn valve.
+
+27. [점수: 98점]
+   Bilge and ballast piping may be of cast or wrought iron, steel, copper, or other approved materials.
+
+28. [점수: 98점]
+   Scuppers Scuppers are fitted at the ship’s side to drain the decks.
+
+29. [점수: 98점]
+   Figure 26.1 shows a scupper fitted above the freeboard deck.
+
+30. [점수: 88점]
+   Below the freeboard deck and within the intact superstructures and houses on the freeboard deck fitted with weathertight doors, these scuppers may be led to the bilges.
+
+31. [점수: 100점]
+   It is a statutory requirement that a fire main and deck wash system should be supplied.
+
+32. [점수: 100점]
+   This has hose outlets on the various decks, and is supplied by power-driven pumps in the machinery spaces.
+
+33. [점수: 98점]
+   Provision may be made for washing down the anchor chain from a connection to the fire main.
+
+34. [점수: 100점]
+   Air and sounding pipes Air pipes are provided for all tanks to prevent air being trapped under pressure in the tank when it is filled, or a vacuum being created when it is emptied.
+
+35. [점수: 88점]
+   Sounding pipes are provided to all tanks, and compartments not readily accessible and are located so that soundings are taken in the vicinity of the suctions, i.e. at the lowest point of the tank.
+
+36. [점수: 100점]
+   Each sounding pipe is made as straight as possible and is led above the bulkhead deck, except in some machinery spaces where this might not be practicable.
+
+37. [점수: 86점]
+   Underneath the sounding pipe a striking plate is provided where the sounding rod drops in the bilge well etc.
+
+38. [점수: 100점]
+   This opening is to have rounded corners and be kept clear of the bilge strake if possible.
+
+39. [점수: 98점]
+   The sea inlet box should have the same thickness as the adjacent shell but is not to be less than 12.5 mm thick and need not exceed 25 mm.
+
+40. [점수: 100점]
+   The piping system is of the ‘direct line’ type, three or four lines being provided, each with Anode Sea inlet box Sea inlet grids positioned so that bars are in fore and aft direction Closing valve Mud box Sluice valve Figure 26.2 Sea inlet.
+
+41. [점수: 83점]
+   suctions from a group of tanks (see Figure 26.3 ).
+
+42. [점수: 100점]
+   Each pump discharge is led up to the deck mains, which run forward to the transverse loading and discharging connections.
+
+43. [점수: 98점]
+   Suctions from the main cargo lines are located in the center tanks.
+
+44. [점수: 100점]
+   Such an arrangement is shown in Figure 26.3 , which also indicates the separate stripping system, and clean ballast lines.
+
+45. [점수: 100점]
+   One may be fitted aft adjacent to the machinery space, a second amidships, and where a third pump room is provided this is forward.
+
+46. [점수: 86점]
+   On many older tankers the piping was often arranged on the ‘ring main’ system to provide flexibility of pumping conditions (see Figure 26.4 ).
+
+47. [점수: 86점]
+   1 2 3 9 8 7 6 5 4 3 2 1 Machinery Pump room CARGO PIPING WITH PARTIAL FULL FLOW IN LARGE CRUDE OIL TANKER Pump room Water ballast Water ballast Filling lines Deep tank 2 1 3 4 5 Stripping line Cargo line Ballast line Bulkhead valves Figure 26.4 Diagrammatic representation of ring main cargo piping arrangement.
+
+48. [점수: 98점]
+   Oil tankers of 20,000 tonnes deadweight or more should have a fixed deck foam system and a fixed inert gas system.
+
+49. [점수: 88점]
+   On an oil tanker, inert gas may be produced by one of two processes: 1. Ships with main or auxiliary boilers normally use the flue gas, which contains typically only 2–4% by volume of oxygen.
+
+50. [점수: 98점]
+   An inert gas generating plant may then be used to produce gas by burning diesel or light fuel oil.
+
+51. [점수: 98점]
+   The gas is scrubbed and used in the same way as boiler flue gas.
+
+52. [점수: 88점]
+   Gas freeing may then take place at the cargo tank deck level.
+
+53. [점수: 98점]
+   Cargo tank washing After discharge of cargoes, oil tanker cargo tanks can be cleaned by either hot or cold water, fresh or sea water, or by crude oil washing.
+
+54. [점수: 88점]
+   At this stage the builder should have sufficient information to tender.
+
+55. [점수: 100점]
+   The design of the ship is not complete at this stage, rather for the major effort in resources it has only just started.
+
+56. [점수: 98점]
+   Stability Figure 1.1 Design spiral.
+
+57. [점수: 98점]
+   There may then be no need to water wash tanks for the removal of residues unless clean water ballast is to be carried in the tank.
+
+58. [점수: 95점]
+   All rights reserved.
+
+59. [점수: 98점]
+   A simple corrosion cell is formed by two different metals in an electrolyte solution (a galvanic cell), as illustrated in Figure 27.1 .
+
