@@ -10,7 +10,6 @@ https://github.com/NVIDIA-NeMo/Curator
 - 커스텀 필터 및 파이프라인 구성
 
 > **중요**: 이 저장소는 NVIDIA의 공식 NeMo Curator와는 별개의 개인/실험용 프로젝트입니다.  
-> 공식 버그 리포트나 기능 요청은 원본 저장소에 해주세요.
 
 ## 라이선스
 
@@ -68,11 +67,6 @@ pip install --no-cache-dir \
 
 1. 원하는 디렉토리에서 저장소 클론
 
-```bash
-git clone https://github.com/당신의-아이디/당신의-저장소명.git
-cd 당신의-저장소명
-```
-
 2. Docker 컨테이너 실행 (필요 시 volume 마운트)
 
 ```bash
@@ -83,15 +77,8 @@ docker run --gpus all -it --rm \
 
 3. 컨테이너 안에서 위의 pip 설치 명령 실행
 
-4. 커스텀 파이프라인 실행 예시
+4. 커스텀 파이프라인 실행 예시 (use_curator_v1.0.py)
 
-```bash
-# 예시 (실제 경로는 상황에 맞게 수정)
-python -m curate.pipeline \
-    --config configs/my_korean_pipeline.yaml \
-    --input /data/raw \
-    --output /data/curated
-```
 
 ## 주요 변경/추가 사항
 
