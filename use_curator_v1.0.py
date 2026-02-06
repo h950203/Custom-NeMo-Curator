@@ -4,13 +4,14 @@ from nemo_curator.backends.xenna import XennaExecutor
 from nemo_curator.pipeline import Pipeline
 from nemo_curator.stages.text.io.reader import JsonlReader
 from nemo_curator.stages.text.io.writer import JsonlWriter
-from nemo_curator.stages.text.filters.custom_filter import MultiLingualQualityFilterStage
-from nemo_curator.stages.text.quality.utils import preprocess_text
-from nemo_curator.stages.text.preprocessing.korean_preprocessing import KoreanPersonalFilter
-from nemo_curator.stages.text.preprocessing.english_preprocessing import EnglishPersonalFilter
-from nemo_curator.stages.text.preprocessing.japanese_preprocessing import JapanesePersonalFilter
-from nemo_curator.stages.text.preprocessing.chinese_preprocessing import ChinesePersonalFilter
-from nemo_curator.stages.text.preprocessing.other_preprocessing import OtherPersonalFilter
+from nemo_curator.stages.text.filters.quality_filter import QualityFilterStage
+from nemo_curator.stages.text.preprocessing.base_preprocess import preprocess_text
+from nemo_curator.stages.text.preprocessing.korean_preprocessing import KoreanPreprocessing
+from nemo_curator.stages.text.preprocessing.english_preprocessing import EnglishPreprocessing
+from nemo_curator.stages.text.preprocessing.japanese_preprocessing import JapanesePreprocessing
+from nemo_curator.stages.text.preprocessing.chinese_preprocessing import ChinesePreprocessing
+from nemo_curator.stages.text.preprocessing.other_preprocessing import OtherPreprocessing
+from nemo_curator.stages.text.analyze.syntax_analysis import SyntaxAnalysisStage
 from nemo_curator.utils.log_utils import (
     print_filter_config,
     save_global_logs,
@@ -19,8 +20,6 @@ from nemo_curator.utils.log_utils import (
 )
 
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = ""
-
 import json
 import glob
 from collections import defaultdict
@@ -32,6 +31,7 @@ from multiprocessing import cpu_count
 from tqdm import tqdm
 import logging
 
+### 123
 # 로깅 설정
 logging.basicConfig(
     level=logging.INFO,
@@ -94,16 +94,16 @@ LANG_CODE_MAP = {
 
 # 언어별 전처리기
 PREPROCESSORS = {
-    "ko": KoreanPersonalFilter(),
-    "en": EnglishPersonalFilter(),
-    "ja": JapanesePersonalFilter(),
-    "zh": ChinesePersonalFilter(),
+    "ko": KoreanPreprocessing(),
+    "en": EnglishPreprocessing(),
+    "ja": JapanesePreprocessing(),
+    "zh": ChinesePreprocessing(),
 }
-DEFAULT_PREPROCESSOR = OtherPersonalFilter()
+DEFAULT_PREPROCESSOR = OtherPreprocessing()
 
 INPUT_PATH = "data/"
-OUTPUT_PATH = "filtered_data_v1.0/"
-REMOVED_LOGS_PATH = "filtered_data_v1.0_log/"
+OUTPUT_PATH = "filtered_data/"
+REMOVED_LOGS_PATH = "filtered_data_log/"
 PIPELINE_VERSION = "v1.0"
 
 
@@ -230,11 +230,12 @@ def process_file_with_tracking(input_file, output_dir, config):
         # 파이프라인 생성 및 실행
         pipeline = Pipeline(name=f"filter_{filename}")
         pipeline.add_stage(JsonlReader(file_paths=temp_input_path))
-        pipeline.add_stage(MultiLingualQualityFilterStage(
+        pipeline.add_stage(QualityFilterStage (
             filter_config=config,
             lang_code_map=LANG_CODE_MAP,
             preprocessors=PREPROCESSORS
         ))
+        pipeline.add_stage(SyntaxAnalysisStage())
         pipeline.add_stage(JsonlWriter(path=temp_output_path))
         
         executor = XennaExecutor()
@@ -321,15 +322,18 @@ def main():
     try:
         # Ray 클러스터 초기화
         num_gpus = torch.cuda.device_count() if torch.cuda.is_available() else 0
-        num_cpus = cpu_count()
         
-        logger.info(f"Ray 초기화 중: CPU={num_cpus}, GPU={num_gpus}")
+        # 사용할 CPU 코어 수를 전체의 75%로 제한 (서버 안정성 확보)
+        # 원하는 숫자로 직접 지정할 수도 있습니다. 예: num_cpus = 8
+        total_cpus = cpu_count()
+        num_cpus = max(1, int(total_cpus * 0.6))
         
-        # Ray 메모리 설정 추가
+        logger.info(f"Ray 초기화 중: 전체 CPU={total_cpus}, 사용할 CPU={num_cpus}, GPU={num_gpus}")
+        
+        # Ray 메모리 설정 추가 및 워커 수 제한
         ray_client = RayClient(
-            num_cpus=num_cpus, 
-            num_gpus=num_gpus,
-            object_store_memory=10 * 1024 * 1024 * 1024  # 10GB
+            num_cpus=num_cpus,
+            num_gpus=num_gpus
         )
         ray_client.start()
 
@@ -435,7 +439,10 @@ def main():
         print(f"총 입력 문서: {total_input_docs}개")
         print(f"총 출력 문서: {total_output_docs}개")
         print(f"총 제거 문서: {total_input_docs - total_output_docs}개")
-        print(f"보존율: {total_output_docs/total_input_docs*100:.2f}%")
+        if total_input_docs > 0:
+            print(f"보존율: {total_output_docs/total_input_docs*100:.2f}%")
+        else:
+            print("보존율: N/A")
         
         # 전역 로그 저장
         logger.info("로그 저장 중...")

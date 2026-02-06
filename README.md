@@ -1,157 +1,113 @@
-NeMo-Curator 를 개인적으로 조금 수정한 repository
+# NeMo-Curator 한국어/개인 맞춤 확장 버전
 
-# 환경 구축
+**원본 프로젝트**  
+https://github.com/NVIDIA-NeMo/Curator
 
-nvcr.io/nvidia/nemo-curator:25.09 기반 docker container
+이 저장소는 NVIDIA NeMo Curator (25.09 버전 기준)를 기반으로 개인적인 데이터 큐레이션 작업을 위해 일부 수정·확장한 포크입니다.
 
-apt update<\n>
-apt install python3-pip<\n>
-pip install kss<\n>
-pip install stanza==1.4.2<\n>
-pip install konlpy<\n>
-pip install nltk<\n>
-pip install fugashi[unidic-lite]<\n>
-pip install pandas<\n>
-pip install textstat<\n>
-pip install scipy<\n>
-pip install matplotlib<\n>
-pip install seaborn<\n>
-pip install tqdm<\n>
-pip install psutil<\n>
-<\n>
+- 한국어 전용 필터 및 전처리 단계 추가
+- 특정 도메인에 맞춘 품질 평가 로직 조정
+- 커스텀 필터 및 파이프라인 구성
 
-<div align="center">
+> **중요**: 이 저장소는 NVIDIA의 공식 NeMo Curator와는 별개의 개인/실험용 프로젝트입니다.  
+> 공식 버그 리포트나 기능 요청은 원본 저장소에 해주세요.
 
-  <a href="https://github.com/NVIDIA-NeMo/Curator/blob/main/LICENSE">![https://pypi.org/project/nemo-curator](https://img.shields.io/github/license/NVIDIA-NeMo/Curator)</a>
-  <a href="https://codecov.io/github/NVIDIA-NeMo/Curator">![codecov](https://codecov.io/github/NVIDIA-NeMo/Curator/graph/badge.svg)</a>
-  <a href="https://pypi.org/project/nemo-curator/">![https://pypi.org/project/nemo-curator/](https://img.shields.io/pypi/pyversions/nemo-curator.svg)</a>
-  <a href="https://github.com/NVIDIA-NeMo/Curator/graphs/contributors">![NVIDIA-NeMo/Curator](https://img.shields.io/github/contributors/NVIDIA-NeMo/Curator)</a>
-  <a href="https://github.com/NVIDIA-NeMo/Curator/releases">![https://github.com/NVIDIA-NeMo/Curator/releases](https://img.shields.io/github/release/NVIDIA-NeMo/Curator)</a>
-  <a href="https://pypi.org/project/nemo-curator/">![https://github.com/Naereen/badges/](https://badgen.net/badge/open%20source/❤/blue?icon=github)</a>
+## 라이선스
 
-</div>
+- 원본 NeMo Curator : **Apache License 2.0**  
+  (https://github.com/NVIDIA-NeMo/Curator/blob/main/LICENSE)
 
-# NVIDIA NeMo Curator
+- 본 저장소의 추가·수정 코드 역시 **Apache License 2.0** 을 따릅니다.
 
-**GPU-accelerated data curation for training better AI models, faster.** Scale from laptop to multi-node clusters with modular pipelines for text, images, video, and audio.
+**원본 저작권 고지**  
+Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
 
-> *Part of the [NVIDIA NeMo](https://www.nvidia.com/en-us/ai-data-science/products/nemo/) software suite for managing the AI agent lifecycle.*
+Licensed under the Apache License, Version 2.0 (the "License");  
+you may not use this file except in compliance with the License.  
+You may obtain a copy of the License at
 
-## What You Can Do
+http://www.apache.org/licenses/LICENSE-2.0
 
-| Modality | Key Capabilities | Get Started |
-|----------|-----------------|-------------|
-| **Text** | Deduplication • Classification • Quality Filtering • Language Detection | [Text Guide](https://docs.nvidia.com/nemo/curator/latest/get-started/text.html) |
-| **Image** | Aesthetic Filtering • NSFW Detection • Embedding Generation • Deduplication | [Image Guide](https://docs.nvidia.com/nemo/curator/latest/get-started/image.html) |
-| **Video** | Scene Detection • Clip Extraction • Motion Filtering • Deduplication | [Video Guide](https://docs.nvidia.com/nemo/curator/latest/get-started/video.html) |
-| **Audio** | ASR Transcription • Quality Assessment • WER Filtering | [Audio Guide](https://docs.nvidia.com/nemo/curator/latest/get-started/audio.html) |
+Unless required by applicable law or agreed to in writing, software  
+distributed under the License is distributed on an "AS IS" BASIS,  
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  
+See the License for the specific language governing permissions and  
+limitations under the License.
 
-## Quick Start
+## 사용 기반 환경
+
+- **Docker 이미지**: `nvcr.io/nvidia/nemo-curator:25.09`
+- **Python**: 3.10 이상 (컨테이너 내 기본 환경 기준)
+- **CUDA**: 12.x (컨테이너에 포함됨)
+
+### 컨테이너 내 추가 패키지 설치
 
 ```bash
-# Install for your modality
-uv pip install "nemo-curator[text_cuda12]"
+# 컨테이너 실행 후
+apt update
+apt install -y python3-pip
 
-# Run the quickstart example
-python tutorials/quickstart.py
+pip install --no-cache-dir \
+    kss \
+    stanza==1.4.2 \
+    konlpy \
+    nltk \
+    fugashi[unidic-lite] \
+    pandas \
+    textstat \
+    scipy \
+    matplotlib \
+    seaborn \
+    tqdm \
+    psutil
 ```
 
-**Full setup:** [Installation Guide](https://docs.nvidia.com/nemo/curator/latest/admin/installation.html) • [Docker](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/nemo-curator) • [Tutorials](tutorials/)
+> 필요에 따라 `requirements.txt`로 관리하는 것을 추천합니다.
 
----
+## 설치 및 실행 방법 (간단 예시)
 
-## Features by Modality
+1. 원하는 디렉토리에서 저장소 클론
 
-### Text Curation
+```bash
+git clone https://github.com/당신의-아이디/당신의-저장소명.git
+cd 당신의-저장소명
+```
 
-Process and curate high-quality text datasets for large language model (LLM) training with multilingual support.
+2. Docker 컨테이너 실행 (필요 시 volume 마운트)
 
-| Category | Features | Documentation |
-|----------|----------|---------------|
-| **Data Sources** | Common Crawl • Wikipedia • ArXiv • Custom datasets | [Load Data](https://docs.nvidia.com/nemo/curator/latest/curate-text/load-data/index.html) |
-| **Quality Filtering** | 30+ heuristic filters • fastText classification • GPU-accelerated classifiers for domain, quality, safety, and content type | [Quality Assessment](https://docs.nvidia.com/nemo/curator/latest/curate-text/process-data/quality-assessment/heuristic.html) |
-| **Deduplication** | Exact • Fuzzy (MinHash LSH) • Semantic (GPU-accelerated) | [Deduplication](https://docs.nvidia.com/nemo/curator/latest/curate-text/process-data/deduplication/index.html) |
-| **Processing** | Text cleaning • Language identification | [Content Processing](https://docs.nvidia.com/nemo/curator/latest/curate-text/process-data/content-processing/text-cleaning.html) |
+```bash
+docker run --gpus all -it --rm \
+    -v $(pwd):/workspace \
+    nvcr.io/nvidia/nemo-curator:25.09
+```
 
----
+3. 컨테이너 안에서 위의 pip 설치 명령 실행
 
-### Image Curation
+4. 커스텀 파이프라인 실행 예시
 
-Curate large-scale image datasets for vision language models (VLMs) and generative AI training.
+```bash
+# 예시 (실제 경로는 상황에 맞게 수정)
+python -m curate.pipeline \
+    --config configs/my_korean_pipeline.yaml \
+    --input /data/raw \
+    --output /data/curated
+```
 
-| Category | Features | Documentation |
-|----------|----------|---------------|
-| **Data Loading** | WebDataset format • Large-scale image-text pairs | [Load Data](https://docs.nvidia.com/nemo/curator/latest/curate-images/load-data/index.html) |
-| **Embeddings** | CLIP embeddings for semantic analysis | [Embeddings](https://docs.nvidia.com/nemo/curator/latest/curate-images/process-data/embeddings/index.html) |
-| **Filtering** | Aesthetic quality scoring • NSFW detection | [Filters](https://docs.nvidia.com/nemo/curator/latest/curate-images/process-data/filters/index.html) |
+## 주요 변경/추가 사항
 
----
+- 한국어 문장 분리 및 형태소 분석 강화 (kss + konlpy + stanza 조합)
+- 한국어 특화 품질 필터 추가
+- 특정 불필요한 영어 중심 필터 비활성화 또는 가중치 조정
+- 개인 프로젝트용 로깅 및 중간 결과 저장 로직 개선
 
-### Video Curation
+더 자세한 변경 내역은 커밋 로그 및 `docs/changes.md` (또는 `CHANGELOG.md`) 참고
 
-Process large-scale video corpora with distributed, GPU-accelerated pipelines for world foundation models (WFMs).
+## 원본 프로젝트 문서 및 자료
 
-| Category | Features | Documentation |
-|----------|----------|---------------|
-| **Data Loading** | Local paths • S3-compatible storage • HTTP(S) URLs | [Load Data](https://docs.nvidia.com/nemo/curator/latest/curate-video/load-data/index.html) |
-| **Clipping** | Fixed-stride splitting • Scene-change detection (TransNetV2) | [Clipping](https://docs.nvidia.com/nemo/curator/latest/curate-video/process-data/clipping.html) |
-| **Processing** | GPU H.264 encoding • Frame extraction • Motion filtering • Aesthetic filtering | [Processing](https://docs.nvidia.com/nemo/curator/latest/curate-video/process-data/filtering.html) |
-| **Embeddings** | InternVideo2 and Cosmos-Embed1 for clip-level embeddings | [Embeddings](https://docs.nvidia.com/nemo/curator/latest/curate-video/process-data/embeddings.html) |
-| **Deduplication** | K-means clustering • Pairwise similarity for near-duplicates | [Deduplication](https://docs.nvidia.com/nemo/curator/latest/curate-video/process-data/dedup.html) |
+- 공식 문서: https://docs.nvidia.com/nemo/curator/latest/
+- 원본 GitHub: https://github.com/NVIDIA-NeMo/Curator
+- NGC 컨테이너: https://catalog.ngc.nvidia.com/orgs/nvidia/containers/nemo-curator
 
----
+## 기여 및 문의
 
-### Audio Curation
-
-Prepare high-quality speech datasets for automatic speech recognition (ASR) and multimodal AI training.
-
-| Category | Features | Documentation |
-|----------|----------|---------------|
-| **Data Loading** | Local files • Custom manifests • Public datasets (FLEURS) | [Load Data](https://docs.nvidia.com/nemo/curator/latest/curate-audio/load-data/index.html) |
-| **ASR Processing** | NeMo Framework pretrained models • Automatic transcription | [ASR Inference](https://docs.nvidia.com/nemo/curator/latest/curate-audio/process-data/asr-inference/index.html) |
-| **Quality Assessment** | Word Error Rate (WER) calculation • Duration analysis • Quality-based filtering | [Quality Assessment](https://docs.nvidia.com/nemo/curator/latest/curate-audio/process-data/quality-assessment/index.html) |
-| **Integration** | Text curation workflow integration for multimodal pipelines | [Text Integration](https://docs.nvidia.com/nemo/curator/latest/curate-audio/process-data/text-integration/index.html) |
-
----
-
-## Why NeMo Curator?
-
-### Performance at Scale
-
-NeMo Curator leverages NVIDIA RAPIDS™ libraries such as cuDF, cuML, and cuGraph along with Ray to scale workloads across multi-node, multi-GPU environments.
-
-**Proven Results:**
-- **16× faster** fuzzy deduplication on 8 TB RedPajama v2 (1.78 trillion tokens)
-- **40% lower** total cost of ownership (TCO) compared to CPU-based alternatives
-- **Near-linear scaling** from one to four H100 80 GB nodes (2.05 hrs → 0.50 hrs)
-
-<p align="center">
-  <img src="./docs/_images/text-benchmarks.png" alt="Performance benchmarks showing 16x speed improvement, 40% cost savings, and near-linear scaling" width="700"/>
-</p>
-
-### Quality Improvements
-
-Data curation modules measurably improve model performance. In ablation studies using a 357M-parameter GPT model trained on curated Common Crawl data:
-
-<p align="center">
-  <img src="./docs/_images/ablation.png" alt="Model accuracy improvements across curation pipeline stages" width="700"/>
-</p>
-
-**Results:** Progressive improvements in zero-shot downstream task performance through text cleaning, deduplication, and quality filtering stages.
-
----
-
-## Learn More
-
-| Resource | Links |
-|----------|-------|
-| **Documentation** | [Main Docs](https://docs.nvidia.com/nemo/curator/latest/) • [API Reference](https://docs.nvidia.com/nemo/curator/latest/apidocs/index.html) • [Concepts](https://docs.nvidia.com/nemo/curator/latest/about/concepts/index.html) |
-| **Tutorials** | [Text](tutorials/text/) • [Image](tutorials/image/) • [Video](tutorials/video/) • [Audio](tutorials/audio/) |
-| **Deployment** | [Installation](https://docs.nvidia.com/nemo/curator/latest/admin/installation.html) • [Infrastructure](https://docs.nvidia.com/nemo/curator/latest/reference/infrastructure/index.html) |
-| **Community** | [GitHub Discussions](https://github.com/NVIDIA-NeMo/Curator/discussions) • [Issues](https://github.com/NVIDIA-NeMo/Curator/issues) |
-
----
-
-## Contribute
-
-We welcome community contributions! Please refer to [CONTRIBUTING.md](https://github.com/NVIDIA/NeMo/blob/stable/CONTRIBUTING.md) for guidelines.
+이 저장소는 주로 개인/실험 목적으로 운영되고 있습니다.  
